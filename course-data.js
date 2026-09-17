@@ -1,5959 +1,10535 @@
 window.ENGLISH_COURSE_DATA = {
-  "courseTitle": "English Course",
-  "subtitle": "30 gün • B1+ → B2 • 25–35 dk • Review + Grammar + Vocabulary + Reading + Test + Speaking",
-  "version": "2.0",
-  "methodology": [
-    "CEFR B1+/B2 progression",
-    "Oxford-style contextual vocabulary and integrated skills",
-    "British Council-style grammar practice and recycling",
-    "Cambridge-style reading for gist, detail, inference and vocabulary in context",
-    "Original YDS/YÖKDİL-inspired sentence completion, connector, tense and cloze logic"
-  ],
-  "warmup": [
-    [
-      "Choose the correct sentence.",
-      [
-        "She usually takes the bus to work.",
-        "She usually take the bus to work.",
-        "She is usually take the bus.",
-        "She took usually the bus."
-      ],
-      "She usually takes the bus to work.",
-      "Third-person singular in Present Simple."
-    ],
-    [
-      "Choose the best word: “The technician ___ the problem yesterday.”",
-      [
-        "diagnosed",
-        "diagnose",
-        "is diagnose",
-        "has diagnose"
-      ],
-      "diagnosed",
-      "Yesterday requires Past Simple."
-    ],
-    [
-      "Which connector expresses contrast?",
-      [
-        "however",
-        "therefore",
-        "because",
-        "so that"
-      ],
-      "however",
-      "However introduces contrast."
-    ]
-  ],
-  "examPool": [
-    {
-      "id": "x1",
-      "text": "The research team repeated the experiment ___ the initial results were inconsistent.",
-      "options": [
-        "because",
-        "unless",
-        "despite",
-        "whereas"
-      ],
-      "answer": "because",
-      "explanation": "Cause clause."
-    },
-    {
-      "id": "x2",
-      "text": "The new policy is expected to reduce waste, ___ its long-term effect has not yet been measured.",
-      "options": [
-        "although",
-        "therefore",
-        "because of",
-        "in addition"
-      ],
-      "answer": "although",
-      "explanation": "Concession."
-    },
-    {
-      "id": "x3",
-      "text": "By the time the technician arrived, the machine ___.",
-      "options": [
-        "had stopped",
-        "stops",
-        "has stop",
-        "is stopping yesterday"
-      ],
-      "answer": "had stopped",
-      "explanation": "Earlier past action."
-    },
-    {
-      "id": "x4",
-      "text": "The report recommends that the company ___ additional testing before launch.",
-      "options": [
-        "conduct",
-        "conducts to",
-        "conducted yesterday",
-        "is conducting only"
-      ],
-      "answer": "conduct",
-      "explanation": "After recommend that, the base/subjunctive form is possible in formal English."
-    },
-    {
-      "id": "x5",
-      "text": "The device can operate outdoors ___ it is protected from direct rainfall.",
-      "options": [
-        "provided that",
-        "despite",
-        "therefore",
-        "whereas"
-      ],
-      "answer": "provided that",
-      "explanation": "Condition."
-    },
-    {
-      "id": "x6",
-      "text": "Demand increased steadily, ___ production capacity remained almost unchanged.",
-      "options": [
-        "while",
-        "because of",
-        "therefore",
-        "in addition"
-      ],
-      "answer": "while",
-      "explanation": "Contrast between simultaneous trends."
-    },
-    {
-      "id": "x7",
-      "text": "The system was redesigned ___ improve accessibility for new users.",
-      "options": [
-        "to",
-        "for to",
-        "so that to",
-        "because"
-      ],
-      "answer": "to",
-      "explanation": "Purpose infinitive."
-    },
-    {
-      "id": "x8",
-      "text": "The findings were based on a relatively small sample; ___, they should be interpreted cautiously.",
-      "options": [
-        "therefore",
-        "although",
-        "because",
-        "whereas"
-      ],
-      "answer": "therefore",
-      "explanation": "Result/consequence."
-    },
-    {
-      "id": "x9",
-      "text": "No final decision will be made until all applications ___.",
-      "options": [
-        "have been reviewed",
-        "review",
-        "will reviewed",
-        "are reviewing by themselves"
-      ],
-      "answer": "have been reviewed",
-      "explanation": "Future time clause can use present perfect passive."
-    },
-    {
-      "id": "x10",
-      "text": "The company introduced a backup server so that essential services ___ available during maintenance.",
-      "options": [
-        "would remain",
-        "remained yesterday only",
-        "will remained",
-        "have remaining"
-      ],
-      "answer": "would remain",
-      "explanation": "Purpose/result in past context."
-    },
-    {
-      "id": "x11",
-      "text": "The material is lightweight and durable, making it particularly ___ for portable equipment.",
-      "options": [
-        "suitable",
-        "suitably thing",
-        "suit",
-        "suiting than"
-      ],
-      "answer": "suitable",
-      "explanation": "Adjective after particularly."
-    },
-    {
-      "id": "x12",
-      "text": "The manager asked for a revised estimate ___ the original figure did not include transport costs.",
-      "options": [
-        "because",
-        "in spite of",
-        "unless",
-        "whereas"
-      ],
-      "answer": "because",
-      "explanation": "Reason."
-    },
-    {
-      "id": "x13",
-      "text": "The software update was postponed ___ several critical bugs discovered during testing.",
-      "options": [
-        "because of",
-        "although",
-        "therefore",
-        "whereas"
-      ],
-      "answer": "because of",
-      "explanation": "Because of + noun phrase."
-    },
-    {
-      "id": "x14",
-      "text": "Employees are encouraged to report problems as soon as they ___.",
-      "options": [
-        "occur",
-        "will occur",
-        "occurred every time",
-        "have occur"
-      ],
-      "answer": "occur",
-      "explanation": "Present Simple in time/general clause."
-    },
-    {
-      "id": "x15",
-      "text": "The training was designed for staff ___ had little previous experience with the system.",
-      "options": [
-        "who",
-        "which",
-        "where",
-        "whose system is?"
-      ],
-      "answer": "who",
-      "explanation": "Relative clause for people."
-    },
-    {
-      "id": "x16",
-      "text": "Had the warning been noticed earlier, the failure ___ prevented.",
-      "options": [
-        "might have been",
-        "will be",
-        "is being yesterday",
-        "has prevent"
-      ],
-      "answer": "might have been",
-      "explanation": "Inverted third conditional."
-    },
-    {
-      "id": "x17",
-      "text": "The manufacturer claims that the new model uses ___ energy than its predecessor.",
-      "options": [
-        "less",
-        "fewer",
-        "few",
-        "least than"
-      ],
-      "answer": "less",
-      "explanation": "Energy is uncountable."
-    },
-    {
-      "id": "x18",
-      "text": "The results were broadly consistent ___ those reported in the previous study.",
-      "options": [
-        "with",
-        "to",
-        "for",
-        "at"
-      ],
-      "answer": "with",
-      "explanation": "Consistent with is the collocation."
-    },
-    {
-      "id": "x19",
-      "text": "The procedure should be revised in order to ___ the risk of human error.",
-      "options": [
-        "reduce",
-        "reducing",
-        "reduced to",
-        "reduction"
-      ],
-      "answer": "reduce",
-      "explanation": "In order to + base verb."
-    },
-    {
-      "id": "x20",
-      "text": "Although the initial investment is high, the system may be more ___ in the long term.",
-      "options": [
-        "cost-effective",
-        "cost-effectively noun",
-        "cost effect",
-        "effective costed"
-      ],
-      "answer": "cost-effective",
-      "explanation": "Adjective after more."
-    },
-    {
-      "id": "x21",
-      "text": "The data suggest that customers are becoming increasingly ___ of energy consumption.",
-      "options": [
-        "aware",
-        "awareness",
-        "awaring",
-        "awarely"
-      ],
-      "answer": "aware",
-      "explanation": "Aware of is the correct adjective/collocation."
-    },
-    {
-      "id": "x22",
-      "text": "The project was completed on time, ___ several unexpected technical problems.",
-      "options": [
-        "despite",
-        "although",
-        "because",
-        "therefore"
-      ],
-      "answer": "despite",
-      "explanation": "Despite + noun phrase."
-    },
-    {
-      "id": "x23",
-      "text": "A detailed checklist can help ensure that no critical step is ___.",
-      "options": [
-        "overlooked",
-        "overlook",
-        "overlooking",
-        "overlooks"
-      ],
-      "answer": "overlooked",
-      "explanation": "Passive participle."
-    },
-    {
-      "id": "x24",
-      "text": "The team will proceed with the change only if the expected benefits ___ the risks.",
-      "options": [
-        "outweigh",
-        "outweighs",
-        "will outweighed",
-        "are outweigh"
-      ],
-      "answer": "outweigh",
-      "explanation": "Plural subject benefits."
-    },
-    {
-      "id": "x25",
-      "text": "The sensor is accurate enough ___ small changes in pressure.",
-      "options": [
-        "to detect",
-        "detecting to",
-        "detected",
-        "for detect"
-      ],
-      "answer": "to detect",
-      "explanation": "Enough + to infinitive."
-    },
-    {
-      "id": "x26",
-      "text": "The supplier has agreed to replace any units ___ fail during the warranty period.",
-      "options": [
-        "that",
-        "who",
-        "where",
-        "whose they"
-      ],
-      "answer": "that",
-      "explanation": "Defining relative clause for things."
-    },
-    {
-      "id": "x27",
-      "text": "It is essential that each measurement ___ recorded immediately.",
-      "options": [
-        "be",
-        "is to being",
-        "was being only",
-        "been"
-      ],
-      "answer": "be",
-      "explanation": "Formal subjunctive after essential that."
-    },
-    {
-      "id": "x28",
-      "text": "The new workflow reduced processing time without ___ additional staff.",
-      "options": [
-        "requiring",
-        "to require",
-        "required",
-        "require to"
-      ],
-      "answer": "requiring",
-      "explanation": "Without + gerund."
-    },
-    {
-      "id": "x29",
-      "text": "The company has not confirmed ___ the service will be available internationally.",
-      "options": [
-        "whether",
-        "that if",
-        "what if it",
-        "which that"
-      ],
-      "answer": "whether",
-      "explanation": "Whether introduces an indirect yes/no question."
-    },
-    {
-      "id": "x30",
-      "text": "The purpose of the pilot study was to determine ___ the method could be scaled safely.",
-      "options": [
-        "whether",
-        "despite",
-        "because",
-        "whereas"
-      ],
-      "answer": "whether",
-      "explanation": "Determine whether = evaluate yes/no possibility."
-    }
-  ],
+  "courseTitle": "English Course — 30 Day YDS Track",
+  "subtitle": "B1 → B1+ • YDS/YÖKDİL odaklı • 20–25 dk/gün",
+  "version": "3.0",
   "days": [
     {
       "id": "day1",
       "number": 1,
-      "title": "Present Simple vs Past Simple",
-      "shortTitle": "Present vs Past",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Vocabulary • Reading",
-      "objective": "Distinguish routines from completed past events.",
-      "level": "B1+ → B2",
+      "title": "Present Simple & Present Continuous",
+      "shortTitle": "Present Simple & Present Continuous",
+      "focus": "Geniş zaman ve şimdiki zaman; durum/eylem fiilleri",
+      "duration": "20–25 dk",
+      "context": "daily routines and scientific facts",
       "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d1r1",
+              "text": "She usually ___ to work by train.",
+              "options": [
+                "goes",
+                "is going",
+                "went",
+                "has gone"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Usually’ düzenli alışkanlık bildirir; Present Simple kullanılır ve üçüncü tekil özne ‘she’ ile fiil -s alır.",
+              "translation": "O genellikle işe trenle gider."
+            },
+            {
+              "id": "d1r2",
+              "text": "I ___ this report yesterday.",
+              "options": [
+                "finish",
+                "finished",
+                "have finished",
+                "am finishing"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Yesterday’ bitmiş bir geçmiş zaman ifadesidir; Past Simple gerekir.",
+              "translation": "Bu raporu dün bitirdim."
+            },
+            {
+              "id": "d1r3",
+              "text": "They ___ here since 2022.",
+              "options": [
+                "live",
+                "lived",
+                "have lived",
+                "are living"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘Since 2022’ geçmişte başlayıp şimdiye uzanan durumu gösterir; Present Perfect uygundur.",
+              "translation": "2022’den beri burada yaşıyorlar."
+            },
+            {
+              "id": "d1r4",
+              "text": "You ___ wear a seat belt; it is compulsory.",
+              "options": [
+                "might",
+                "must",
+                "could",
+                "would"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Compulsory’ zorunluluk bildirir; ‘must’ güçlü zorunluluk için kullanılır.",
+              "translation": "Emniyet kemeri takmalısın; bu zorunludur."
+            },
+            {
+              "id": "d1r5",
+              "text": "The documents ___ every Friday.",
+              "options": [
+                "check",
+                "are checked",
+                "checked",
+                "have checking"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Özne işi yapmıyor, işlem belgeler üzerinde yapılıyor; Present Simple Passive gerekir.",
+              "translation": "Belgeler her cuma kontrol edilir."
+            },
+            {
+              "id": "d1r6",
+              "text": "If it rains, we ___ the event indoors.",
+              "options": [
+                "move",
+                "will move",
+                "would move",
+                "moved"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Gerçek ve mümkün gelecek koşulu için First Conditional: if + Present Simple, will + V1.",
+              "translation": "Yağmur yağarsa etkinliği içeri taşıyacağız."
+            },
+            {
+              "id": "d1r7",
+              "text": "The engineer ___ designed the system will present it.",
+              "options": [
+                "which",
+                "whose",
+                "who",
+                "where"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: İnsan özneyi tanımlayan relative pronoun ‘who’dur.",
+              "translation": "Sistemi tasarlayan mühendis onu sunacak."
+            },
+            {
+              "id": "d1r8",
+              "text": "We decided ___ the meeting.",
+              "options": [
+                "postpone",
+                "postponing",
+                "to postpone",
+                "postponed"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘Decide’ fiilinden sonra infinitive, yani ‘to + verb’ kullanılır.",
+              "translation": "Toplantıyı ertelemeye karar verdik."
+            },
+            {
+              "id": "d1r9",
+              "text": "___ the weather was bad, the flight departed on time.",
+              "options": [
+                "Because",
+                "Although",
+                "Therefore",
+                "So"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: İki cümlecik arasında zıtlık var; ‘although’ + clause kullanılır.",
+              "translation": "Hava kötü olmasına rağmen uçuş zamanında kalktı."
+            },
+            {
+              "id": "d1r10",
+              "text": "This is ___ solution we have tested so far.",
+              "options": [
+                "effective",
+                "more effective",
+                "the most effective",
+                "as effective"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Bir grup içindeki en üstün derece ‘the most + adjective’ ile kurulur.",
+              "translation": "Bu, şimdiye kadar test ettiğimiz en etkili çözümdür."
+            }
+          ]
+        },
         "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+          "title": "Grammar — Present Simple & Present Continuous",
+          "intro": "YDS odaklı konu: Geniş zaman ve şimdiki zaman; durum/eylem fiilleri. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
           "questions": [
             {
-              "id": "g1_1",
-              "type": "mcq",
-              "text": "Mina usually ___ the train to work.",
-              "options": [
-                "takes",
-                "took",
-                "is taking",
-                "has taken"
-              ],
-              "answer": "takes",
-              "explanation": "Present Simple is used for routines."
-            },
-            {
-              "id": "g1_2",
-              "type": "mcq",
-              "text": "We ___ the new exhibition last Saturday.",
-              "options": [
-                "visit",
-                "visited",
-                "have visited",
-                "are visiting"
-              ],
-              "answer": "visited",
-              "explanation": "A finished past time expression requires Past Simple."
-            },
-            {
-              "id": "g1_3",
-              "type": "mcq",
-              "text": "My supervisor normally ___ the weekly report on Friday.",
-              "options": [
-                "reviews",
-                "reviewed",
-                "is reviewing",
-                "review"
-              ],
-              "answer": "reviews",
-              "explanation": "Third-person singular takes -s in Present Simple."
-            },
-            {
-              "id": "g1_4",
-              "type": "mcq",
-              "text": "The error ___ shortly after the system restarted.",
-              "options": [
-                "occurs",
-                "occurred",
-                "is occurring",
-                "has occur"
-              ],
-              "answer": "occurred",
-              "explanation": "A completed event in the past takes Past Simple."
-            },
-            {
-              "id": "g1_5",
-              "type": "input",
-              "text": "Complete: I usually ___ coffee in the morning, but yesterday I ___ tea.",
-              "answers": [
-                "drink / drank"
-              ],
-              "answer": "drink / drank",
-              "explanation": "Use Present Simple for the routine and Past Simple for yesterday."
-            },
-            {
-              "id": "g1_6",
-              "type": "input",
-              "text": "Rewrite in the past: “They complete the inspection at 4 p.m.”",
-              "answers": [
-                "They completed the inspection at 4 p.m."
-              ],
-              "answer": "They completed the inspection at 4 p.m.",
-              "explanation": "Past Simple of complete is completed."
-            }
-          ]
-        },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v1_1",
-              "word": "routine",
-              "meaning": "rutin / düzenli yapılan iş",
-              "example": "A short morning routine helps her start the day calmly."
-            },
-            {
-              "id": "v1_2",
-              "word": "commute",
-              "meaning": "işe gidip gelmek",
-              "example": "Many employees commute by train."
-            },
-            {
-              "id": "v1_3",
-              "word": "regularly",
-              "meaning": "düzenli olarak",
-              "example": "The filters are checked regularly."
-            },
-            {
-              "id": "v1_4",
-              "word": "previous",
-              "meaning": "önceki",
-              "example": "The previous report contained two errors."
-            },
-            {
-              "id": "v1_5",
-              "word": "occur",
-              "meaning": "meydana gelmek",
-              "example": "The problem occurred after the update."
-            },
-            {
-              "id": "v1_6",
-              "word": "normally",
-              "meaning": "normalde / genellikle",
-              "example": "The office normally closes at six."
-            },
-            {
-              "id": "v1_7",
-              "word": "complete",
-              "meaning": "tamamlamak",
-              "example": "They completed the inspection yesterday."
-            },
-            {
-              "id": "v1_8",
-              "word": "schedule",
-              "meaning": "program / takvim",
-              "example": "The maintenance schedule changed last week."
-            }
-          ],
-          "sentenceWords": [
-            "commute",
-            "normally"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "The Library That Changed Its Schedule",
-          "passage": [
-            "A small public library in Northbridge usually opens at 9 a.m. and closes at 6 p.m. on weekdays. Many local residents visit before work, while students tend to arrive in the afternoon. The staff normally hold a short meeting every Monday morning to discuss events, repairs, and new books.",
-            "Last Tuesday, however, the library opened two hours late because a water pipe burst during the night. A maintenance team arrived early and repaired the damaged section before visitors entered the building. The staff moved several boxes of books away from the wet area and checked the floor for damage. By 11 a.m., the library was safe to use again. The manager posted an update online and apologized for the inconvenience. The next day, the library returned to its usual schedule."
-          ],
-          "questions": [
-            {
-              "id": "r1_1",
-              "text": "What time does the library normally open on weekdays?"
-            },
-            {
-              "id": "r1_2",
-              "text": "Why did it open late last Tuesday?"
-            },
-            {
-              "id": "r1_3",
-              "text": "What did the staff do before visitors entered?"
-            },
-            {
-              "id": "r1_4",
-              "text": "How did the manager inform the public?"
-            },
-            {
-              "id": "r1_5",
-              "text": "Write one sentence from the passage that describes a routine and one that describes a finished past event."
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 1 speaking bölümüne geçelim: Present Simple vs Past Simple. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day2",
-      "number": 2,
-      "title": "Habits, Frequency & Time Expressions",
-      "shortTitle": "Habits & Frequency",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Vocabulary • Speaking",
-      "objective": "Describe routines with precise frequency language.",
-      "level": "B1+ → B2",
-      "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
-          "questions": [
-            {
-              "id": "g2_1",
-              "type": "mcq",
-              "text": "She ___ checks her calendar before the first meeting.",
-              "options": [
-                "usually",
-                "yesterday",
-                "at the moment",
-                "last week"
-              ],
-              "answer": "usually",
-              "explanation": "Frequency adverbs commonly describe routines."
-            },
-            {
-              "id": "g2_2",
-              "type": "mcq",
-              "text": "We go hiking ___, perhaps two or three times a year.",
-              "options": [
-                "occasionally",
-                "always",
-                "currently",
-                "yesterday"
-              ],
-              "answer": "occasionally",
-              "explanation": "Occasionally means sometimes, but not often."
-            },
-            {
-              "id": "g2_3",
-              "type": "mcq",
-              "text": "He is ___ late because he leaves home early.",
-              "options": [
-                "rarely",
-                "every",
-                "ago",
-                "now"
-              ],
-              "answer": "rarely",
-              "explanation": "Rarely is an adverb of frequency."
-            },
-            {
-              "id": "g2_4",
-              "type": "mcq",
-              "text": "Our team tends ___ short meetings in the morning.",
-              "options": [
-                "to hold",
-                "holding",
-                "held",
-                "holded"
-              ],
-              "answer": "to hold",
-              "explanation": "Tend is followed by to + infinitive."
-            },
-            {
-              "id": "g2_5",
-              "type": "input",
-              "text": "Put in a natural position: “I check the dashboard. (usually)”",
-              "answers": [
-                "I usually check the dashboard."
-              ],
-              "answer": "I usually check the dashboard.",
-              "explanation": "Frequency adverbs normally go before the main verb."
-            },
-            {
-              "id": "g2_6",
-              "type": "input",
-              "text": "Write one sentence with “once a week”.",
-              "answers": [
-                "I review my notes once a week."
-              ],
-              "answer": "I review my notes once a week.",
-              "explanation": "Use a full routine sentence with the time expression."
-            }
-          ]
-        },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v2_1",
-              "word": "frequently",
-              "meaning": "sık sık",
-              "example": "The team frequently reviews customer feedback."
-            },
-            {
-              "id": "v2_2",
-              "word": "occasionally",
-              "meaning": "ara sıra",
-              "example": "She occasionally works from home."
-            },
-            {
-              "id": "v2_3",
-              "word": "rarely",
-              "meaning": "nadiren",
-              "example": "This type of failure rarely occurs."
-            },
-            {
-              "id": "v2_4",
-              "word": "tend to",
-              "meaning": "eğiliminde olmak",
-              "example": "New users tend to ask similar questions."
-            },
-            {
-              "id": "v2_5",
-              "word": "consistent",
-              "meaning": "tutarlı",
-              "example": "A consistent routine improves concentration."
-            },
-            {
-              "id": "v2_6",
-              "word": "prioritize",
-              "meaning": "öncelik vermek",
-              "example": "He prioritizes urgent tasks in the morning."
-            },
-            {
-              "id": "v2_7",
-              "word": "habit",
-              "meaning": "alışkanlık",
-              "example": "Checking notifications can become a habit."
-            },
-            {
-              "id": "v2_8",
-              "word": "productive",
-              "meaning": "üretken",
-              "example": "Short breaks can make a workday more productive."
-            }
-          ],
-          "sentenceWords": [
-            "occasionally",
-            "prioritize"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Why Small Habits Matter",
-          "passage": [
-            "People often try to change their lives by making large plans, but researchers who study behavior frequently point to the value of small habits. A habit becomes easier to maintain when it is connected to an existing routine. For example, someone who wants to read more may keep a book next to the breakfast table and read two pages after eating.",
-            "Small habits are also useful because they reduce the need for motivation. A person may not feel ready to exercise for an hour every day, but a ten-minute walk is easier to repeat. Over time, repeated actions become more automatic. This does not mean that every routine is productive. People should occasionally review their habits and remove the ones that waste time or create unnecessary stress."
-          ],
-          "questions": [
-            {
-              "id": "r2_1",
-              "text": "Why can small habits be easier to maintain than large plans?"
-            },
-            {
-              "id": "r2_2",
-              "text": "What example of habit-building does the text give?"
-            },
-            {
-              "id": "r2_3",
-              "text": "How can small habits reduce the need for motivation?"
-            },
-            {
-              "id": "r2_4",
-              "text": "Does the writer believe every routine is useful? Explain."
-            },
-            {
-              "id": "r2_5",
-              "text": "What is the main idea of the passage?"
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 2 speaking bölümüne geçelim: Habits, Frequency & Time Expressions. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day3",
-      "number": 3,
-      "title": "Present Simple vs Present Continuous",
-      "shortTitle": "Present Continuous",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Reading • Vocabulary",
-      "objective": "Separate permanent situations from actions in progress.",
-      "level": "B1+ → B2",
-      "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
-          "questions": [
-            {
-              "id": "g3_1",
-              "type": "mcq",
-              "text": "The company normally ___ in three countries, but it ___ into a fourth market this year.",
-              "options": [
-                "operates / is expanding",
-                "is operating / expands",
-                "operated / expands",
-                "has operated / expand"
-              ],
-              "answer": "operates / is expanding",
-              "explanation": "Permanent situation vs temporary current development."
-            },
-            {
-              "id": "g3_2",
-              "type": "mcq",
-              "text": "Please call later. I ___ a client right now.",
-              "options": [
-                "meet",
-                "am meeting",
-                "met",
-                "have met"
-              ],
-              "answer": "am meeting",
-              "explanation": "Right now signals Present Continuous."
-            },
-            {
-              "id": "g3_3",
-              "type": "mcq",
-              "text": "Water ___ at 100°C at sea level.",
+              "id": "d1g1",
+              "text": "Water ___ at 100°C under normal pressure.",
               "options": [
                 "boils",
                 "is boiling",
                 "boiled",
                 "has boiled"
               ],
-              "answer": "boils",
-              "explanation": "General truths use Present Simple."
+              "correct": 0,
+              "explanation": "Bilimsel/genel gerçeklerde Present Simple kullanılır.",
+              "translation": "Su normal basınçta 100°C’de kaynar."
             },
             {
-              "id": "g3_4",
-              "type": "mcq",
+              "id": "d1g2",
+              "text": "Please be quiet; the researchers ___ the final measurements.",
+              "options": [
+                "take",
+                "took",
+                "are taking",
+                "have taken"
+              ],
+              "correct": 2,
+              "explanation": "Konuşma anında devam eden eylem Present Continuous ile anlatılır.",
+              "translation": "Lütfen sessiz olun; araştırmacılar son ölçümleri alıyor."
+            },
+            {
+              "id": "d1g3",
+              "text": "My manager usually ___ emails before the morning meeting.",
+              "options": [
+                "checks",
+                "is checking",
+                "checked",
+                "has checked"
+              ],
+              "correct": 0,
+              "explanation": "‘Usually’ alışkanlık bildirir; Present Simple gerekir.",
+              "translation": "Yöneticim genellikle sabah toplantısından önce e-postaları kontrol eder."
+            },
+            {
+              "id": "d1g4",
+              "text": "This month, our team ___ a new scheduling system.",
+              "options": [
+                "tests",
+                "is testing",
+                "tested",
+                "has tested"
+              ],
+              "correct": 1,
+              "explanation": "Geçici ve şu dönem devam eden durumlarda Present Continuous kullanılır.",
+              "translation": "Bu ay ekibimiz yeni bir planlama sistemini test ediyor."
+            },
+            {
+              "id": "d1g5",
+              "text": "I ___ what you mean.",
+              "options": [
+                "am understanding",
+                "understand",
+                "understood",
+                "have understood"
+              ],
+              "correct": 1,
+              "explanation": "‘Understand’ çoğunlukla state verb’dür ve continuous kullanılmaz.",
+              "translation": "Ne demek istediğini anlıyorum."
+            },
+            {
+              "id": "d1g6",
+              "text": "The museum ___ at 9 a.m. every day.",
+              "options": [
+                "opens",
+                "is opening",
+                "opened",
+                "has opened"
+              ],
+              "correct": 0,
+              "explanation": "Program/rutin için Present Simple kullanılır.",
+              "translation": "Müze her gün sabah 9’da açılır."
+            },
+            {
+              "id": "d1g7",
               "text": "Why ___ you ___ at the screen like that?",
               "options": [
-                "are / looking",
                 "do / look",
+                "are / looking",
                 "did / look",
                 "have / looked"
               ],
-              "answer": "are / looking",
-              "explanation": "The action is happening now."
+              "correct": 1,
+              "explanation": "Şu anda gerçekleşen gözlemlenebilir davranış Present Continuous’dur.",
+              "translation": "Neden ekrana öyle bakıyorsun?"
             },
             {
-              "id": "g3_5",
-              "type": "input",
-              "text": "Complete: The museum usually ___ at 10, but this week it ___ at 9.",
-              "answers": [
-                "opens / is opening"
+              "id": "d1g8",
+              "text": "She ___ two languages fluently.",
+              "options": [
+                "is speaking",
+                "speaks",
+                "spoke",
+                "has spoken"
               ],
-              "answer": "opens / is opening",
-              "explanation": "Routine contrasted with a temporary arrangement."
+              "correct": 1,
+              "explanation": "Genel yetenek/kalıcı özellik Present Simple ile ifade edilir.",
+              "translation": "O iki dili akıcı biçimde konuşur."
             },
             {
-              "id": "g3_6",
-              "type": "input",
-              "text": "Write one sentence about something temporary in your life using Present Continuous.",
-              "answers": [
-                "I am working on a short-term project this month."
+              "id": "d1g9",
+              "text": "The company ___ rapidly at the moment.",
+              "options": [
+                "expands",
+                "expanded",
+                "is expanding",
+                "has expanded"
               ],
-              "answer": "I am working on a short-term project this month.",
-              "explanation": "Present Continuous can describe temporary situations."
+              "correct": 2,
+              "explanation": "‘At the moment’ açık bir Present Continuous işaretidir.",
+              "translation": "Şirket şu anda hızla büyüyor."
+            },
+            {
+              "id": "d1g10",
+              "text": "I ___ coffee, but today I ___ tea.",
+              "options": [
+                "drink / have",
+                "am drinking / have",
+                "drink / am having",
+                "drank / had"
+              ],
+              "correct": 2,
+              "explanation": "İlk bölüm alışkanlık, ikinci bölüm bugüne özgü geçici seçimdir.",
+              "translation": "Kahve içerim, fakat bugün çay içiyorum."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v3_1",
-              "word": "currently",
-              "meaning": "şu anda",
-              "example": "The company is currently testing a new platform."
+              "en": "reliable",
+              "tr": "güvenilir"
             },
             {
-              "id": "v3_2",
-              "word": "temporary",
-              "meaning": "geçici",
-              "example": "The road closure is temporary."
+              "en": "conduct",
+              "tr": "yürütmek"
             },
             {
-              "id": "v3_3",
-              "word": "permanent",
-              "meaning": "kalıcı",
-              "example": "The museum has a permanent exhibition."
+              "en": "feature",
+              "tr": "özellik"
             },
             {
-              "id": "v3_4",
-              "word": "monitor",
-              "meaning": "izlemek",
-              "example": "Engineers monitor the system throughout the day."
+              "en": "decline",
+              "tr": "azalmak"
             },
             {
-              "id": "v3_5",
-              "word": "gradually",
-              "meaning": "kademeli olarak",
-              "example": "Demand is gradually increasing."
+              "en": "obtain",
+              "tr": "elde etmek"
             },
             {
-              "id": "v3_6",
-              "word": "operate",
-              "meaning": "çalışmak / işletmek",
-              "example": "The device operates at low voltage."
-            },
-            {
-              "id": "v3_7",
-              "word": "expand",
-              "meaning": "genişlemek",
-              "example": "The company is expanding into new markets."
-            },
-            {
-              "id": "v3_8",
-              "word": "at the moment",
-              "meaning": "şu anda",
-              "example": "The server is unavailable at the moment."
+              "en": "issue",
+              "tr": "konu/sorun"
             }
-          ],
-          "sentenceWords": [
-            "temporary",
-            "operate"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "A Market in Transition",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 1 Reading",
           "passage": [
-            "The central market in Bellford normally sells fresh food, household goods, and local crafts. Most shop owners know their regular customers, and the market is usually busiest on Saturday mornings. At present, however, the building is undergoing a major renovation. Workers are replacing the roof, improving the lighting, and creating wider walkways.",
-            "While the renovation is continuing, many sellers are operating from temporary stalls in the square outside. Some customers are finding the new arrangement inconvenient, but others enjoy the open-air atmosphere. The city expects the work to finish in three months. Officials say the changes are designed to make the market safer and easier to access without changing its traditional character."
+            "Modern English proficiency requires more than memorizing isolated rules. In daily routines and scientific facts, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Present Simple & Present Continuous. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r3_1",
-              "text": "What does the market normally sell?"
+              "id": "d1read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r3_2",
-              "text": "What work is currently taking place?"
+              "id": "d1read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r3_3",
-              "text": "Where are many sellers operating during the renovation?"
-            },
-            {
-              "id": "r3_4",
-              "text": "Why are the changes being made?"
-            },
-            {
-              "id": "r3_5",
-              "text": "Find one permanent situation and one temporary action in the text."
+              "id": "d1read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 3 speaking bölümüne geçelim: Present Simple vs Present Continuous. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about daily routines and scientific facts. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Present Simple & Present Continuous."
+        }
+      }
+    },
+    {
+      "id": "day2",
+      "number": 2,
+      "status": "available",
+      "title": "Past Simple & Past Continuous",
+      "shortTitle": "Past Simple & Past Continuous",
+      "focus": "Geçmişte tamamlanan eylemler ve devam eden geçmiş eylemler",
+      "duration": "20–25 dk",
+      "context": "travel disruptions",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d2r1",
+              "text": "Water ___ at 100°C under normal pressure.",
+              "options": [
+                "boils",
+                "is boiling",
+                "boiled",
+                "has boiled"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Bilimsel/genel gerçeklerde Present Simple kullanılır.",
+              "translation": "Su normal basınçta 100°C’de kaynar."
+            },
+            {
+              "id": "d2r2",
+              "text": "Please be quiet; the researchers ___ the final measurements.",
+              "options": [
+                "take",
+                "took",
+                "are taking",
+                "have taken"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Konuşma anında devam eden eylem Present Continuous ile anlatılır.",
+              "translation": "Lütfen sessiz olun; araştırmacılar son ölçümleri alıyor."
+            },
+            {
+              "id": "d2r3",
+              "text": "My manager usually ___ emails before the morning meeting.",
+              "options": [
+                "checks",
+                "is checking",
+                "checked",
+                "has checked"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Usually’ alışkanlık bildirir; Present Simple gerekir.",
+              "translation": "Yöneticim genellikle sabah toplantısından önce e-postaları kontrol eder."
+            },
+            {
+              "id": "d2r4",
+              "text": "This month, our team ___ a new scheduling system.",
+              "options": [
+                "tests",
+                "is testing",
+                "tested",
+                "has tested"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçici ve şu dönem devam eden durumlarda Present Continuous kullanılır.",
+              "translation": "Bu ay ekibimiz yeni bir planlama sistemini test ediyor."
+            },
+            {
+              "id": "d2r5",
+              "text": "I ___ what you mean.",
+              "options": [
+                "am understanding",
+                "understand",
+                "understood",
+                "have understood"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Understand’ çoğunlukla state verb’dür ve continuous kullanılmaz.",
+              "translation": "Ne demek istediğini anlıyorum."
+            },
+            {
+              "id": "d2r6",
+              "text": "The museum ___ at 9 a.m. every day.",
+              "options": [
+                "opens",
+                "is opening",
+                "opened",
+                "has opened"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Program/rutin için Present Simple kullanılır.",
+              "translation": "Müze her gün sabah 9’da açılır."
+            },
+            {
+              "id": "d2r7",
+              "text": "Why ___ you ___ at the screen like that?",
+              "options": [
+                "do / look",
+                "are / looking",
+                "did / look",
+                "have / looked"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Şu anda gerçekleşen gözlemlenebilir davranış Present Continuous’dur.",
+              "translation": "Neden ekrana öyle bakıyorsun?"
+            },
+            {
+              "id": "d2r8",
+              "text": "She ___ two languages fluently.",
+              "options": [
+                "is speaking",
+                "speaks",
+                "spoke",
+                "has spoken"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Genel yetenek/kalıcı özellik Present Simple ile ifade edilir.",
+              "translation": "O iki dili akıcı biçimde konuşur."
+            },
+            {
+              "id": "d2r9",
+              "text": "The company ___ rapidly at the moment.",
+              "options": [
+                "expands",
+                "expanded",
+                "is expanding",
+                "has expanded"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘At the moment’ açık bir Present Continuous işaretidir.",
+              "translation": "Şirket şu anda hızla büyüyor."
+            },
+            {
+              "id": "d2r10",
+              "text": "I ___ coffee, but today I ___ tea.",
+              "options": [
+                "drink / have",
+                "am drinking / have",
+                "drink / am having",
+                "drank / had"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: İlk bölüm alışkanlık, ikinci bölüm bugüne özgü geçici seçimdir.",
+              "translation": "Kahve içerim, fakat bugün çay içiyorum."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Past Simple & Past Continuous",
+          "intro": "YDS odaklı konu: Geçmişte tamamlanan eylemler ve devam eden geçmiş eylemler. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d2g1",
+              "text": "While I ___ home, I saw an accident.",
+              "options": [
+                "drove",
+                "was driving",
+                "have driven",
+                "had driven"
+              ],
+              "correct": 1,
+              "explanation": "Uzun süren geçmiş eylem sırasında kısa bir olay oldu; Past Continuous + Past Simple.",
+              "translation": "Eve doğru araba kullanırken bir kaza gördüm."
+            },
+            {
+              "id": "d2g2",
+              "text": "The lights went out while we ___ dinner.",
+              "options": [
+                "had",
+                "were having",
+                "have had",
+                "had had"
+              ],
+              "correct": 1,
+              "explanation": "‘While’ devam eden geçmiş eylemi vurgular; Past Continuous uygundur.",
+              "translation": "Akşam yemeği yerken ışıklar söndü."
+            },
+            {
+              "id": "d2g3",
+              "text": "She ___ the client last Monday.",
+              "options": [
+                "calls",
+                "called",
+                "was calling",
+                "has called"
+              ],
+              "correct": 1,
+              "explanation": "‘Last Monday’ bitmiş geçmiş zaman ifadesidir; Past Simple gerekir.",
+              "translation": "Geçen pazartesi müşteriyi aradı."
+            },
+            {
+              "id": "d2g4",
+              "text": "At 8 p.m. yesterday, they ___ the presentation.",
+              "options": [
+                "prepared",
+                "were preparing",
+                "have prepared",
+                "prepare"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte belirli bir anda devam eden eylem Past Continuous ile anlatılır.",
+              "translation": "Dün akşam 8’de sunumu hazırlıyorlardı."
+            },
+            {
+              "id": "d2g5",
+              "text": "When the alarm ___, everyone left the building.",
+              "options": [
+                "was ringing",
+                "rang",
+                "has rung",
+                "rings"
+              ],
+              "correct": 1,
+              "explanation": "Kısa ve tamamlanan geçmiş olay için Past Simple kullanılır.",
+              "translation": "Alarm çaldığında herkes binadan çıktı."
+            },
+            {
+              "id": "d2g6",
+              "text": "I ___ him at the conference, but I didn't recognize him at first.",
+              "options": [
+                "met",
+                "was meeting",
+                "have met",
+                "meet"
+              ],
+              "correct": 0,
+              "explanation": "Tamamlanan tek geçmiş olay Past Simple’dır.",
+              "translation": "Onunla konferansta tanıştım ama ilk başta tanımadım."
+            },
+            {
+              "id": "d2g7",
+              "text": "What ___ you ___ when I called?",
+              "options": [
+                "did / do",
+                "were / doing",
+                "have / done",
+                "had / done"
+              ],
+              "correct": 1,
+              "explanation": "Telefon geldiği sırada devam eden eylem soruluyor; Past Continuous.",
+              "translation": "Seni aradığımda ne yapıyordun?"
+            },
+            {
+              "id": "d2g8",
+              "text": "The technician ___ the device and then restarted it.",
+              "options": [
+                "inspected",
+                "was inspecting",
+                "has inspected",
+                "inspects"
+              ],
+              "correct": 0,
+              "explanation": "Ardışık tamamlanmış geçmiş eylemler Past Simple ile verilir.",
+              "translation": "Teknisyen cihazı kontrol etti ve sonra yeniden başlattı."
+            },
+            {
+              "id": "d2g9",
+              "text": "It ___ heavily, so we stayed inside.",
+              "options": [
+                "rained",
+                "was raining",
+                "has rained",
+                "rains"
+              ],
+              "correct": 1,
+              "explanation": "O anda arka planda devam eden hava durumu Past Continuous ile doğal anlatılır.",
+              "translation": "Şiddetli yağmur yağıyordu, bu yüzden içeride kaldık."
+            },
+            {
+              "id": "d2g10",
+              "text": "They ___ the road when the storm began.",
+              "options": [
+                "repaired",
+                "were repairing",
+                "have repaired",
+                "repair"
+              ],
+              "correct": 1,
+              "explanation": "Fırtına başladığında devam eden eylem Past Continuous’dur.",
+              "translation": "Fırtına başladığında yolu onarıyorlardı."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "approach",
+              "tr": "yaklaşım"
+            },
+            {
+              "en": "increase",
+              "tr": "artmak/artırmak"
+            },
+            {
+              "en": "available",
+              "tr": "mevcut"
+            },
+            {
+              "en": "affect",
+              "tr": "etkilemek"
+            },
+            {
+              "en": "establish",
+              "tr": "kurmak"
+            },
+            {
+              "en": "likely",
+              "tr": "muhtemel"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 2 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In travel disruptions, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Past Simple & Past Continuous. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d2read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d2read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d2read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about travel disruptions. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Past Simple & Past Continuous."
+        }
+      }
+    },
+    {
+      "id": "day3",
+      "number": 3,
+      "status": "available",
+      "title": "Present Perfect & Present Perfect Continuous",
+      "shortTitle": "Present Perfect & Present Perfect Continuous",
+      "focus": "Geçmiş-bugün bağlantısı, süre ve sonuç",
+      "duration": "20–25 dk",
+      "context": "research progress",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d3r1",
+              "text": "While I ___ home, I saw an accident.",
+              "options": [
+                "drove",
+                "was driving",
+                "have driven",
+                "had driven"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Uzun süren geçmiş eylem sırasında kısa bir olay oldu; Past Continuous + Past Simple.",
+              "translation": "Eve doğru araba kullanırken bir kaza gördüm."
+            },
+            {
+              "id": "d3r2",
+              "text": "The lights went out while we ___ dinner.",
+              "options": [
+                "had",
+                "were having",
+                "have had",
+                "had had"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘While’ devam eden geçmiş eylemi vurgular; Past Continuous uygundur.",
+              "translation": "Akşam yemeği yerken ışıklar söndü."
+            },
+            {
+              "id": "d3r3",
+              "text": "She ___ the client last Monday.",
+              "options": [
+                "calls",
+                "called",
+                "was calling",
+                "has called"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Last Monday’ bitmiş geçmiş zaman ifadesidir; Past Simple gerekir.",
+              "translation": "Geçen pazartesi müşteriyi aradı."
+            },
+            {
+              "id": "d3r4",
+              "text": "At 8 p.m. yesterday, they ___ the presentation.",
+              "options": [
+                "prepared",
+                "were preparing",
+                "have prepared",
+                "prepare"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte belirli bir anda devam eden eylem Past Continuous ile anlatılır.",
+              "translation": "Dün akşam 8’de sunumu hazırlıyorlardı."
+            },
+            {
+              "id": "d3r5",
+              "text": "When the alarm ___, everyone left the building.",
+              "options": [
+                "was ringing",
+                "rang",
+                "has rung",
+                "rings"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Kısa ve tamamlanan geçmiş olay için Past Simple kullanılır.",
+              "translation": "Alarm çaldığında herkes binadan çıktı."
+            },
+            {
+              "id": "d3r6",
+              "text": "I ___ him at the conference, but I didn't recognize him at first.",
+              "options": [
+                "met",
+                "was meeting",
+                "have met",
+                "meet"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Tamamlanan tek geçmiş olay Past Simple’dır.",
+              "translation": "Onunla konferansta tanıştım ama ilk başta tanımadım."
+            },
+            {
+              "id": "d3r7",
+              "text": "What ___ you ___ when I called?",
+              "options": [
+                "did / do",
+                "were / doing",
+                "have / done",
+                "had / done"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Telefon geldiği sırada devam eden eylem soruluyor; Past Continuous.",
+              "translation": "Seni aradığımda ne yapıyordun?"
+            },
+            {
+              "id": "d3r8",
+              "text": "The technician ___ the device and then restarted it.",
+              "options": [
+                "inspected",
+                "was inspecting",
+                "has inspected",
+                "inspects"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Ardışık tamamlanmış geçmiş eylemler Past Simple ile verilir.",
+              "translation": "Teknisyen cihazı kontrol etti ve sonra yeniden başlattı."
+            },
+            {
+              "id": "d3r9",
+              "text": "It ___ heavily, so we stayed inside.",
+              "options": [
+                "rained",
+                "was raining",
+                "has rained",
+                "rains"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: O anda arka planda devam eden hava durumu Past Continuous ile doğal anlatılır.",
+              "translation": "Şiddetli yağmur yağıyordu, bu yüzden içeride kaldık."
+            },
+            {
+              "id": "d3r10",
+              "text": "They ___ the road when the storm began.",
+              "options": [
+                "repaired",
+                "were repairing",
+                "have repaired",
+                "repair"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Fırtına başladığında devam eden eylem Past Continuous’dur.",
+              "translation": "Fırtına başladığında yolu onarıyorlardı."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Present Perfect & Present Perfect Continuous",
+          "intro": "YDS odaklı konu: Geçmiş-bugün bağlantısı, süre ve sonuç. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d3g1",
+              "text": "I ___ this book twice.",
+              "options": [
+                "read",
+                "have read",
+                "am reading",
+                "had read"
+              ],
+              "correct": 1,
+              "explanation": "Belirsiz zamanda yaşanmış deneyim ve sonuç için Present Perfect kullanılır.",
+              "translation": "Bu kitabı iki kez okudum."
+            },
+            {
+              "id": "d3g2",
+              "text": "She ___ for the company for five years.",
+              "options": [
+                "works",
+                "worked",
+                "has worked",
+                "is working"
+              ],
+              "correct": 2,
+              "explanation": "‘For five years’ geçmişten bugüne süren durumu gösterir.",
+              "translation": "Beş yıldır şirkette çalışıyor."
+            },
+            {
+              "id": "d3g3",
+              "text": "They ___ the software all morning.",
+              "options": [
+                "tested",
+                "have been testing",
+                "test",
+                "had tested"
+              ],
+              "correct": 1,
+              "explanation": "Süre ve devamlılık vurgusu Present Perfect Continuous ile verilir.",
+              "translation": "Bütün sabah yazılımı test ediyorlar."
+            },
+            {
+              "id": "d3g4",
+              "text": "We ___ the report yet.",
+              "options": [
+                "didn't finish",
+                "haven't finished",
+                "aren't finishing",
+                "hadn't finished"
+              ],
+              "correct": 1,
+              "explanation": "‘Yet’ çoğunlukla Present Perfect negatif/soru yapısında kullanılır.",
+              "translation": "Raporu henüz bitirmedik."
+            },
+            {
+              "id": "d3g5",
+              "text": "How long ___ you ___ English?",
+              "options": [
+                "do / learn",
+                "did / learn",
+                "have / been learning",
+                "are / learn"
+              ],
+              "correct": 2,
+              "explanation": "‘How long’ + bugüne kadar süren faaliyet için Present Perfect Continuous uygundur.",
+              "translation": "Ne zamandır İngilizce öğreniyorsun?"
+            },
+            {
+              "id": "d3g6",
+              "text": "The team ___ three prototypes so far.",
+              "options": [
+                "builds",
+                "built",
+                "has built",
+                "has been building"
+              ],
+              "correct": 2,
+              "explanation": "‘So far’ bugüne kadarki tamamlanan sonuçları gösterir; Present Perfect.",
+              "translation": "Ekip şimdiye kadar üç prototip geliştirdi."
+            },
+            {
+              "id": "d3g7",
+              "text": "Your hands are dirty. ___ you ___ the engine?",
+              "options": [
+                "Did / repair",
+                "Have / been repairing",
+                "Are / repair",
+                "Had / repaired"
+              ],
+              "correct": 1,
+              "explanation": "Şimdiki fiziksel sonuç, yakın geçmişte süren faaliyetin kanıtıdır.",
+              "translation": "Ellerin kirli. Motoru mu tamir ediyordun?"
+            },
+            {
+              "id": "d3g8",
+              "text": "I ___ him since university.",
+              "options": [
+                "know",
+                "knew",
+                "have known",
+                "have been knowing"
+              ],
+              "correct": 2,
+              "explanation": "‘Know’ state verb olduğu için Present Perfect Continuous değil Present Perfect kullanılır.",
+              "translation": "Onu üniversiteden beri tanıyorum."
+            },
+            {
+              "id": "d3g9",
+              "text": "Sales ___ steadily over the past six months.",
+              "options": [
+                "increase",
+                "increased",
+                "have been increasing",
+                "had increased"
+              ],
+              "correct": 2,
+              "explanation": "‘Over the past six months’ ve süreklilik vurgusu Present Perfect Continuous gerektirir.",
+              "translation": "Satışlar son altı aydır istikrarlı biçimde artıyor."
+            },
+            {
+              "id": "d3g10",
+              "text": "She has just ___ the final version.",
+              "options": [
+                "send",
+                "sent",
+                "sending",
+                "sends"
+              ],
+              "correct": 1,
+              "explanation": "Present Perfect’te have/has + V3 gerekir; ‘send’ fiilinin V3’ü ‘sent’tir.",
+              "translation": "Nihai sürümü az önce gönderdi."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "requirement",
+              "tr": "gereklilik"
+            },
+            {
+              "en": "indicate",
+              "tr": "göstermek"
+            },
+            {
+              "en": "prevent",
+              "tr": "önlemek"
+            },
+            {
+              "en": "benefit",
+              "tr": "fayda"
+            },
+            {
+              "en": "occur",
+              "tr": "meydana gelmek"
+            },
+            {
+              "en": "maintain",
+              "tr": "sürdürmek"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 3 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In research progress, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Present Perfect & Present Perfect Continuous. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d3read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d3read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d3read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about research progress. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Present Perfect & Present Perfect Continuous."
         }
       }
     },
     {
       "id": "day4",
       "number": 4,
-      "title": "Past Simple: Questions & Negatives",
-      "shortTitle": "Past Questions",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Speaking • Test",
-      "objective": "Ask and answer about finished past events accurately.",
-      "level": "B1+ → B2",
+      "title": "Past Perfect & Past Perfect Continuous",
+      "shortTitle": "Past Perfect & Past Perfect Continuous",
+      "focus": "Geçmişte iki olayın zaman ilişkisi",
+      "duration": "20–25 dk",
+      "context": "project history",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g4_1",
-              "type": "mcq",
-              "text": "___ you attend the training session yesterday?",
+              "id": "d4r1",
+              "text": "I ___ this book twice.",
               "options": [
-                "Did",
-                "Do",
-                "Were",
-                "Have"
+                "read",
+                "have read",
+                "am reading",
+                "had read"
               ],
-              "answer": "Did",
-              "explanation": "Past Simple questions use did + base form."
+              "correct": 1,
+              "explanation": "Tekrar notu: Belirsiz zamanda yaşanmış deneyim ve sonuç için Present Perfect kullanılır.",
+              "translation": "Bu kitabı iki kez okudum."
             },
             {
-              "id": "g4_2",
-              "type": "mcq",
-              "text": "She ___ receive the confirmation email.",
+              "id": "d4r2",
+              "text": "She ___ for the company for five years.",
               "options": [
-                "didn’t",
-                "doesn’t",
-                "wasn’t",
-                "hasn’t"
+                "works",
+                "worked",
+                "has worked",
+                "is working"
               ],
-              "answer": "didn’t",
-              "explanation": "Past Simple negative uses did not + base verb."
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘For five years’ geçmişten bugüne süren durumu gösterir.",
+              "translation": "Beş yıldır şirkette çalışıyor."
             },
             {
-              "id": "g4_3",
-              "type": "mcq",
-              "text": "Where ___ they stay during the conference?",
+              "id": "d4r3",
+              "text": "They ___ the software all morning.",
               "options": [
-                "did",
-                "were",
-                "do",
-                "have"
+                "tested",
+                "have been testing",
+                "test",
+                "had tested"
               ],
-              "answer": "did",
-              "explanation": "Use did for a Past Simple question with a main verb."
+              "correct": 1,
+              "explanation": "Tekrar notu: Süre ve devamlılık vurgusu Present Perfect Continuous ile verilir.",
+              "translation": "Bütün sabah yazılımı test ediyorlar."
             },
             {
-              "id": "g4_4",
-              "type": "mcq",
-              "text": "Why ___ the manager cancel the meeting?",
+              "id": "d4r4",
+              "text": "We ___ the report yet.",
               "options": [
-                "did",
-                "was",
-                "does",
-                "has"
+                "didn't finish",
+                "haven't finished",
+                "aren't finishing",
+                "hadn't finished"
               ],
-              "answer": "did",
-              "explanation": "The auxiliary did carries the past tense."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Yet’ çoğunlukla Present Perfect negatif/soru yapısında kullanılır.",
+              "translation": "Raporu henüz bitirmedik."
             },
             {
-              "id": "g4_5",
-              "type": "input",
-              "text": "Make a question: “They arrived at 8 p.m.”",
-              "answers": [
-                "What time did they arrive?"
+              "id": "d4r5",
+              "text": "How long ___ you ___ English?",
+              "options": [
+                "do / learn",
+                "did / learn",
+                "have / been learning",
+                "are / learn"
               ],
-              "answer": "What time did they arrive?",
-              "explanation": "Use did + subject + base verb."
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘How long’ + bugüne kadar süren faaliyet için Present Perfect Continuous uygundur.",
+              "translation": "Ne zamandır İngilizce öğreniyorsun?"
             },
             {
-              "id": "g4_6",
-              "type": "input",
-              "text": "Make negative: “He mentioned the delay.”",
-              "answers": [
-                "He did not mention the delay."
+              "id": "d4r6",
+              "text": "The team ___ three prototypes so far.",
+              "options": [
+                "builds",
+                "built",
+                "has built",
+                "has been building"
               ],
-              "answer": "He did not mention the delay.",
-              "explanation": "After did not, use the base verb mention."
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘So far’ bugüne kadarki tamamlanan sonuçları gösterir; Present Perfect.",
+              "translation": "Ekip şimdiye kadar üç prototip geliştirdi."
+            },
+            {
+              "id": "d4r7",
+              "text": "Your hands are dirty. ___ you ___ the engine?",
+              "options": [
+                "Did / repair",
+                "Have / been repairing",
+                "Are / repair",
+                "Had / repaired"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Şimdiki fiziksel sonuç, yakın geçmişte süren faaliyetin kanıtıdır.",
+              "translation": "Ellerin kirli. Motoru mu tamir ediyordun?"
+            },
+            {
+              "id": "d4r8",
+              "text": "I ___ him since university.",
+              "options": [
+                "know",
+                "knew",
+                "have known",
+                "have been knowing"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘Know’ state verb olduğu için Present Perfect Continuous değil Present Perfect kullanılır.",
+              "translation": "Onu üniversiteden beri tanıyorum."
+            },
+            {
+              "id": "d4r9",
+              "text": "Sales ___ steadily over the past six months.",
+              "options": [
+                "increase",
+                "increased",
+                "have been increasing",
+                "had increased"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: ‘Over the past six months’ ve süreklilik vurgusu Present Perfect Continuous gerektirir.",
+              "translation": "Satışlar son altı aydır istikrarlı biçimde artıyor."
+            },
+            {
+              "id": "d4r10",
+              "text": "She has just ___ the final version.",
+              "options": [
+                "send",
+                "sent",
+                "sending",
+                "sends"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Present Perfect’te have/has + V3 gerekir; ‘send’ fiilinin V3’ü ‘sent’tir.",
+              "translation": "Nihai sürümü az önce gönderdi."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Past Perfect & Past Perfect Continuous",
+          "intro": "YDS odaklı konu: Geçmişte iki olayın zaman ilişkisi. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d4g1",
+              "text": "By the time we arrived, the film ___.",
+              "options": [
+                "started",
+                "had started",
+                "has started",
+                "was starting"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte başka bir olaydan daha önce tamamlanan eylem Past Perfect ile anlatılır.",
+              "translation": "Biz vardığımızda film başlamıştı."
+            },
+            {
+              "id": "d4g2",
+              "text": "She was tired because she ___ all night.",
+              "options": [
+                "worked",
+                "had been working",
+                "has worked",
+                "was worked"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişteki bir sonuçtan önce süren eylem Past Perfect Continuous ile verilir.",
+              "translation": "Bütün gece çalıştığı için yorgundu."
+            },
+            {
+              "id": "d4g3",
+              "text": "After they ___ the data, they published the results.",
+              "options": [
+                "had analyzed",
+                "analyze",
+                "have analyzed",
+                "were analyzing"
+              ],
+              "correct": 0,
+              "explanation": "Yayınlamadan önce tamamlanan eylem Past Perfect ile vurgulanabilir.",
+              "translation": "Verileri analiz ettikten sonra sonuçları yayımladılar."
+            },
+            {
+              "id": "d4g4",
+              "text": "He ___ never ___ snow before he moved to Canada.",
+              "options": [
+                "has / seen",
+                "had / seen",
+                "was / seeing",
+                "did / see"
+              ],
+              "correct": 1,
+              "explanation": "Kanada’ya taşınmadan önceki deneyim Past Perfect gerektirir.",
+              "translation": "Kanada’ya taşınmadan önce hiç kar görmemişti."
+            },
+            {
+              "id": "d4g5",
+              "text": "The ground was wet because it ___.",
+              "options": [
+                "rained",
+                "had been raining",
+                "has rained",
+                "is raining"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte görülen sonucun öncesinde süren eylem Past Perfect Continuous’dur.",
+              "translation": "Yer ıslaktı çünkü yağmur yağmıştı."
+            },
+            {
+              "id": "d4g6",
+              "text": "When I got to the station, the train ___.",
+              "options": [
+                "left",
+                "had left",
+                "has left",
+                "leaves"
+              ],
+              "correct": 1,
+              "explanation": "İstasyona varıştan önce tren ayrılmış; daha eski geçmiş Past Perfect.",
+              "translation": "İstasyona vardığımda tren gitmişti."
+            },
+            {
+              "id": "d4g7",
+              "text": "They ___ for two hours before the manager arrived.",
+              "options": [
+                "waited",
+                "had been waiting",
+                "have waited",
+                "were waited"
+              ],
+              "correct": 1,
+              "explanation": "Bir geçmiş ana kadar süren eylem Past Perfect Continuous ile ifade edilir.",
+              "translation": "Müdür gelmeden önce iki saattir bekliyorlardı."
+            },
+            {
+              "id": "d4g8",
+              "text": "Once the engineer ___ the fault, production resumed.",
+              "options": [
+                "had identified",
+                "identifies",
+                "has identified",
+                "was identify"
+              ],
+              "correct": 0,
+              "explanation": "Üretim yeniden başlamadan önce hata belirlenmişti.",
+              "translation": "Mühendis arızayı belirledikten sonra üretim yeniden başladı."
+            },
+            {
+              "id": "d4g9",
+              "text": "She knew the city well because she ___ there for years.",
+              "options": [
+                "lived",
+                "had lived",
+                "has lived",
+                "is living"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişteki bilgi durumundan daha önce gerçekleşmiş yaşam deneyimi Past Perfect ile verilir.",
+              "translation": "Yıllarca orada yaşadığı için şehri iyi biliyordu."
+            },
+            {
+              "id": "d4g10",
+              "text": "I realized that I ___ the wrong file.",
+              "options": [
+                "opened",
+                "had opened",
+                "have opened",
+                "am opening"
+              ],
+              "correct": 1,
+              "explanation": "Fark etme anından önce dosya açılmıştır; Past Perfect gerekir.",
+              "translation": "Yanlış dosyayı açtığımı fark ettim."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v4_1",
-              "word": "confirm",
-              "meaning": "doğrulamak",
-              "example": "Please confirm the appointment time."
+              "en": "evidence",
+              "tr": "kanıt"
             },
             {
-              "id": "v4_2",
-              "word": "respond",
-              "meaning": "yanıt vermek",
-              "example": "She responded to the request yesterday."
+              "en": "significant",
+              "tr": "önemli"
             },
             {
-              "id": "v4_3",
-              "word": "cancel",
-              "meaning": "iptal etmek",
-              "example": "They cancelled the meeting at short notice."
+              "en": "assume",
+              "tr": "varsaymak"
             },
             {
-              "id": "v4_4",
-              "word": "attend",
-              "meaning": "katılmak",
-              "example": "Did everyone attend the training session?"
+              "en": "outcome",
+              "tr": "sonuç"
             },
             {
-              "id": "v4_5",
-              "word": "mention",
-              "meaning": "bahsetmek",
-              "example": "He did not mention the delay."
+              "en": "relevant",
+              "tr": "ilgili"
             },
             {
-              "id": "v4_6",
-              "word": "request",
-              "meaning": "talep etmek",
-              "example": "The client requested a revised quotation."
-            },
-            {
-              "id": "v4_7",
-              "word": "arrange",
-              "meaning": "ayarlamak / düzenlemek",
-              "example": "We arranged a call for Friday."
-            },
-            {
-              "id": "v4_8",
-              "word": "delay",
-              "meaning": "gecikme / geciktirmek",
-              "example": "Bad weather delayed the delivery."
+              "en": "ensure",
+              "tr": "sağlamak/garanti etmek"
             }
-          ],
-          "sentenceWords": [
-            "respond",
-            "request"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "The Missed Reservation",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 4 Reading",
           "passage": [
-            "A group of four friends planned to attend a weekend photography workshop in another city. One of them, Lena, booked the course online and received a confirmation email. She also reserved a small apartment near the training center. On Friday evening, the group arrived at the apartment, but the owner could not find their booking in the system.",
-            "Lena showed the confirmation message and asked whether the payment had been received. The owner checked again and discovered that the reservation had been entered under the wrong date. He did not charge the group extra and arranged another apartment nearby. Although the situation caused a short delay, the friends reached the workshop on time the next morning."
+            "Modern English proficiency requires more than memorizing isolated rules. In project history, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Past Perfect & Past Perfect Continuous. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r4_1",
-              "text": "What did Lena book before the trip?"
+              "id": "d4read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r4_2",
-              "text": "What problem occurred when the group arrived?"
+              "id": "d4read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r4_3",
-              "text": "What did Lena ask the owner?"
-            },
-            {
-              "id": "r4_4",
-              "text": "How was the problem solved?"
-            },
-            {
-              "id": "r4_5",
-              "text": "Write one negative past sentence and one past question based on the story."
+              "id": "d4read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 4 speaking bölümüne geçelim: Past Simple: Questions & Negatives. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about project history. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Past Perfect & Past Perfect Continuous."
         }
       }
     },
     {
       "id": "day5",
       "number": 5,
-      "title": "Technical English: Instructions & Sequences",
-      "shortTitle": "Technical Instructions",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Technical English • Reading",
-      "objective": "Follow and describe procedures using sequence markers and imperatives.",
-      "level": "B1+ → B2",
+      "title": "Future Forms",
+      "shortTitle": "Future Forms",
+      "focus": "will, be going to, present continuous ve future continuous",
+      "duration": "20–25 dk",
+      "context": "future plans",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g5_1",
-              "type": "mcq",
-              "text": "___ the power before opening the cover.",
+              "id": "d5r1",
+              "text": "By the time we arrived, the film ___.",
               "options": [
-                "Disconnect",
-                "Disconnected",
-                "Disconnecting",
-                "To disconnected"
+                "started",
+                "had started",
+                "has started",
+                "was starting"
               ],
-              "answer": "Disconnect",
-              "explanation": "Imperatives use the base verb."
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte başka bir olaydan daha önce tamamlanan eylem Past Perfect ile anlatılır.",
+              "translation": "Biz vardığımızda film başlamıştı."
             },
             {
-              "id": "g5_2",
-              "type": "mcq",
-              "text": "First, verify the label. ___, connect the cable.",
+              "id": "d5r2",
+              "text": "She was tired because she ___ all night.",
               "options": [
-                "Then",
-                "Because",
-                "Although",
-                "Yet"
+                "worked",
+                "had been working",
+                "has worked",
+                "was worked"
               ],
-              "answer": "Then",
-              "explanation": "Then marks the next step in a sequence."
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişteki bir sonuçtan önce süren eylem Past Perfect Continuous ile verilir.",
+              "translation": "Bütün gece çalıştığı için yorgundu."
             },
             {
-              "id": "g5_3",
-              "type": "mcq",
-              "text": "Do not ___ the connector if it does not fit.",
+              "id": "d5r3",
+              "text": "After they ___ the data, they published the results.",
               "options": [
-                "force",
-                "forced",
-                "forcing",
-                "to force"
+                "had analyzed",
+                "analyze",
+                "have analyzed",
+                "were analyzing"
               ],
-              "answer": "force",
-              "explanation": "Negative imperatives use do not + base verb."
+              "correct": 0,
+              "explanation": "Tekrar notu: Yayınlamadan önce tamamlanan eylem Past Perfect ile vurgulanabilir.",
+              "translation": "Verileri analiz ettikten sonra sonuçları yayımladılar."
             },
             {
-              "id": "g5_4",
-              "type": "mcq",
-              "text": "Once the test is complete, ___ the result.",
+              "id": "d5r4",
+              "text": "He ___ never ___ snow before he moved to Canada.",
               "options": [
-                "record",
-                "recorded",
-                "recording",
-                "records"
+                "has / seen",
+                "had / seen",
+                "was / seeing",
+                "did / see"
               ],
-              "answer": "record",
-              "explanation": "Imperative instructions use the base form."
+              "correct": 1,
+              "explanation": "Tekrar notu: Kanada’ya taşınmadan önceki deneyim Past Perfect gerektirir.",
+              "translation": "Kanada’ya taşınmadan önce hiç kar görmemişti."
             },
             {
-              "id": "g5_5",
-              "type": "input",
-              "text": "Combine with a sequence marker: “Check the voltage. Connect the unit.”",
-              "answers": [
-                "Check the voltage first, then connect the unit."
+              "id": "d5r5",
+              "text": "The ground was wet because it ___.",
+              "options": [
+                "rained",
+                "had been raining",
+                "has rained",
+                "is raining"
               ],
-              "answer": "Check the voltage first, then connect the unit.",
-              "explanation": "Sequence markers make procedures easier to follow."
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte görülen sonucun öncesinde süren eylem Past Perfect Continuous’dur.",
+              "translation": "Yer ıslaktı çünkü yağmur yağmıştı."
             },
             {
-              "id": "g5_6",
-              "type": "input",
-              "text": "Write a safety instruction using “before”.",
-              "answers": [
-                "Disconnect the power before removing the cover."
+              "id": "d5r6",
+              "text": "When I got to the station, the train ___.",
+              "options": [
+                "left",
+                "had left",
+                "has left",
+                "leaves"
               ],
-              "answer": "Disconnect the power before removing the cover.",
-              "explanation": "Before can show the required order of two actions."
+              "correct": 1,
+              "explanation": "Tekrar notu: İstasyona varıştan önce tren ayrılmış; daha eski geçmiş Past Perfect.",
+              "translation": "İstasyona vardığımda tren gitmişti."
+            },
+            {
+              "id": "d5r7",
+              "text": "They ___ for two hours before the manager arrived.",
+              "options": [
+                "waited",
+                "had been waiting",
+                "have waited",
+                "were waited"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Bir geçmiş ana kadar süren eylem Past Perfect Continuous ile ifade edilir.",
+              "translation": "Müdür gelmeden önce iki saattir bekliyorlardı."
+            },
+            {
+              "id": "d5r8",
+              "text": "Once the engineer ___ the fault, production resumed.",
+              "options": [
+                "had identified",
+                "identifies",
+                "has identified",
+                "was identify"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Üretim yeniden başlamadan önce hata belirlenmişti.",
+              "translation": "Mühendis arızayı belirledikten sonra üretim yeniden başladı."
+            },
+            {
+              "id": "d5r9",
+              "text": "She knew the city well because she ___ there for years.",
+              "options": [
+                "lived",
+                "had lived",
+                "has lived",
+                "is living"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişteki bilgi durumundan daha önce gerçekleşmiş yaşam deneyimi Past Perfect ile verilir.",
+              "translation": "Yıllarca orada yaşadığı için şehri iyi biliyordu."
+            },
+            {
+              "id": "d5r10",
+              "text": "I realized that I ___ the wrong file.",
+              "options": [
+                "opened",
+                "had opened",
+                "have opened",
+                "am opening"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Fark etme anından önce dosya açılmıştır; Past Perfect gerekir.",
+              "translation": "Yanlış dosyayı açtığımı fark ettim."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Future Forms",
+          "intro": "YDS odaklı konu: will, be going to, present continuous ve future continuous. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d5g1",
+              "text": "Look at those clouds! It ___.",
+              "options": [
+                "will rain",
+                "is going to rain",
+                "rains",
+                "will be raining"
+              ],
+              "correct": 1,
+              "explanation": "Şimdiki kanıta dayalı tahminlerde ‘be going to’ kullanılır.",
+              "translation": "Şu bulutlara bak! Yağmur yağacak."
+            },
+            {
+              "id": "d5g2",
+              "text": "I think the new policy ___ costs.",
+              "options": [
+                "is reducing",
+                "will reduce",
+                "reduced",
+                "has reduced"
+              ],
+              "correct": 1,
+              "explanation": "Kanıta değil konuşanın tahminine dayalı gelecek için ‘will’ doğal tercihtir.",
+              "translation": "Bence yeni politika maliyetleri azaltacak."
+            },
+            {
+              "id": "d5g3",
+              "text": "We ___ the supplier at 3 p.m. tomorrow.",
+              "options": [
+                "meet",
+                "met",
+                "are meeting",
+                "have met"
+              ],
+              "correct": 2,
+              "explanation": "Ayarlanmış kişisel gelecek planı Present Continuous ile ifade edilir.",
+              "translation": "Yarın saat 3’te tedarikçiyle görüşüyoruz."
+            },
+            {
+              "id": "d5g4",
+              "text": "This time tomorrow, I ___ to Ankara.",
+              "options": [
+                "drive",
+                "will be driving",
+                "am driven",
+                "have driven"
+              ],
+              "correct": 1,
+              "explanation": "Gelecekte belirli bir anda sürmekte olacak eylem Future Continuous’dur.",
+              "translation": "Yarın bu saatte Ankara’ya gidiyor olacağım."
+            },
+            {
+              "id": "d5g5",
+              "text": "Don't worry; I ___ you with the boxes.",
+              "options": [
+                "help",
+                "am helping",
+                "will help",
+                "helped"
+              ],
+              "correct": 2,
+              "explanation": "Konuşma anında verilen ani karar/teklif için ‘will’ kullanılır.",
+              "translation": "Endişelenme; kutular konusunda sana yardım edeceğim."
+            },
+            {
+              "id": "d5g6",
+              "text": "They ___ a new office next year; the budget is already approved.",
+              "options": [
+                "will perhaps open",
+                "are going to open",
+                "opened",
+                "have opened"
+              ],
+              "correct": 1,
+              "explanation": "Önceden yapılmış plan ve niyet ‘be going to’ ile verilir.",
+              "translation": "Gelecek yıl yeni bir ofis açacaklar; bütçe zaten onaylandı."
+            },
+            {
+              "id": "d5g7",
+              "text": "The train ___ at 06:30 tomorrow.",
+              "options": [
+                "is leaving",
+                "leaves",
+                "will leaving",
+                "left"
+              ],
+              "correct": 1,
+              "explanation": "Resmi tarife ve programlar için Present Simple kullanılabilir.",
+              "translation": "Tren yarın 06:30’da kalkıyor."
+            },
+            {
+              "id": "d5g8",
+              "text": "At 10 a.m., the committee ___ the proposal.",
+              "options": [
+                "will discuss",
+                "will be discussing",
+                "discussed",
+                "has discussed"
+              ],
+              "correct": 1,
+              "explanation": "Gelecekte belirli bir anda devam edecek faaliyet Future Continuous’dur.",
+              "translation": "Saat 10’da komite teklifi tartışıyor olacak."
+            },
+            {
+              "id": "d5g9",
+              "text": "I promise I ___ anyone.",
+              "options": [
+                "don't tell",
+                "won't tell",
+                "am not telling",
+                "didn't tell"
+              ],
+              "correct": 1,
+              "explanation": "Söz verme ve vaatlerde ‘will/won’t’ kullanılır.",
+              "translation": "Söz veriyorum kimseye söylemeyeceğim."
+            },
+            {
+              "id": "d5g10",
+              "text": "She ___ medicine at university next autumn.",
+              "options": [
+                "studies",
+                "is going to study",
+                "studied",
+                "has studied"
+              ],
+              "correct": 1,
+              "explanation": "Önceden belirlenmiş niyet/plan için ‘be going to’ uygundur.",
+              "translation": "Gelecek sonbaharda üniversitede tıp okuyacak."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v5_1",
-              "word": "insert",
-              "meaning": "yerleştirmek",
-              "example": "Insert the card into the slot."
+              "en": "evaluate",
+              "tr": "değerlendirmek"
             },
             {
-              "id": "v5_2",
-              "word": "secure",
-              "meaning": "sabitlemek / güvenceye almak",
-              "example": "Secure the cover with four screws."
+              "en": "approximately",
+              "tr": "yaklaşık olarak"
             },
             {
-              "id": "v5_3",
-              "word": "verify",
-              "meaning": "doğrulamak",
-              "example": "Verify that the indicator is green."
+              "en": "despite",
+              "tr": "rağmen"
             },
             {
-              "id": "v5_4",
-              "word": "disconnect",
-              "meaning": "bağlantıyı kesmek",
-              "example": "Disconnect the power before opening the unit."
+              "en": "consequently",
+              "tr": "sonuç olarak"
             },
             {
-              "id": "v5_5",
-              "word": "assemble",
-              "meaning": "monte etmek",
-              "example": "The frame can be assembled in ten minutes."
+              "en": "adequate",
+              "tr": "yeterli"
             },
             {
-              "id": "v5_6",
-              "word": "sequence",
-              "meaning": "sıra / dizilim",
-              "example": "Follow the sequence shown in the diagram."
-            },
-            {
-              "id": "v5_7",
-              "word": "caution",
-              "meaning": "dikkat / uyarı",
-              "example": "The label contains an important caution."
-            },
-            {
-              "id": "v5_8",
-              "word": "procedure",
-              "meaning": "prosedür",
-              "example": "The procedure includes three safety checks."
+              "en": "require",
+              "tr": "gerektirmek"
             }
-          ],
-          "sentenceWords": [
-            "secure",
-            "sequence"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Installing a Smart Thermostat",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 5 Reading",
           "passage": [
-            "Before installing a smart thermostat, switch off the heating system at the main electrical panel. Next, remove the old thermostat cover and take a clear photo of the existing wires. The photo can help if you need to check the original connections later. Label each wire before disconnecting it, then remove the old mounting plate.",
-            "After that, attach the new plate securely to the wall and connect the wires according to the manufacturer's diagram. Do not force a wire into the wrong terminal. Once the connections are complete, fit the display unit and restore the power. Finally, follow the on-screen setup procedure and verify that the heating responds correctly. If the system does not start, disconnect the power again before checking the wiring."
+            "Modern English proficiency requires more than memorizing isolated rules. In future plans, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Future Forms. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r5_1",
-              "text": "What should you do before removing the old thermostat?"
+              "id": "d5read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r5_2",
-              "text": "Why is taking a photo useful?"
+              "id": "d5read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r5_3",
-              "text": "When should the power be restored?"
-            },
-            {
-              "id": "r5_4",
-              "text": "What should you do if the system does not start?"
-            },
-            {
-              "id": "r5_5",
-              "text": "List four sequence markers used or implied in the procedure."
+              "id": "d5read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 5 speaking bölümüne geçelim: Technical English: Instructions & Sequences. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about future plans. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Future Forms."
         }
       }
     },
     {
       "id": "day6",
       "number": 6,
-      "title": "Reading Strategies: Main Idea, Detail & Inference",
-      "shortTitle": "Reading Strategies",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Reading • Vocabulary",
-      "objective": "Read for gist, detail, reference and inference.",
-      "level": "B1+ → B2",
+      "title": "Future Perfect & Tense Review",
+      "shortTitle": "Future Perfect & Tense Review",
+      "focus": "gelecekte tamamlanmış eylemler ve tense uyumu",
+      "duration": "20–25 dk",
+      "context": "deadlines and forecasts",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g6_1",
-              "type": "mcq",
-              "text": "The phrase “this result” most likely ___ information mentioned earlier.",
+              "id": "d6r1",
+              "text": "Look at those clouds! It ___.",
               "options": [
-                "refers to",
-                "is referring yesterday",
-                "referred now",
-                "refer"
+                "will rain",
+                "is going to rain",
+                "rains",
+                "will be raining"
               ],
-              "answer": "refers to",
-              "explanation": "Reference words point back to earlier ideas."
+              "correct": 1,
+              "explanation": "Tekrar notu: Şimdiki kanıta dayalı tahminlerde ‘be going to’ kullanılır.",
+              "translation": "Şu bulutlara bak! Yağmur yağacak."
             },
             {
-              "id": "g6_2",
-              "type": "mcq",
-              "text": "To find the main idea, focus first on ___.",
+              "id": "d6r2",
+              "text": "I think the new policy ___ costs.",
               "options": [
-                "the overall message",
-                "every unknown word",
-                "only the final number",
-                "punctuation"
+                "is reducing",
+                "will reduce",
+                "reduced",
+                "has reduced"
               ],
-              "answer": "the overall message",
-              "explanation": "Gist reading prioritizes the central message."
+              "correct": 1,
+              "explanation": "Tekrar notu: Kanıta değil konuşanın tahminine dayalı gelecek için ‘will’ doğal tercihtir.",
+              "translation": "Bence yeni politika maliyetleri azaltacak."
             },
             {
-              "id": "g6_3",
-              "type": "mcq",
-              "text": "An inference is a conclusion based on ___.",
+              "id": "d6r3",
+              "text": "We ___ the supplier at 3 p.m. tomorrow.",
               "options": [
-                "evidence in the text",
-                "a dictionary definition only",
-                "the title alone",
-                "personal preference"
+                "meet",
+                "met",
+                "are meeting",
+                "have met"
               ],
-              "answer": "evidence in the text",
-              "explanation": "Inference combines textual evidence with reasoning."
+              "correct": 2,
+              "explanation": "Tekrar notu: Ayarlanmış kişisel gelecek planı Present Continuous ile ifade edilir.",
+              "translation": "Yarın saat 3’te tedarikçiyle görüşüyoruz."
             },
             {
-              "id": "g6_4",
-              "type": "mcq",
-              "text": "If a detail is irrelevant, it ___ the question directly.",
+              "id": "d6r4",
+              "text": "This time tomorrow, I ___ to Ankara.",
               "options": [
-                "does not answer",
-                "always answers",
-                "must repeat",
-                "defines"
+                "drive",
+                "will be driving",
+                "am driven",
+                "have driven"
               ],
-              "answer": "does not answer",
-              "explanation": "Relevant details support the specific question."
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecekte belirli bir anda sürmekte olacak eylem Future Continuous’dur.",
+              "translation": "Yarın bu saatte Ankara’ya gidiyor olacağım."
             },
             {
-              "id": "g6_5",
-              "type": "input",
-              "text": "Complete: From the evidence, we can ___ that demand increased.",
-              "answers": [
-                "infer"
+              "id": "d6r5",
+              "text": "Don't worry; I ___ you with the boxes.",
+              "options": [
+                "help",
+                "am helping",
+                "will help",
+                "helped"
               ],
-              "answer": "infer",
-              "explanation": "Infer is the verb used for drawing a conclusion."
+              "correct": 2,
+              "explanation": "Tekrar notu: Konuşma anında verilen ani karar/teklif için ‘will’ kullanılır.",
+              "translation": "Endişelenme; kutular konusunda sana yardım edeceğim."
             },
             {
-              "id": "g6_6",
-              "type": "input",
-              "text": "Write a one-sentence main idea for a text about trees reducing city heat.",
-              "answers": [
-                "Urban trees can help reduce city heat, although they require planning and maintenance."
+              "id": "d6r6",
+              "text": "They ___ a new office next year; the budget is already approved.",
+              "options": [
+                "will perhaps open",
+                "are going to open",
+                "opened",
+                "have opened"
               ],
-              "answer": "Urban trees can help reduce city heat, although they require planning and maintenance.",
-              "explanation": "A main idea should capture the central message, not every detail."
+              "correct": 1,
+              "explanation": "Tekrar notu: Önceden yapılmış plan ve niyet ‘be going to’ ile verilir.",
+              "translation": "Gelecek yıl yeni bir ofis açacaklar; bütçe zaten onaylandı."
+            },
+            {
+              "id": "d6r7",
+              "text": "The train ___ at 06:30 tomorrow.",
+              "options": [
+                "is leaving",
+                "leaves",
+                "will leaving",
+                "left"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Resmi tarife ve programlar için Present Simple kullanılabilir.",
+              "translation": "Tren yarın 06:30’da kalkıyor."
+            },
+            {
+              "id": "d6r8",
+              "text": "At 10 a.m., the committee ___ the proposal.",
+              "options": [
+                "will discuss",
+                "will be discussing",
+                "discussed",
+                "has discussed"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecekte belirli bir anda devam edecek faaliyet Future Continuous’dur.",
+              "translation": "Saat 10’da komite teklifi tartışıyor olacak."
+            },
+            {
+              "id": "d6r9",
+              "text": "I promise I ___ anyone.",
+              "options": [
+                "don't tell",
+                "won't tell",
+                "am not telling",
+                "didn't tell"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Söz verme ve vaatlerde ‘will/won’t’ kullanılır.",
+              "translation": "Söz veriyorum kimseye söylemeyeceğim."
+            },
+            {
+              "id": "d6r10",
+              "text": "She ___ medicine at university next autumn.",
+              "options": [
+                "studies",
+                "is going to study",
+                "studied",
+                "has studied"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Önceden belirlenmiş niyet/plan için ‘be going to’ uygundur.",
+              "translation": "Gelecek sonbaharda üniversitede tıp okuyacak."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Future Perfect & Tense Review",
+          "intro": "YDS odaklı konu: gelecekte tamamlanmış eylemler ve tense uyumu. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d6g1",
+              "text": "By Friday, we ___ the audit.",
+              "options": [
+                "complete",
+                "will have completed",
+                "are completing",
+                "completed"
+              ],
+              "correct": 1,
+              "explanation": "Gelecekte belirli bir zamandan önce tamamlanacak eylem Future Perfect ile anlatılır.",
+              "translation": "Cuma gününe kadar denetimi tamamlamış olacağız."
+            },
+            {
+              "id": "d6g2",
+              "text": "By next June, she ___ here for ten years.",
+              "options": [
+                "will have worked",
+                "works",
+                "has worked",
+                "worked"
+              ],
+              "correct": 0,
+              "explanation": "Gelecekte bir ana kadar süren süreyi Future Perfect ifade edebilir.",
+              "translation": "Gelecek hazirana kadar burada on yıl çalışmış olacak."
+            },
+            {
+              "id": "d6g3",
+              "text": "When you arrive, I ___ dinner.",
+              "options": [
+                "finish",
+                "will have finished",
+                "finished",
+                "have finished"
+              ],
+              "correct": 1,
+              "explanation": "Sen geldiğinde yemek önceden tamamlanmış olacak; Future Perfect.",
+              "translation": "Sen vardığında akşam yemeğini bitirmiş olacağım."
+            },
+            {
+              "id": "d6g4",
+              "text": "At 5 p.m. tomorrow, they ___ the new system.",
+              "options": [
+                "will test",
+                "will be testing",
+                "tested",
+                "have tested"
+              ],
+              "correct": 1,
+              "explanation": "Gelecekte belirli bir anda devam eden eylem Future Continuous’dur.",
+              "translation": "Yarın saat 5’te yeni sistemi test ediyor olacaklar."
+            },
+            {
+              "id": "d6g5",
+              "text": "By the end of the month, the company ___ 100 new staff.",
+              "options": [
+                "hires",
+                "will have hired",
+                "hired",
+                "is hire"
+              ],
+              "correct": 1,
+              "explanation": "Ay sonundan önce tamamlanması beklenen sonuç Future Perfect gerektirir.",
+              "translation": "Ay sonuna kadar şirket 100 yeni personel işe almış olacak."
+            },
+            {
+              "id": "d6g6",
+              "text": "I ___ you as soon as I receive the results.",
+              "options": [
+                "will call",
+                "call",
+                "called",
+                "have called"
+              ],
+              "correct": 0,
+              "explanation": "Ana cümlede gelecek ‘will’; ‘as soon as’ yan cümlesinde Present Simple kullanılır.",
+              "translation": "Sonuçları alır almaz seni arayacağım."
+            },
+            {
+              "id": "d6g7",
+              "text": "After she ___ the course, she will apply for the position.",
+              "options": [
+                "will finish",
+                "finishes",
+                "finished",
+                "has been finishing"
+              ],
+              "correct": 1,
+              "explanation": "Zaman bağlacı sonrası gelecek anlam olsa da Present Simple kullanılır.",
+              "translation": "Kursu bitirdikten sonra pozisyona başvuracak."
+            },
+            {
+              "id": "d6g8",
+              "text": "By 2030, many cities ___ low-emission zones.",
+              "options": [
+                "introduce",
+                "will have introduced",
+                "introduced",
+                "have introduce"
+              ],
+              "correct": 1,
+              "explanation": "2030’dan önce tamamlanması beklenen değişiklik Future Perfect ile verilir.",
+              "translation": "2030’a kadar birçok şehir düşük emisyon bölgeleri oluşturmuş olacak."
+            },
+            {
+              "id": "d6g9",
+              "text": "This time next week, we ___ on the beach.",
+              "options": [
+                "relax",
+                "will be relaxing",
+                "relaxed",
+                "will have relaxed"
+              ],
+              "correct": 1,
+              "explanation": "Gelecekte belirli anda devam edecek durum Future Continuous’dur.",
+              "translation": "Gelecek hafta bu saatte sahilde dinleniyor olacağız."
+            },
+            {
+              "id": "d6g10",
+              "text": "By the time the guests arrive, we ___ everything.",
+              "options": [
+                "prepare",
+                "will have prepared",
+                "are preparing",
+                "prepared"
+              ],
+              "correct": 1,
+              "explanation": "Konukların gelişinden önce hazırlık tamamlanacak; Future Perfect.",
+              "translation": "Misafirler gelene kadar her şeyi hazırlamış olacağız."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v6_1",
-              "word": "infer",
-              "meaning": "çıkarım yapmak",
-              "example": "Readers can infer the cause from the final paragraph."
+              "en": "reliable",
+              "tr": "güvenilir"
             },
             {
-              "id": "v6_2",
-              "word": "evidence",
-              "meaning": "kanıt",
-              "example": "The report provides evidence for the claim."
+              "en": "conduct",
+              "tr": "yürütmek"
             },
             {
-              "id": "v6_3",
-              "word": "relevant",
-              "meaning": "ilgili",
-              "example": "Focus only on relevant details."
+              "en": "feature",
+              "tr": "özellik"
             },
             {
-              "id": "v6_4",
-              "word": "indicate",
-              "meaning": "belirtmek / göstermek",
-              "example": "The figures indicate a steady increase."
+              "en": "decline",
+              "tr": "azalmak"
             },
             {
-              "id": "v6_5",
-              "word": "context",
-              "meaning": "bağlam",
-              "example": "The meaning becomes clear from the context."
+              "en": "obtain",
+              "tr": "elde etmek"
             },
             {
-              "id": "v6_6",
-              "word": "reference",
-              "meaning": "gönderme / referans",
-              "example": "The pronoun is a reference to the previous noun."
-            },
-            {
-              "id": "v6_7",
-              "word": "summarize",
-              "meaning": "özetlemek",
-              "example": "Summarize the main idea in one sentence."
-            },
-            {
-              "id": "v6_8",
-              "word": "distinguish",
-              "meaning": "ayırt etmek",
-              "example": "Good readers distinguish facts from opinions."
+              "en": "issue",
+              "tr": "konu/sorun"
             }
-          ],
-          "sentenceWords": [
-            "evidence",
-            "reference"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Urban Trees and Summer Heat",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 6 Reading",
           "passage": [
-            "Cities often become significantly warmer than surrounding rural areas because roads, roofs, and concrete surfaces absorb heat during the day and release it slowly at night. This effect is sometimes called the urban heat island effect. Trees can reduce the problem by providing shade and releasing moisture into the air.",
-            "A recent municipal project compared temperatures on streets with mature trees to similar streets with very little vegetation. During hot afternoons, the shaded streets were several degrees cooler. The difference was smaller at night, but residents still reported that tree-lined areas felt more comfortable. The researchers warned that planting trees is not a complete solution. Trees require water, maintenance, and careful species selection, especially in dry climates. Nevertheless, the study suggests that urban vegetation can be an important part of a wider heat-management strategy."
+            "Modern English proficiency requires more than memorizing isolated rules. In deadlines and forecasts, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Future Perfect & Tense Review. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r6_1",
-              "text": "What causes the urban heat island effect?"
+              "id": "d6read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r6_2",
-              "text": "What did the municipal project compare?"
+              "id": "d6read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r6_3",
-              "text": "What can be inferred about the effect of trees at night?"
-            },
-            {
-              "id": "r6_4",
-              "text": "Why do the researchers say tree planting is not a complete solution?"
-            },
-            {
-              "id": "r6_5",
-              "text": "Summarize the main idea in one English sentence."
+              "id": "d6read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 6 speaking bölümüne geçelim: Reading Strategies: Main Idea, Detail & Inference. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about deadlines and forecasts. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Future Perfect & Tense Review."
         }
       }
     },
     {
       "id": "day7",
       "number": 7,
-      "title": "Week 1 Review",
-      "shortTitle": "Week 1 Review",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Review • Mixed Test",
-      "objective": "Consolidate Days 1–6 with cumulative retrieval practice.",
-      "level": "B1+ → B2",
+      "title": "Modals I",
+      "shortTitle": "Modals I",
+      "focus": "ability, possibility, permission, obligation",
+      "duration": "20–25 dk",
+      "context": "rules and permissions",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g7_1",
-              "type": "mcq",
-              "text": "Last week we ___ a new method, and we now ___ it regularly.",
+              "id": "d7r1",
+              "text": "By Friday, we ___ the audit.",
               "options": [
-                "tested / use",
-                "test / used",
-                "have test / using",
-                "are testing / used"
-              ],
-              "answer": "tested / use",
-              "explanation": "Past event plus present routine."
-            },
-            {
-              "id": "g7_2",
-              "type": "mcq",
-              "text": "At the moment, the team ___ a temporary workspace.",
-              "options": [
-                "is using",
-                "uses always",
-                "used yesterday",
-                "has use"
-              ],
-              "answer": "is using",
-              "explanation": "At the moment signals Present Continuous."
-            },
-            {
-              "id": "g7_3",
-              "type": "mcq",
-              "text": "___ you confirm the booking yesterday?",
-              "options": [
-                "Did",
-                "Do",
-                "Are",
-                "Have"
-              ],
-              "answer": "Did",
-              "explanation": "Past Simple question."
-            },
-            {
-              "id": "g7_4",
-              "type": "mcq",
-              "text": "First check the cable; ___, restart the unit.",
-              "options": [
-                "then",
-                "although",
-                "because",
-                "unless"
-              ],
-              "answer": "then",
-              "explanation": "Sequence marker."
-            },
-            {
-              "id": "g7_5",
-              "type": "input",
-              "text": "Correct: “She didn’t attended the meeting.”",
-              "answers": [
-                "She didn’t attend the meeting."
-              ],
-              "answer": "She didn’t attend the meeting.",
-              "explanation": "After didn’t, use the base form."
-            },
-            {
-              "id": "g7_6",
-              "type": "input",
-              "text": "Write a routine sentence containing an adverb of frequency.",
-              "answers": [
-                "I usually review my tasks before lunch."
-              ],
-              "answer": "I usually review my tasks before lunch.",
-              "explanation": "Frequency adverbs are commonly used with Present Simple."
-            }
-          ]
-        },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v7_1",
-              "word": "consolidate",
-              "meaning": "pekiştirmek",
-              "example": "Weekly review helps consolidate new language."
-            },
-            {
-              "id": "v7_2",
-              "word": "recall",
-              "meaning": "hatırlamak",
-              "example": "Try to recall the word before checking the answer."
-            },
-            {
-              "id": "v7_3",
-              "word": "accuracy",
-              "meaning": "doğruluk",
-              "example": "Accuracy improves with focused practice."
-            },
-            {
-              "id": "v7_4",
-              "word": "fluency",
-              "meaning": "akıcılık",
-              "example": "Fluency develops through repeated speaking."
-            },
-            {
-              "id": "v7_5",
-              "word": "revise",
-              "meaning": "tekrar etmek",
-              "example": "Revise difficult items at the end of the week."
-            },
-            {
-              "id": "v7_6",
-              "word": "retain",
-              "meaning": "akılda tutmak",
-              "example": "Spacing helps learners retain vocabulary."
-            },
-            {
-              "id": "v7_7",
-              "word": "identify",
-              "meaning": "belirlemek",
-              "example": "Identify your three weakest areas."
-            },
-            {
-              "id": "v7_8",
-              "word": "progress",
-              "meaning": "ilerleme",
-              "example": "Small daily improvements create visible progress."
-            }
-          ],
-          "sentenceWords": [
-            "recall",
-            "retain"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "How Spaced Review Works",
-          "passage": [
-            "Learning something once does not guarantee that it will remain available in memory. People forget information more quickly when they do not retrieve it. Spaced review addresses this problem by returning to important material after gradually increasing intervals.",
-            "A learner might review new vocabulary the next day, again three days later, and then once more the following week. The purpose is not to reread everything passively. Instead, the learner should try to recall the word, rule, or idea before checking the answer. Difficult items can be reviewed more frequently, while well-known items can appear less often. This approach makes review more efficient and also shows which areas need more attention."
-          ],
-          "questions": [
-            {
-              "id": "r7_1",
-              "text": "Why is one exposure to new information often insufficient?"
-            },
-            {
-              "id": "r7_2",
-              "text": "How does spaced review change over time?"
-            },
-            {
-              "id": "r7_3",
-              "text": "What should a learner do before checking an answer?"
-            },
-            {
-              "id": "r7_4",
-              "text": "How should difficult items be treated?"
-            },
-            {
-              "id": "r7_5",
-              "text": "How could you apply this method to your English course?"
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 7 speaking bölümüne geçelim: Week 1 Review. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day8",
-      "number": 8,
-      "title": "Present Perfect vs Past Simple",
-      "shortTitle": "Present Perfect",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Reading",
-      "objective": "Connect past experiences to the present and use finished-time markers correctly.",
-      "level": "B1+ → B2",
-      "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
-          "questions": [
-            {
-              "id": "g8_1",
-              "type": "mcq",
-              "text": "I ___ that museum three times, but I ___ it for the first time in 2022.",
-              "options": [
-                "have visited / visited",
-                "visited / have visited",
-                "am visiting / visited",
-                "have visit / visit"
-              ],
-              "answer": "have visited / visited",
-              "explanation": "Life experience vs finished time in 2022."
-            },
-            {
-              "id": "g8_2",
-              "type": "mcq",
-              "text": "The report hasn’t arrived ___.",
-              "options": [
-                "yet",
-                "last week",
-                "ago",
-                "in 2024"
-              ],
-              "answer": "yet",
-              "explanation": "Yet is common in Present Perfect negatives/questions."
-            },
-            {
-              "id": "g8_3",
-              "type": "mcq",
-              "text": "We ___ the test yesterday afternoon.",
-              "options": [
-                "completed",
-                "have completed",
                 "complete",
-                "are completing"
+                "will have completed",
+                "are completing",
+                "completed"
               ],
-              "answer": "completed",
-              "explanation": "Yesterday requires Past Simple."
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecekte belirli bir zamandan önce tamamlanacak eylem Future Perfect ile anlatılır.",
+              "translation": "Cuma gününe kadar denetimi tamamlamış olacağız."
             },
             {
-              "id": "g8_4",
-              "type": "mcq",
-              "text": "She has ___ finished the first section.",
+              "id": "d7r2",
+              "text": "By next June, she ___ here for ten years.",
               "options": [
-                "already",
-                "last",
-                "ago",
-                "yesterday"
+                "will have worked",
+                "works",
+                "has worked",
+                "worked"
               ],
-              "answer": "already",
-              "explanation": "Already commonly appears with Present Perfect."
+              "correct": 0,
+              "explanation": "Tekrar notu: Gelecekte bir ana kadar süren süreyi Future Perfect ifade edebilir.",
+              "translation": "Gelecek hazirana kadar burada on yıl çalışmış olacak."
             },
             {
-              "id": "g8_5",
-              "type": "input",
-              "text": "Complete: ___ you ever ___ (work) with an international team?",
-              "answers": [
-                "Have you ever worked"
+              "id": "d7r3",
+              "text": "When you arrive, I ___ dinner.",
+              "options": [
+                "finish",
+                "will have finished",
+                "finished",
+                "have finished"
               ],
-              "answer": "Have you ever worked",
-              "explanation": "Ever + Present Perfect asks about life experience."
+              "correct": 1,
+              "explanation": "Tekrar notu: Sen geldiğinde yemek önceden tamamlanmış olacak; Future Perfect.",
+              "translation": "Sen vardığında akşam yemeğini bitirmiş olacağım."
             },
             {
-              "id": "g8_6",
-              "type": "input",
-              "text": "Write a Present Perfect sentence with “so far”.",
-              "answers": [
-                "We have completed four tests so far."
+              "id": "d7r4",
+              "text": "At 5 p.m. tomorrow, they ___ the new system.",
+              "options": [
+                "will test",
+                "will be testing",
+                "tested",
+                "have tested"
               ],
-              "answer": "We have completed four tests so far.",
-              "explanation": "So far refers to a period continuing to the present."
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecekte belirli bir anda devam eden eylem Future Continuous’dur.",
+              "translation": "Yarın saat 5’te yeni sistemi test ediyor olacaklar."
+            },
+            {
+              "id": "d7r5",
+              "text": "By the end of the month, the company ___ 100 new staff.",
+              "options": [
+                "hires",
+                "will have hired",
+                "hired",
+                "is hire"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Ay sonundan önce tamamlanması beklenen sonuç Future Perfect gerektirir.",
+              "translation": "Ay sonuna kadar şirket 100 yeni personel işe almış olacak."
+            },
+            {
+              "id": "d7r6",
+              "text": "I ___ you as soon as I receive the results.",
+              "options": [
+                "will call",
+                "call",
+                "called",
+                "have called"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Ana cümlede gelecek ‘will’; ‘as soon as’ yan cümlesinde Present Simple kullanılır.",
+              "translation": "Sonuçları alır almaz seni arayacağım."
+            },
+            {
+              "id": "d7r7",
+              "text": "After she ___ the course, she will apply for the position.",
+              "options": [
+                "will finish",
+                "finishes",
+                "finished",
+                "has been finishing"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Zaman bağlacı sonrası gelecek anlam olsa da Present Simple kullanılır.",
+              "translation": "Kursu bitirdikten sonra pozisyona başvuracak."
+            },
+            {
+              "id": "d7r8",
+              "text": "By 2030, many cities ___ low-emission zones.",
+              "options": [
+                "introduce",
+                "will have introduced",
+                "introduced",
+                "have introduce"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: 2030’dan önce tamamlanması beklenen değişiklik Future Perfect ile verilir.",
+              "translation": "2030’a kadar birçok şehir düşük emisyon bölgeleri oluşturmuş olacak."
+            },
+            {
+              "id": "d7r9",
+              "text": "This time next week, we ___ on the beach.",
+              "options": [
+                "relax",
+                "will be relaxing",
+                "relaxed",
+                "will have relaxed"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecekte belirli anda devam edecek durum Future Continuous’dur.",
+              "translation": "Gelecek hafta bu saatte sahilde dinleniyor olacağız."
+            },
+            {
+              "id": "d7r10",
+              "text": "By the time the guests arrive, we ___ everything.",
+              "options": [
+                "prepare",
+                "will have prepared",
+                "are preparing",
+                "prepared"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Konukların gelişinden önce hazırlık tamamlanacak; Future Perfect.",
+              "translation": "Misafirler gelene kadar her şeyi hazırlamış olacağız."
             }
           ]
         },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v8_1",
-              "word": "achievement",
-              "meaning": "başarı",
-              "example": "Finishing the project was a major achievement."
-            },
-            {
-              "id": "v8_2",
-              "word": "recently",
-              "meaning": "yakın zamanda",
-              "example": "The company has recently opened a new office."
-            },
-            {
-              "id": "v8_3",
-              "word": "so far",
-              "meaning": "şimdiye kadar",
-              "example": "We have received twelve applications so far."
-            },
-            {
-              "id": "v8_4",
-              "word": "ever",
-              "meaning": "hiç / şimdiye kadar",
-              "example": "Have you ever worked abroad?"
-            },
-            {
-              "id": "v8_5",
-              "word": "yet",
-              "meaning": "henüz",
-              "example": "The final report has not arrived yet."
-            },
-            {
-              "id": "v8_6",
-              "word": "already",
-              "meaning": "çoktan",
-              "example": "They have already completed the first phase."
-            },
-            {
-              "id": "v8_7",
-              "word": "experience",
-              "meaning": "deneyim",
-              "example": "She has extensive experience in quality control."
-            },
-            {
-              "id": "v8_8",
-              "word": "deadline",
-              "meaning": "son tarih",
-              "example": "The team met the deadline last Friday."
-            }
-          ],
-          "sentenceWords": [
-            "recently",
-            "already"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "A Community Science Project",
-          "passage": [
-            "For the past five years, volunteers in a coastal town have collected information about plastic waste on local beaches. They have recorded the type, quantity, and location of the items they find. Since the project began, more than two thousand people have taken part, including school groups, tourists, and local businesses.",
-            "Last year, the organizers introduced a mobile app that made data collection faster. Volunteers used the app during twelve large cleanup events and uploaded thousands of records. The project has already produced several useful findings. For example, the team has discovered that certain types of packaging appear more frequently after public holidays. The organizers have shared these results with local authorities, but they have not yet completed their long-term report."
-          ],
-          "questions": [
-            {
-              "id": "r8_1",
-              "text": "How long has the project existed?"
-            },
-            {
-              "id": "r8_2",
-              "text": "What happened last year?"
-            },
-            {
-              "id": "r8_3",
-              "text": "What has the team discovered so far?"
-            },
-            {
-              "id": "r8_4",
-              "text": "Has the long-term report been completed?"
-            },
-            {
-              "id": "r8_5",
-              "text": "Find one Present Perfect sentence and one Past Simple sentence in the passage."
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 8 speaking bölümüne geçelim: Present Perfect vs Past Simple. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day9",
-      "number": 9,
-      "title": "Present Perfect Continuous & Duration",
-      "shortTitle": "Duration & Experience",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Speaking",
-      "objective": "Talk about duration, recent activity and continuing situations.",
-      "level": "B1+ → B2",
-      "sections": {
         "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+          "title": "Grammar — Modals I",
+          "intro": "YDS odaklı konu: ability, possibility, permission, obligation. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
           "questions": [
             {
-              "id": "g9_1",
-              "type": "mcq",
-              "text": "They ___ the new system for three weeks.",
-              "options": [
-                "have been testing",
-                "tested yesterday",
-                "are test",
-                "have test"
-              ],
-              "answer": "have been testing",
-              "explanation": "For + duration with an ongoing activity."
-            },
-            {
-              "id": "g9_2",
-              "type": "mcq",
-              "text": "She ___ here since 2021.",
-              "options": [
-                "has been working",
-                "worked only",
-                "is work",
-                "has working"
-              ],
-              "answer": "has been working",
-              "explanation": "Since marks the starting point of a continuing situation."
-            },
-            {
-              "id": "g9_3",
-              "type": "mcq",
-              "text": "The ground is wet because it ___.",
-              "options": [
-                "has been raining",
-                "rained last year",
-                "rains always",
-                "is rain"
-              ],
-              "answer": "has been raining",
-              "explanation": "A recent activity explains a present result."
-            },
-            {
-              "id": "g9_4",
-              "type": "mcq",
-              "text": "How long ___ you ___ for the exam?",
-              "options": [
-                "have / been preparing",
-                "did / prepared",
-                "are / prepare",
-                "have / prepare"
-              ],
-              "answer": "have / been preparing",
-              "explanation": "How long + continuing activity uses Present Perfect Continuous."
-            },
-            {
-              "id": "g9_5",
-              "type": "input",
-              "text": "Complete: I ___ (wait) for a reply since Monday.",
-              "answers": [
-                "have been waiting"
-              ],
-              "answer": "have been waiting",
-              "explanation": "The action started in the past and continues now."
-            },
-            {
-              "id": "g9_6",
-              "type": "input",
-              "text": "Write one sentence with “for” and one with “since”.",
-              "answers": [
-                "I have been studying for two hours. / I have been studying since 7 p.m."
-              ],
-              "answer": "I have been studying for two hours. / I have been studying since 7 p.m.",
-              "explanation": "For = duration; since = starting point."
-            }
-          ]
-        },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v9_1",
-              "word": "duration",
-              "meaning": "süre",
-              "example": "The duration of the test is approximately twenty minutes."
-            },
-            {
-              "id": "v9_2",
-              "word": "ongoing",
-              "meaning": "devam eden",
-              "example": "The investigation is ongoing."
-            },
-            {
-              "id": "v9_3",
-              "word": "recent",
-              "meaning": "yakın tarihli",
-              "example": "Recent changes have improved performance."
-            },
-            {
-              "id": "v9_4",
-              "word": "continuously",
-              "meaning": "sürekli olarak",
-              "example": "The sensor has been operating continuously."
-            },
-            {
-              "id": "v9_5",
-              "word": "maintain",
-              "meaning": "sürdürmek / bakımını yapmak",
-              "example": "The company has maintained a strong safety record."
-            },
-            {
-              "id": "v9_6",
-              "word": "progressively",
-              "meaning": "giderek",
-              "example": "The task has been getting progressively easier."
-            },
-            {
-              "id": "v9_7",
-              "word": "since",
-              "meaning": "-den beri",
-              "example": "She has been working here since 2022."
-            },
-            {
-              "id": "v9_8",
-              "word": "for",
-              "meaning": "boyunca",
-              "example": "They have been testing the system for three weeks."
-            }
-          ],
-          "sentenceWords": [
-            "ongoing",
-            "progressively"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Restoring an Old Theatre",
-          "passage": [
-            "A volunteer association has been restoring a small historic theatre for almost two years. The building closed a decade ago because the roof was unsafe and the electrical system no longer met modern standards. Since the restoration began, specialists have been repairing the roof, replacing damaged seats, and documenting original decorative details.",
-            "The project has taken longer than expected because some materials have been difficult to source. Even so, the association has made steady progress. It has raised money through local events, and several businesses have donated equipment. Volunteers have also been working with historians to preserve the building's character. The organizers hope to reopen the theatre next spring, although they still have several months of work ahead."
-          ],
-          "questions": [
-            {
-              "id": "r9_1",
-              "text": "Why did the theatre close?"
-            },
-            {
-              "id": "r9_2",
-              "text": "What work has been continuing during the restoration?"
-            },
-            {
-              "id": "r9_3",
-              "text": "Why has the project taken longer than expected?"
-            },
-            {
-              "id": "r9_4",
-              "text": "How has the association obtained support?"
-            },
-            {
-              "id": "r9_5",
-              "text": "Which actions are unfinished or continuing now?"
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 9 speaking bölümüne geçelim: Present Perfect Continuous & Duration. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day10",
-      "number": 10,
-      "title": "Technical Vocabulary: Faults & Troubleshooting",
-      "shortTitle": "Troubleshooting",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Technical English • Vocabulary",
-      "objective": "Describe faults, causes, symptoms and corrective actions.",
-      "level": "B1+ → B2",
-      "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
-          "questions": [
-            {
-              "id": "g10_1",
-              "type": "mcq",
-              "text": "The first step in troubleshooting is usually to ___ the symptom clearly.",
-              "options": [
-                "identify",
-                "ignore",
-                "replace",
-                "cancel"
-              ],
-              "answer": "identify",
-              "explanation": "A clear symptom description guides diagnosis."
-            },
-            {
-              "id": "g10_2",
-              "type": "mcq",
-              "text": "The fault occurred only sometimes, so it was ___.",
-              "options": [
-                "intermittent",
-                "permanent always",
-                "scheduled",
-                "identical"
-              ],
-              "answer": "intermittent",
-              "explanation": "Intermittent means occurring irregularly."
-            },
-            {
-              "id": "g10_3",
-              "type": "mcq",
-              "text": "After testing, the team found the ___ cause.",
-              "options": [
-                "root",
-                "routine",
-                "minorly",
-                "currenting"
-              ],
-              "answer": "root",
-              "explanation": "Root cause is a standard collocation."
-            },
-            {
-              "id": "g10_4",
-              "type": "mcq",
-              "text": "Replacing the damaged cable ___ the issue.",
-              "options": [
-                "resolved",
-                "occurred",
-                "diagnosed",
-                "symptomed"
-              ],
-              "answer": "resolved",
-              "explanation": "Resolve an issue = solve it."
-            },
-            {
-              "id": "g10_5",
-              "type": "input",
-              "text": "Complete: The machine stopped because a connector ___ loose.",
-              "answers": [
-                "was"
-              ],
-              "answer": "was",
-              "explanation": "Was loose describes the condition causing the fault."
-            },
-            {
-              "id": "g10_6",
-              "type": "input",
-              "text": "Write a two-step troubleshooting instruction using “first” and “then”.",
-              "answers": [
-                "First check the power supply, then inspect the cable connections."
-              ],
-              "answer": "First check the power supply, then inspect the cable connections.",
-              "explanation": "Use clear sequence language in troubleshooting."
-            }
-          ]
-        },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v10_1",
-              "word": "fault",
-              "meaning": "arıza",
-              "example": "A loose connector caused the fault."
-            },
-            {
-              "id": "v10_2",
-              "word": "symptom",
-              "meaning": "belirti",
-              "example": "Intermittent noise was the first symptom."
-            },
-            {
-              "id": "v10_3",
-              "word": "diagnose",
-              "meaning": "teşhis etmek",
-              "example": "The technician diagnosed the problem quickly."
-            },
-            {
-              "id": "v10_4",
-              "word": "root cause",
-              "meaning": "kök neden",
-              "example": "The team investigated the root cause."
-            },
-            {
-              "id": "v10_5",
-              "word": "intermittent",
-              "meaning": "aralıklı",
-              "example": "The device showed an intermittent connection error."
-            },
-            {
-              "id": "v10_6",
-              "word": "replace",
-              "meaning": "değiştirmek",
-              "example": "Replace the damaged cable."
-            },
-            {
-              "id": "v10_7",
-              "word": "resolve",
-              "meaning": "çözmek",
-              "example": "The update resolved the issue."
-            },
-            {
-              "id": "v10_8",
-              "word": "malfunction",
-              "meaning": "arıza / hatalı çalışmak",
-              "example": "The alarm may malfunction if the battery is weak."
-            }
-          ],
-          "sentenceWords": [
-            "symptom",
-            "replace"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Finding an Intermittent Fault",
-          "passage": [
-            "A printing company began receiving complaints about a machine that stopped unexpectedly several times a day. The fault was difficult to diagnose because the machine often worked normally when a technician was present. The first checks showed no obvious mechanical damage, and the control software reported only a general communication error.",
-            "The maintenance team decided to monitor the machine continuously. After several hours, they noticed that the failures usually occurred when a nearby cooling unit switched on. Further testing revealed a loose communication cable that was sensitive to vibration. The team replaced the cable and secured the connector. After the repair, the machine operated for three days without another failure. The case showed why intermittent faults often require observation over time rather than a single inspection."
-          ],
-          "questions": [
-            {
-              "id": "r10_1",
-              "text": "Why was the fault difficult to diagnose?"
-            },
-            {
-              "id": "r10_2",
-              "text": "What pattern did the team notice?"
-            },
-            {
-              "id": "r10_3",
-              "text": "What was the root cause?"
-            },
-            {
-              "id": "r10_4",
-              "text": "What corrective action did the team take?"
-            },
-            {
-              "id": "r10_5",
-              "text": "What general troubleshooting lesson does the passage illustrate?"
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 10 speaking bölümüne geçelim: Technical Vocabulary: Faults & Troubleshooting. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day11",
-      "number": 11,
-      "title": "Comparatives, Superlatives & Modifiers",
-      "shortTitle": "Comparisons",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Vocabulary",
-      "objective": "Make precise comparisons using modifiers and structures.",
-      "level": "B1+ → B2",
-      "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
-          "questions": [
-            {
-              "id": "g11_1",
-              "type": "mcq",
-              "text": "Model X is ___ lighter than Model Y.",
-              "options": [
-                "slightly",
-                "much more slightly",
-                "most",
-                "as"
-              ],
-              "answer": "slightly",
-              "explanation": "Slightly can modify a comparative."
-            },
-            {
-              "id": "g11_2",
-              "type": "mcq",
-              "text": "This process is considerably ___ than the old one.",
-              "options": [
-                "faster",
-                "fastest",
-                "fast",
-                "more fastest"
-              ],
-              "answer": "faster",
-              "explanation": "Than requires a comparative form."
-            },
-            {
-              "id": "g11_3",
-              "type": "mcq",
-              "text": "Of the three options, C is the ___ reliable.",
-              "options": [
-                "most",
-                "more",
-                "much",
-                "as"
-              ],
-              "answer": "most",
-              "explanation": "Use superlative for three or more items."
-            },
-            {
-              "id": "g11_4",
-              "type": "mcq",
-              "text": "Option A is not ___ flexible as Option B.",
-              "options": [
-                "as",
-                "than",
-                "more",
-                "most"
-              ],
-              "answer": "as",
-              "explanation": "Not as ... as expresses inequality."
-            },
-            {
-              "id": "g11_5",
-              "type": "input",
-              "text": "Rewrite: “B is cheaper than A.” using “expensive”.",
-              "answers": [
-                "A is more expensive than B."
-              ],
-              "answer": "A is more expensive than B.",
-              "explanation": "The comparison can be reversed with the opposite adjective."
-            },
-            {
-              "id": "g11_6",
-              "type": "input",
-              "text": "Write a comparison using “whereas”.",
-              "answers": [
-                "The first model is cheaper, whereas the second is more reliable."
-              ],
-              "answer": "The first model is cheaper, whereas the second is more reliable.",
-              "explanation": "Whereas contrasts two facts in one sentence."
-            }
-          ]
-        },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v11_1",
-              "word": "slightly",
-              "meaning": "biraz",
-              "example": "Model B is slightly lighter than Model A."
-            },
-            {
-              "id": "v11_2",
-              "word": "considerably",
-              "meaning": "önemli ölçüde",
-              "example": "The new process is considerably faster."
-            },
-            {
-              "id": "v11_3",
-              "word": "efficient",
-              "meaning": "verimli",
-              "example": "The revised algorithm is more efficient."
-            },
-            {
-              "id": "v11_4",
-              "word": "reliable",
-              "meaning": "güvenilir",
-              "example": "This sensor is more reliable in cold conditions."
-            },
-            {
-              "id": "v11_5",
-              "word": "superior",
-              "meaning": "üstün",
-              "example": "The new coating is superior to the old one."
-            },
-            {
-              "id": "v11_6",
-              "word": "equivalent",
-              "meaning": "eşdeğer",
-              "example": "The two solutions are roughly equivalent in cost."
-            },
-            {
-              "id": "v11_7",
-              "word": "whereas",
-              "meaning": "oysa / halbuki",
-              "example": "Option A is cheaper, whereas Option B is faster."
-            },
-            {
-              "id": "v11_8",
-              "word": "performance",
-              "meaning": "performans",
-              "example": "Overall performance improved after optimization."
-            }
-          ],
-          "sentenceWords": [
-            "considerably",
-            "equivalent"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Two Delivery Methods",
-          "passage": [
-            "A regional food company compared two delivery methods for small urban orders. Method A used large vans that could carry many packages at once. Method B used smaller electric vehicles with less capacity but greater flexibility in crowded streets.",
-            "The study found that the vans were more efficient for long suburban routes, whereas the electric vehicles were considerably faster in dense city centers. Fuel and maintenance costs were also lower for the electric vehicles, although their purchase price was higher. Neither method was superior in every situation. The company therefore created a mixed system: large vans now deliver to local hubs, and smaller vehicles complete the final stage of urban deliveries."
-          ],
-          "questions": [
-            {
-              "id": "r11_1",
-              "text": "Where were large vans more efficient?"
-            },
-            {
-              "id": "r11_2",
-              "text": "What advantage did the smaller vehicles have in city centers?"
-            },
-            {
-              "id": "r11_3",
-              "text": "Which option had the higher purchase price?"
-            },
-            {
-              "id": "r11_4",
-              "text": "Why did the company choose a mixed system?"
-            },
-            {
-              "id": "r11_5",
-              "text": "Write two comparison sentences based on the passage."
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 11 speaking bölümüne geçelim: Comparatives, Superlatives & Modifiers. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day12",
-      "number": 12,
-      "title": "Cause, Effect & Problem–Solution Language",
-      "shortTitle": "Cause & Effect",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Reading • Writing • Test",
-      "objective": "Explain causes, consequences and solutions clearly.",
-      "level": "B1+ → B2",
-      "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
-          "questions": [
-            {
-              "id": "g12_1",
-              "type": "mcq",
-              "text": "The test was repeated ___ the first result was incomplete.",
-              "options": [
-                "because",
-                "therefore",
-                "despite",
-                "however"
-              ],
-              "answer": "because",
-              "explanation": "Because introduces a cause."
-            },
-            {
-              "id": "g12_2",
-              "type": "mcq",
-              "text": "The first result was incomplete; ___, the test was repeated.",
-              "options": [
-                "therefore",
-                "although",
-                "due to",
-                "whereas"
-              ],
-              "answer": "therefore",
-              "explanation": "Therefore introduces a consequence."
-            },
-            {
-              "id": "g12_3",
-              "type": "mcq",
-              "text": "The delay was ___ a shortage of materials.",
-              "options": [
-                "due to",
-                "because",
-                "therefore",
-                "although"
-              ],
-              "answer": "due to",
-              "explanation": "Due to is followed by a noun phrase."
-            },
-            {
-              "id": "g12_4",
-              "type": "mcq",
-              "text": "Poor ventilation can ___ overheating.",
-              "options": [
-                "result in",
-                "result from only",
-                "prevent from",
-                "cause of"
-              ],
-              "answer": "result in",
-              "explanation": "Result in + outcome."
-            },
-            {
-              "id": "g12_5",
-              "type": "input",
-              "text": "Combine: “The cable was damaged. The signal was unstable.” using “because”.",
-              "answers": [
-                "The signal was unstable because the cable was damaged."
-              ],
-              "answer": "The signal was unstable because the cable was damaged.",
-              "explanation": "Because links effect to cause."
-            },
-            {
-              "id": "g12_6",
-              "type": "input",
-              "text": "Write one solution sentence using “prevent”.",
-              "answers": [
-                "Regular maintenance can prevent unexpected failures."
-              ],
-              "answer": "Regular maintenance can prevent unexpected failures.",
-              "explanation": "Prevent + noun phrase describes stopping an unwanted result."
-            }
-          ]
-        },
-        "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
-            {
-              "id": "v12_1",
-              "word": "consequence",
-              "meaning": "sonuç",
-              "example": "One consequence of the delay was higher cost."
-            },
-            {
-              "id": "v12_2",
-              "word": "therefore",
-              "meaning": "bu nedenle",
-              "example": "The data was incomplete; therefore, the test was repeated."
-            },
-            {
-              "id": "v12_3",
-              "word": "due to",
-              "meaning": "nedeniyle",
-              "example": "The flight was delayed due to heavy rain."
-            },
-            {
-              "id": "v12_4",
-              "word": "result in",
-              "meaning": "ile sonuçlanmak",
-              "example": "Poor ventilation can result in overheating."
-            },
-            {
-              "id": "v12_5",
-              "word": "prevent",
-              "meaning": "önlemek",
-              "example": "Regular checks prevent unexpected failures."
-            },
-            {
-              "id": "v12_6",
-              "word": "mitigate",
-              "meaning": "azaltmak / hafifletmek",
-              "example": "The new policy may mitigate the risk."
-            },
-            {
-              "id": "v12_7",
-              "word": "contribute to",
-              "meaning": "katkıda bulunmak",
-              "example": "Several factors contributed to the problem."
-            },
-            {
-              "id": "v12_8",
-              "word": "solution",
-              "meaning": "çözüm",
-              "example": "The simplest solution was to replace the adapter."
-            }
-          ],
-          "sentenceWords": [
-            "therefore",
-            "mitigate"
-          ]
-        },
-        "reading": {
-          "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Reducing Food Waste in a Cafeteria",
-          "passage": [
-            "A university cafeteria noticed that a large amount of prepared food was being thrown away every evening. The management initially assumed that portions were too large. However, a short investigation showed that the main problem was inaccurate demand forecasting. On some days, the kitchen prepared hundreds of meals that students did not choose.",
-            "To address the issue, the cafeteria began recording sales by day, menu type, and time. The kitchen then adjusted production according to recent patterns. It also offered smaller portions with the option of a free second serving. As a result, food waste fell by nearly one third within two months. The changes did not eliminate waste completely, but they reduced costs and provided better information for future planning."
-          ],
-          "questions": [
-            {
-              "id": "r12_1",
-              "text": "What did management first think caused the waste?"
-            },
-            {
-              "id": "r12_2",
-              "text": "What was the main cause according to the investigation?"
-            },
-            {
-              "id": "r12_3",
-              "text": "What two solutions were introduced?"
-            },
-            {
-              "id": "r12_4",
-              "text": "What was the result after two months?"
-            },
-            {
-              "id": "r12_5",
-              "text": "Explain the cause-and-effect chain in two English sentences."
-            }
-          ]
-        },
-        "speaking": {
-          "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 12 speaking bölümüne geçelim: Cause, Effect & Problem–Solution Language. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
-        }
-      }
-    },
-    {
-      "id": "day13",
-      "number": 13,
-      "title": "Modal Verbs: Obligation, Advice & Probability",
-      "shortTitle": "Modal Verbs",
-      "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Speaking",
-      "objective": "Use modals to express rules, recommendations and probability.",
-      "level": "B1+ → B2",
-      "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
-          "questions": [
-            {
-              "id": "g13_1",
-              "type": "mcq",
-              "text": "Employees ___ wear eye protection in this area; it is mandatory.",
+              "id": "d7g1",
+              "text": "You ___ submit the form by Friday; it is mandatory.",
               "options": [
                 "must",
                 "might",
                 "could",
                 "would"
               ],
-              "answer": "must",
-              "explanation": "Must expresses strong obligation."
+              "correct": 0,
+              "explanation": "‘Must’ güçlü zorunluluk bildirir.",
+              "translation": "Formu cumaya kadar teslim etmelisin; bu zorunlu."
             },
             {
-              "id": "g13_2",
-              "type": "mcq",
-              "text": "You ___ back up the file before updating the software.",
+              "id": "d7g2",
+              "text": "___ I use your phone for a moment?",
               "options": [
-                "should",
-                "mustn’t",
-                "can’t possibly",
-                "would have"
+                "Must",
+                "May",
+                "Should",
+                "Need"
               ],
-              "answer": "should",
-              "explanation": "Should gives advice/recommendation."
+              "correct": 1,
+              "explanation": "Kibar izin istemede ‘may’ kullanılabilir.",
+              "translation": "Telefonunu bir an kullanabilir miyim?"
             },
             {
-              "id": "g13_3",
-              "type": "mcq",
-              "text": "The package ___ arrive today, but the tracking information is uncertain.",
+              "id": "d7g3",
+              "text": "She ___ speak three languages when she was ten.",
               "options": [
+                "can",
+                "could",
+                "must",
+                "may"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte genel yetenek için ‘could’ kullanılır.",
+              "translation": "On yaşındayken üç dil konuşabiliyordu."
+            },
+            {
+              "id": "d7g4",
+              "text": "We ___ be able to finish today, but I'm not certain.",
+              "options": [
+                "must",
                 "might",
-                "must to",
-                "shouldn’t to",
-                "has"
+                "shouldn't",
+                "have to"
               ],
-              "answer": "might",
-              "explanation": "Might expresses possibility."
+              "correct": 1,
+              "explanation": "Belirsiz olasılık ‘might’ ile ifade edilir.",
+              "translation": "Bugün bitirebiliriz ama emin değilim."
             },
             {
-              "id": "g13_4",
-              "type": "mcq",
-              "text": "Visitors ___ enter this room without permission.",
+              "id": "d7g5",
+              "text": "Employees ___ wear protective glasses in this area.",
               "options": [
-                "must not",
-                "should to",
-                "might to",
-                "can to"
+                "have to",
+                "might",
+                "would",
+                "could"
               ],
-              "answer": "must not",
-              "explanation": "Must not expresses prohibition."
+              "correct": 0,
+              "explanation": "Dış kural/zorunluluk ‘have to’ ile ifade edilebilir.",
+              "translation": "Çalışanlar bu alanda koruyucu gözlük takmak zorundadır."
             },
             {
-              "id": "g13_5",
-              "type": "input",
-              "text": "Rewrite as advice: “It is a good idea to restart the router.”",
-              "answers": [
-                "You should restart the router."
+              "id": "d7g6",
+              "text": "You ___ smoke here; it is prohibited.",
+              "options": [
+                "don't have to",
+                "mustn't",
+                "couldn't",
+                "wouldn't"
               ],
-              "answer": "You should restart the router.",
-              "explanation": "Should is a common way to give advice."
+              "correct": 1,
+              "explanation": "‘Mustn’t’ yasak bildirir; ‘don’t have to’ zorunluluk yok demektir.",
+              "translation": "Burada sigara içmemelisin; yasaktır."
             },
             {
-              "id": "g13_6",
-              "type": "input",
-              "text": "Write a possibility sentence with “may”.",
-              "answers": [
-                "The delay may be caused by heavy traffic."
+              "id": "d7g7",
+              "text": "You ___ bring food; lunch is provided.",
+              "options": [
+                "mustn't",
+                "don't have to",
+                "can't",
+                "shouldn't"
               ],
-              "answer": "The delay may be caused by heavy traffic.",
-              "explanation": "May expresses possibility."
+              "correct": 1,
+              "explanation": "‘Don’t have to’ gereklilik olmadığını belirtir.",
+              "translation": "Yemek getirmen gerekmiyor; öğle yemeği sağlanıyor."
+            },
+            {
+              "id": "d7g8",
+              "text": "Drivers ___ stop at a red light.",
+              "options": [
+                "must",
+                "might",
+                "may",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Yasal ve güçlü zorunluluk için ‘must’ uygundur.",
+              "translation": "Sürücüler kırmızı ışıkta durmalıdır."
+            },
+            {
+              "id": "d7g9",
+              "text": "___ you help me carry this table?",
+              "options": [
+                "Could",
+                "Must",
+                "Need",
+                "Shall have"
+              ],
+              "correct": 0,
+              "explanation": "Kibar rica için ‘could you...?’ kullanılır.",
+              "translation": "Bu masayı taşımama yardım eder misin?"
+            },
+            {
+              "id": "d7g10",
+              "text": "Visitors ___ enter this room without authorization.",
+              "options": [
+                "can",
+                "must",
+                "mustn't",
+                "should"
+              ],
+              "correct": 2,
+              "explanation": "Yetkisiz giriş yasaktır; ‘mustn’t’ gerekir.",
+              "translation": "Ziyaretçiler izinsiz bu odaya girmemelidir."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v13_1",
-              "word": "mandatory",
-              "meaning": "zorunlu",
-              "example": "Safety glasses are mandatory in this area."
+              "en": "approach",
+              "tr": "yaklaşım"
             },
             {
-              "id": "v13_2",
-              "word": "recommended",
-              "meaning": "önerilen",
-              "example": "A weekly backup is recommended."
+              "en": "increase",
+              "tr": "artmak/artırmak"
             },
             {
-              "id": "v13_3",
-              "word": "prohibited",
-              "meaning": "yasak",
-              "example": "Photography is prohibited inside the laboratory."
+              "en": "available",
+              "tr": "mevcut"
             },
             {
-              "id": "v13_4",
-              "word": "likely",
-              "meaning": "muhtemel",
-              "example": "The delivery is likely to arrive tomorrow."
+              "en": "affect",
+              "tr": "etkilemek"
             },
             {
-              "id": "v13_5",
-              "word": "unlikely",
-              "meaning": "olası değil",
-              "example": "A complete shutdown is unlikely."
+              "en": "establish",
+              "tr": "kurmak"
             },
             {
-              "id": "v13_6",
-              "word": "requirement",
-              "meaning": "gereklilik",
-              "example": "Experience is not a strict requirement for the role."
-            },
-            {
-              "id": "v13_7",
-              "word": "permission",
-              "meaning": "izin",
-              "example": "Employees need permission to access the room."
-            },
-            {
-              "id": "v13_8",
-              "word": "precaution",
-              "meaning": "önlem",
-              "example": "Disconnecting the supply is an important precaution."
+              "en": "likely",
+              "tr": "muhtemel"
             }
-          ],
-          "sentenceWords": [
-            "recommended",
-            "requirement"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Rules in a Shared Laboratory",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 7 Reading",
           "passage": [
-            "A shared research laboratory is used by students from several departments. Because many people work with unfamiliar equipment, the laboratory has strict safety rules. Visitors must wear protective glasses in marked areas, and they must not operate specialized machines without training. Food and drinks are prohibited near the work benches.",
-            "Not every rule expresses the same level of obligation. Users should report minor damage as soon as possible, but they do not need to contact security unless there is an immediate risk. If a warning light appears, the equipment may need to be restarted, but users should first check the manual. A red alarm usually means that operation must stop immediately."
+            "Modern English proficiency requires more than memorizing isolated rules. In rules and permissions, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Modals I. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r13_1",
-              "text": "Which rule is mandatory in marked areas?"
+              "id": "d7read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r13_2",
-              "text": "What is prohibited near the work benches?"
+              "id": "d7read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r13_3",
-              "text": "When do users not need to contact security?"
-            },
-            {
-              "id": "r13_4",
-              "text": "What might a warning light mean?"
-            },
-            {
-              "id": "r13_5",
-              "text": "Find examples of obligation, advice and possibility in the text."
+              "id": "d7read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 13 speaking bölümüne geçelim: Modal Verbs: Obligation, Advice & Probability. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about rules and permissions. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Modals I."
+        }
+      }
+    },
+    {
+      "id": "day8",
+      "number": 8,
+      "status": "available",
+      "title": "Modals II",
+      "shortTitle": "Modals II",
+      "focus": "deduction, criticism, past modals",
+      "duration": "20–25 dk",
+      "context": "deduction and past criticism",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d8r1",
+              "text": "You ___ submit the form by Friday; it is mandatory.",
+              "options": [
+                "must",
+                "might",
+                "could",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Must’ güçlü zorunluluk bildirir.",
+              "translation": "Formu cumaya kadar teslim etmelisin; bu zorunlu."
+            },
+            {
+              "id": "d8r2",
+              "text": "___ I use your phone for a moment?",
+              "options": [
+                "Must",
+                "May",
+                "Should",
+                "Need"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Kibar izin istemede ‘may’ kullanılabilir.",
+              "translation": "Telefonunu bir an kullanabilir miyim?"
+            },
+            {
+              "id": "d8r3",
+              "text": "She ___ speak three languages when she was ten.",
+              "options": [
+                "can",
+                "could",
+                "must",
+                "may"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte genel yetenek için ‘could’ kullanılır.",
+              "translation": "On yaşındayken üç dil konuşabiliyordu."
+            },
+            {
+              "id": "d8r4",
+              "text": "We ___ be able to finish today, but I'm not certain.",
+              "options": [
+                "must",
+                "might",
+                "shouldn't",
+                "have to"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Belirsiz olasılık ‘might’ ile ifade edilir.",
+              "translation": "Bugün bitirebiliriz ama emin değilim."
+            },
+            {
+              "id": "d8r5",
+              "text": "Employees ___ wear protective glasses in this area.",
+              "options": [
+                "have to",
+                "might",
+                "would",
+                "could"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Dış kural/zorunluluk ‘have to’ ile ifade edilebilir.",
+              "translation": "Çalışanlar bu alanda koruyucu gözlük takmak zorundadır."
+            },
+            {
+              "id": "d8r6",
+              "text": "You ___ smoke here; it is prohibited.",
+              "options": [
+                "don't have to",
+                "mustn't",
+                "couldn't",
+                "wouldn't"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Mustn’t’ yasak bildirir; ‘don’t have to’ zorunluluk yok demektir.",
+              "translation": "Burada sigara içmemelisin; yasaktır."
+            },
+            {
+              "id": "d8r7",
+              "text": "You ___ bring food; lunch is provided.",
+              "options": [
+                "mustn't",
+                "don't have to",
+                "can't",
+                "shouldn't"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Don’t have to’ gereklilik olmadığını belirtir.",
+              "translation": "Yemek getirmen gerekmiyor; öğle yemeği sağlanıyor."
+            },
+            {
+              "id": "d8r8",
+              "text": "Drivers ___ stop at a red light.",
+              "options": [
+                "must",
+                "might",
+                "may",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Yasal ve güçlü zorunluluk için ‘must’ uygundur.",
+              "translation": "Sürücüler kırmızı ışıkta durmalıdır."
+            },
+            {
+              "id": "d8r9",
+              "text": "___ you help me carry this table?",
+              "options": [
+                "Could",
+                "Must",
+                "Need",
+                "Shall have"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Kibar rica için ‘could you...?’ kullanılır.",
+              "translation": "Bu masayı taşımama yardım eder misin?"
+            },
+            {
+              "id": "d8r10",
+              "text": "Visitors ___ enter this room without authorization.",
+              "options": [
+                "can",
+                "must",
+                "mustn't",
+                "should"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Yetkisiz giriş yasaktır; ‘mustn’t’ gerekir.",
+              "translation": "Ziyaretçiler izinsiz bu odaya girmemelidir."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Modals II",
+          "intro": "YDS odaklı konu: deduction, criticism, past modals. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d8g1",
+              "text": "The lights are off. They ___ have left already.",
+              "options": [
+                "must",
+                "can't",
+                "should",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Güçlü mantıksal çıkarım: must have + V3.",
+              "translation": "Işıklar kapalı. Çoktan gitmiş olmalılar."
+            },
+            {
+              "id": "d8g2",
+              "text": "He ___ have seen my message; his phone was off.",
+              "options": [
+                "must",
+                "can't",
+                "should",
+                "may"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte imkânsızlık çıkarımı ‘can’t have + V3’ ile yapılır.",
+              "translation": "Mesajımı görmüş olamaz; telefonu kapalıydı."
+            },
+            {
+              "id": "d8g3",
+              "text": "You ___ have told me earlier; I could have helped.",
+              "options": [
+                "should",
+                "must",
+                "can",
+                "need"
+              ],
+              "correct": 0,
+              "explanation": "Geçmişte yapılması daha doğru olacak eylem için ‘should have + V3’.",
+              "translation": "Bana daha önce söylemeliydin; yardım edebilirdim."
+            },
+            {
+              "id": "d8g4",
+              "text": "She ___ have taken the wrong train; I'm not sure.",
+              "options": [
+                "must",
+                "might",
+                "can't",
+                "would"
+              ],
+              "correct": 1,
+              "explanation": "Belirsiz geçmiş olasılık ‘might have + V3’ ile ifade edilir.",
+              "translation": "Yanlış trene binmiş olabilir; emin değilim."
+            },
+            {
+              "id": "d8g5",
+              "text": "They ___ have finished by now; they started very early.",
+              "options": [
+                "should",
+                "can't",
+                "needn't",
+                "wouldn't"
+              ],
+              "correct": 0,
+              "explanation": "Beklenen/olası sonuç için ‘should have + V3’ kullanılabilir.",
+              "translation": "Şimdiye kadar bitirmiş olmaları gerekir; çok erken başladılar."
+            },
+            {
+              "id": "d8g6",
+              "text": "You ___ have bought water; there was plenty here.",
+              "options": [
+                "mustn't",
+                "needn't",
+                "can't",
+                "should"
+              ],
+              "correct": 1,
+              "explanation": "Gereksiz yere yapılmış geçmiş eylem ‘needn’t have + V3’ ile anlatılır.",
+              "translation": "Su almana gerek yoktu; burada bolca vardı."
+            },
+            {
+              "id": "d8g7",
+              "text": "He looks exhausted. He ___ have slept well.",
+              "options": [
+                "must",
+                "can't",
+                "should",
+                "may"
+              ],
+              "correct": 1,
+              "explanation": "Mevcut kanıta göre geçmişte gerçekleşmemiş olasılık ‘can’t have’.",
+              "translation": "Bitkin görünüyor. İyi uyumuş olamaz."
+            },
+            {
+              "id": "d8g8",
+              "text": "The package ___ have arrived; I received a delivery notice.",
+              "options": [
+                "must",
+                "might",
+                "can't",
+                "needn't"
+              ],
+              "correct": 0,
+              "explanation": "Güçlü kanıta dayalı geçmiş çıkarım ‘must have’.",
+              "translation": "Paket gelmiş olmalı; teslimat bildirimi aldım."
+            },
+            {
+              "id": "d8g9",
+              "text": "I ___ have called you, but I lost your number.",
+              "options": [
+                "would",
+                "must",
+                "can",
+                "shall"
+              ],
+              "correct": 0,
+              "explanation": "Gerçekleşmeyen geçmiş niyet/sonuç için bağlama göre ‘would have’ kullanılır.",
+              "translation": "Seni arardım ama numaranı kaybettim."
+            },
+            {
+              "id": "d8g10",
+              "text": "She ___ have been at the meeting; I saw her there.",
+              "options": [
+                "might",
+                "must",
+                "can't",
+                "shouldn't"
+              ],
+              "correct": 1,
+              "explanation": "Doğrudan kanıtla güçlü geçmiş çıkarım: must have been.",
+              "translation": "Toplantıda olmalıydı/olmuş olmalı; onu orada gördüm."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "requirement",
+              "tr": "gereklilik"
+            },
+            {
+              "en": "indicate",
+              "tr": "göstermek"
+            },
+            {
+              "en": "prevent",
+              "tr": "önlemek"
+            },
+            {
+              "en": "benefit",
+              "tr": "fayda"
+            },
+            {
+              "en": "occur",
+              "tr": "meydana gelmek"
+            },
+            {
+              "en": "maintain",
+              "tr": "sürdürmek"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 8 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In deduction and past criticism, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Modals II. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d8read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d8read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d8read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about deduction and past criticism. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Modals II."
+        }
+      }
+    },
+    {
+      "id": "day9",
+      "number": 9,
+      "status": "available",
+      "title": "Passive Voice",
+      "shortTitle": "Passive Voice",
+      "focus": "tüm temel zamanlarda edilgen yapı",
+      "duration": "20–25 dk",
+      "context": "manufacturing procedures",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d9r1",
+              "text": "The lights are off. They ___ have left already.",
+              "options": [
+                "must",
+                "can't",
+                "should",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Güçlü mantıksal çıkarım: must have + V3.",
+              "translation": "Işıklar kapalı. Çoktan gitmiş olmalılar."
+            },
+            {
+              "id": "d9r2",
+              "text": "He ___ have seen my message; his phone was off.",
+              "options": [
+                "must",
+                "can't",
+                "should",
+                "may"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte imkânsızlık çıkarımı ‘can’t have + V3’ ile yapılır.",
+              "translation": "Mesajımı görmüş olamaz; telefonu kapalıydı."
+            },
+            {
+              "id": "d9r3",
+              "text": "You ___ have told me earlier; I could have helped.",
+              "options": [
+                "should",
+                "must",
+                "can",
+                "need"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Geçmişte yapılması daha doğru olacak eylem için ‘should have + V3’.",
+              "translation": "Bana daha önce söylemeliydin; yardım edebilirdim."
+            },
+            {
+              "id": "d9r4",
+              "text": "She ___ have taken the wrong train; I'm not sure.",
+              "options": [
+                "must",
+                "might",
+                "can't",
+                "would"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Belirsiz geçmiş olasılık ‘might have + V3’ ile ifade edilir.",
+              "translation": "Yanlış trene binmiş olabilir; emin değilim."
+            },
+            {
+              "id": "d9r5",
+              "text": "They ___ have finished by now; they started very early.",
+              "options": [
+                "should",
+                "can't",
+                "needn't",
+                "wouldn't"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Beklenen/olası sonuç için ‘should have + V3’ kullanılabilir.",
+              "translation": "Şimdiye kadar bitirmiş olmaları gerekir; çok erken başladılar."
+            },
+            {
+              "id": "d9r6",
+              "text": "You ___ have bought water; there was plenty here.",
+              "options": [
+                "mustn't",
+                "needn't",
+                "can't",
+                "should"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Gereksiz yere yapılmış geçmiş eylem ‘needn’t have + V3’ ile anlatılır.",
+              "translation": "Su almana gerek yoktu; burada bolca vardı."
+            },
+            {
+              "id": "d9r7",
+              "text": "He looks exhausted. He ___ have slept well.",
+              "options": [
+                "must",
+                "can't",
+                "should",
+                "may"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Mevcut kanıta göre geçmişte gerçekleşmemiş olasılık ‘can’t have’.",
+              "translation": "Bitkin görünüyor. İyi uyumuş olamaz."
+            },
+            {
+              "id": "d9r8",
+              "text": "The package ___ have arrived; I received a delivery notice.",
+              "options": [
+                "must",
+                "might",
+                "can't",
+                "needn't"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Güçlü kanıta dayalı geçmiş çıkarım ‘must have’.",
+              "translation": "Paket gelmiş olmalı; teslimat bildirimi aldım."
+            },
+            {
+              "id": "d9r9",
+              "text": "I ___ have called you, but I lost your number.",
+              "options": [
+                "would",
+                "must",
+                "can",
+                "shall"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Gerçekleşmeyen geçmiş niyet/sonuç için bağlama göre ‘would have’ kullanılır.",
+              "translation": "Seni arardım ama numaranı kaybettim."
+            },
+            {
+              "id": "d9r10",
+              "text": "She ___ have been at the meeting; I saw her there.",
+              "options": [
+                "might",
+                "must",
+                "can't",
+                "shouldn't"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Doğrudan kanıtla güçlü geçmiş çıkarım: must have been.",
+              "translation": "Toplantıda olmalıydı/olmuş olmalı; onu orada gördüm."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Passive Voice",
+          "intro": "YDS odaklı konu: tüm temel zamanlarda edilgen yapı. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d9g1",
+              "text": "The samples ___ in a controlled environment.",
+              "options": [
+                "store",
+                "are stored",
+                "stored",
+                "have storing"
+              ],
+              "correct": 1,
+              "explanation": "Genel prosedürde nesne edilgen özne olduğundan Present Simple Passive kullanılır.",
+              "translation": "Numuneler kontrollü bir ortamda saklanır."
+            },
+            {
+              "id": "d9g2",
+              "text": "The bridge ___ in 1998.",
+              "options": [
+                "built",
+                "was built",
+                "has built",
+                "is building"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte tamamlanan edilgen eylem: was/were + V3.",
+              "translation": "Köprü 1998’de inşa edildi."
+            },
+            {
+              "id": "d9g3",
+              "text": "A new policy ___ next month.",
+              "options": [
+                "will introduce",
+                "will be introduced",
+                "is introducing",
+                "introduced"
+              ],
+              "correct": 1,
+              "explanation": "Gelecek zamanda edilgen: will be + V3.",
+              "translation": "Gelecek ay yeni bir politika yürürlüğe konacak."
+            },
+            {
+              "id": "d9g4",
+              "text": "The results ___ yet.",
+              "options": [
+                "haven't announced",
+                "haven't been announced",
+                "weren't announce",
+                "don't announce"
+              ],
+              "correct": 1,
+              "explanation": "Present Perfect Passive: have/has been + V3.",
+              "translation": "Sonuçlar henüz açıklanmadı."
+            },
+            {
+              "id": "d9g5",
+              "text": "The machine ___ when the inspector arrived.",
+              "options": [
+                "was being repaired",
+                "repaired",
+                "has repaired",
+                "is repairing"
+              ],
+              "correct": 0,
+              "explanation": "Geçmişte o anda devam eden edilgen eylem: was/were being + V3.",
+              "translation": "Müfettiş geldiğinde makine tamir ediliyordu."
+            },
+            {
+              "id": "d9g6",
+              "text": "All applications must ___ online.",
+              "options": [
+                "submit",
+                "be submitted",
+                "submitted",
+                "be submitting"
+              ],
+              "correct": 1,
+              "explanation": "Modal passive: modal + be + V3.",
+              "translation": "Tüm başvurular çevrim içi gönderilmelidir."
+            },
+            {
+              "id": "d9g7",
+              "text": "The problem ___ before production resumed.",
+              "options": [
+                "had solved",
+                "had been solved",
+                "was solving",
+                "solves"
+              ],
+              "correct": 1,
+              "explanation": "Past Perfect Passive: had been + V3.",
+              "translation": "Üretim yeniden başlamadan önce sorun çözülmüştü."
+            },
+            {
+              "id": "d9g8",
+              "text": "English ___ in many countries.",
+              "options": [
+                "speaks",
+                "is spoken",
+                "has speaking",
+                "spoke"
+              ],
+              "correct": 1,
+              "explanation": "Dil insanlar tarafından konuşulur; passive gerekir.",
+              "translation": "İngilizce birçok ülkede konuşulur."
+            },
+            {
+              "id": "d9g9",
+              "text": "The report is expected ___ tomorrow.",
+              "options": [
+                "publish",
+                "to be published",
+                "publishing",
+                "published"
+              ],
+              "correct": 1,
+              "explanation": "Passive reporting + infinitive passive: to be + V3.",
+              "translation": "Raporun yarın yayımlanması bekleniyor."
+            },
+            {
+              "id": "d9g10",
+              "text": "The building ___ every year for safety.",
+              "options": [
+                "inspects",
+                "is inspected",
+                "was inspect",
+                "has inspecting"
+              ],
+              "correct": 1,
+              "explanation": "Düzenli prosedür Present Simple Passive ile anlatılır.",
+              "translation": "Bina güvenlik için her yıl denetlenir."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "evidence",
+              "tr": "kanıt"
+            },
+            {
+              "en": "significant",
+              "tr": "önemli"
+            },
+            {
+              "en": "assume",
+              "tr": "varsaymak"
+            },
+            {
+              "en": "outcome",
+              "tr": "sonuç"
+            },
+            {
+              "en": "relevant",
+              "tr": "ilgili"
+            },
+            {
+              "en": "ensure",
+              "tr": "sağlamak/garanti etmek"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 9 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In manufacturing procedures, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Passive Voice. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d9read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d9read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d9read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about manufacturing procedures. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Passive Voice."
+        }
+      }
+    },
+    {
+      "id": "day10",
+      "number": 10,
+      "status": "available",
+      "title": "Causative Structures",
+      "shortTitle": "Causative Structures",
+      "focus": "have/get something done, make/let/help",
+      "duration": "20–25 dk",
+      "context": "services and causative actions",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d10r1",
+              "text": "The samples ___ in a controlled environment.",
+              "options": [
+                "store",
+                "are stored",
+                "stored",
+                "have storing"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Genel prosedürde nesne edilgen özne olduğundan Present Simple Passive kullanılır.",
+              "translation": "Numuneler kontrollü bir ortamda saklanır."
+            },
+            {
+              "id": "d10r2",
+              "text": "The bridge ___ in 1998.",
+              "options": [
+                "built",
+                "was built",
+                "has built",
+                "is building"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte tamamlanan edilgen eylem: was/were + V3.",
+              "translation": "Köprü 1998’de inşa edildi."
+            },
+            {
+              "id": "d10r3",
+              "text": "A new policy ___ next month.",
+              "options": [
+                "will introduce",
+                "will be introduced",
+                "is introducing",
+                "introduced"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecek zamanda edilgen: will be + V3.",
+              "translation": "Gelecek ay yeni bir politika yürürlüğe konacak."
+            },
+            {
+              "id": "d10r4",
+              "text": "The results ___ yet.",
+              "options": [
+                "haven't announced",
+                "haven't been announced",
+                "weren't announce",
+                "don't announce"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Present Perfect Passive: have/has been + V3.",
+              "translation": "Sonuçlar henüz açıklanmadı."
+            },
+            {
+              "id": "d10r5",
+              "text": "The machine ___ when the inspector arrived.",
+              "options": [
+                "was being repaired",
+                "repaired",
+                "has repaired",
+                "is repairing"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Geçmişte o anda devam eden edilgen eylem: was/were being + V3.",
+              "translation": "Müfettiş geldiğinde makine tamir ediliyordu."
+            },
+            {
+              "id": "d10r6",
+              "text": "All applications must ___ online.",
+              "options": [
+                "submit",
+                "be submitted",
+                "submitted",
+                "be submitting"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Modal passive: modal + be + V3.",
+              "translation": "Tüm başvurular çevrim içi gönderilmelidir."
+            },
+            {
+              "id": "d10r7",
+              "text": "The problem ___ before production resumed.",
+              "options": [
+                "had solved",
+                "had been solved",
+                "was solving",
+                "solves"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Past Perfect Passive: had been + V3.",
+              "translation": "Üretim yeniden başlamadan önce sorun çözülmüştü."
+            },
+            {
+              "id": "d10r8",
+              "text": "English ___ in many countries.",
+              "options": [
+                "speaks",
+                "is spoken",
+                "has speaking",
+                "spoke"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Dil insanlar tarafından konuşulur; passive gerekir.",
+              "translation": "İngilizce birçok ülkede konuşulur."
+            },
+            {
+              "id": "d10r9",
+              "text": "The report is expected ___ tomorrow.",
+              "options": [
+                "publish",
+                "to be published",
+                "publishing",
+                "published"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Passive reporting + infinitive passive: to be + V3.",
+              "translation": "Raporun yarın yayımlanması bekleniyor."
+            },
+            {
+              "id": "d10r10",
+              "text": "The building ___ every year for safety.",
+              "options": [
+                "inspects",
+                "is inspected",
+                "was inspect",
+                "has inspecting"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Düzenli prosedür Present Simple Passive ile anlatılır.",
+              "translation": "Bina güvenlik için her yıl denetlenir."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Causative Structures",
+          "intro": "YDS odaklı konu: have/get something done, make/let/help. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d10g1",
+              "text": "I had my laptop ___ yesterday.",
+              "options": [
+                "repair",
+                "repaired",
+                "repairing",
+                "to repair"
+              ],
+              "correct": 1,
+              "explanation": "Have something done: have + object + V3.",
+              "translation": "Dün dizüstü bilgisayarımı tamir ettirdim."
+            },
+            {
+              "id": "d10g2",
+              "text": "She is going to get her hair ___.",
+              "options": [
+                "cut",
+                "to cut",
+                "cutting",
+                "cuts"
+              ],
+              "correct": 0,
+              "explanation": "Get something done: get + object + V3.",
+              "translation": "Saçını kestirecek."
+            },
+            {
+              "id": "d10g3",
+              "text": "The manager made us ___ the report.",
+              "options": [
+                "rewrite",
+                "to rewrite",
+                "rewritten",
+                "rewriting"
+              ],
+              "correct": 0,
+              "explanation": "Make + object + bare infinitive kullanılır.",
+              "translation": "Müdür raporu yeniden yazmamızı sağladı/zorladı."
+            },
+            {
+              "id": "d10g4",
+              "text": "They let the students ___ early.",
+              "options": [
+                "leave",
+                "to leave",
+                "leaving",
+                "left"
+              ],
+              "correct": 0,
+              "explanation": "Let + object + bare infinitive kullanılır.",
+              "translation": "Öğrencilerin erken çıkmasına izin verdiler."
+            },
+            {
+              "id": "d10g5",
+              "text": "I got the technician ___ the settings.",
+              "options": [
+                "check",
+                "to check",
+                "checked",
+                "checking"
+              ],
+              "correct": 1,
+              "explanation": "Get + person + to infinitive: birine bir iş yaptırmak.",
+              "translation": "Teknisyene ayarları kontrol ettirdim."
+            },
+            {
+              "id": "d10g6",
+              "text": "She had the assistant ___ the documents.",
+              "options": [
+                "copy",
+                "to copy",
+                "copied",
+                "copying"
+              ],
+              "correct": 0,
+              "explanation": "Have + person + bare infinitive kullanılabilir.",
+              "translation": "Asistana belgeleri kopyalattı."
+            },
+            {
+              "id": "d10g7",
+              "text": "We need to have the windows ___.",
+              "options": [
+                "clean",
+                "cleaned",
+                "cleaning",
+                "to clean"
+              ],
+              "correct": 1,
+              "explanation": "Have something done yapısında nesneden sonra V3 gelir.",
+              "translation": "Pencereleri temizletmemiz gerekiyor."
+            },
+            {
+              "id": "d10g8",
+              "text": "The coach helped the player ___ his technique.",
+              "options": [
+                "improve",
+                "improved",
+                "improving only",
+                "to improved"
+              ],
+              "correct": 0,
+              "explanation": "Help + object + bare infinitive veya to-infinitive mümkündür; burada ‘improve’ doğru.",
+              "translation": "Antrenör oyuncunun tekniğini geliştirmesine yardım etti."
+            },
+            {
+              "id": "d10g9",
+              "text": "The joke made everyone ___.",
+              "options": [
+                "laughed",
+                "laugh",
+                "to laugh",
+                "laughing"
+              ],
+              "correct": 1,
+              "explanation": "Make + object + bare infinitive.",
+              "translation": "Şaka herkesi güldürdü."
+            },
+            {
+              "id": "d10g10",
+              "text": "We got the printer ___ before the meeting.",
+              "options": [
+                "fix",
+                "fixed",
+                "to fix",
+                "fixing"
+              ],
+              "correct": 1,
+              "explanation": "Get something done: get + object + V3.",
+              "translation": "Toplantıdan önce yazıcıyı tamir ettirdik."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "evaluate",
+              "tr": "değerlendirmek"
+            },
+            {
+              "en": "approximately",
+              "tr": "yaklaşık olarak"
+            },
+            {
+              "en": "despite",
+              "tr": "rağmen"
+            },
+            {
+              "en": "consequently",
+              "tr": "sonuç olarak"
+            },
+            {
+              "en": "adequate",
+              "tr": "yeterli"
+            },
+            {
+              "en": "require",
+              "tr": "gerektirmek"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 10 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In services and causative actions, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Causative Structures. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d10read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d10read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d10read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about services and causative actions. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Causative Structures."
+        }
+      }
+    },
+    {
+      "id": "day11",
+      "number": 11,
+      "status": "available",
+      "title": "Conditionals",
+      "shortTitle": "Conditionals",
+      "focus": "zero, first, second, third ve mixed conditionals",
+      "duration": "20–25 dk",
+      "context": "decision scenarios",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d11r1",
+              "text": "I had my laptop ___ yesterday.",
+              "options": [
+                "repair",
+                "repaired",
+                "repairing",
+                "to repair"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Have something done: have + object + V3.",
+              "translation": "Dün dizüstü bilgisayarımı tamir ettirdim."
+            },
+            {
+              "id": "d11r2",
+              "text": "She is going to get her hair ___.",
+              "options": [
+                "cut",
+                "to cut",
+                "cutting",
+                "cuts"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Get something done: get + object + V3.",
+              "translation": "Saçını kestirecek."
+            },
+            {
+              "id": "d11r3",
+              "text": "The manager made us ___ the report.",
+              "options": [
+                "rewrite",
+                "to rewrite",
+                "rewritten",
+                "rewriting"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Make + object + bare infinitive kullanılır.",
+              "translation": "Müdür raporu yeniden yazmamızı sağladı/zorladı."
+            },
+            {
+              "id": "d11r4",
+              "text": "They let the students ___ early.",
+              "options": [
+                "leave",
+                "to leave",
+                "leaving",
+                "left"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Let + object + bare infinitive kullanılır.",
+              "translation": "Öğrencilerin erken çıkmasına izin verdiler."
+            },
+            {
+              "id": "d11r5",
+              "text": "I got the technician ___ the settings.",
+              "options": [
+                "check",
+                "to check",
+                "checked",
+                "checking"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Get + person + to infinitive: birine bir iş yaptırmak.",
+              "translation": "Teknisyene ayarları kontrol ettirdim."
+            },
+            {
+              "id": "d11r6",
+              "text": "She had the assistant ___ the documents.",
+              "options": [
+                "copy",
+                "to copy",
+                "copied",
+                "copying"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Have + person + bare infinitive kullanılabilir.",
+              "translation": "Asistana belgeleri kopyalattı."
+            },
+            {
+              "id": "d11r7",
+              "text": "We need to have the windows ___.",
+              "options": [
+                "clean",
+                "cleaned",
+                "cleaning",
+                "to clean"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Have something done yapısında nesneden sonra V3 gelir.",
+              "translation": "Pencereleri temizletmemiz gerekiyor."
+            },
+            {
+              "id": "d11r8",
+              "text": "The coach helped the player ___ his technique.",
+              "options": [
+                "improve",
+                "improved",
+                "improving only",
+                "to improved"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Help + object + bare infinitive veya to-infinitive mümkündür; burada ‘improve’ doğru.",
+              "translation": "Antrenör oyuncunun tekniğini geliştirmesine yardım etti."
+            },
+            {
+              "id": "d11r9",
+              "text": "The joke made everyone ___.",
+              "options": [
+                "laughed",
+                "laugh",
+                "to laugh",
+                "laughing"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Make + object + bare infinitive.",
+              "translation": "Şaka herkesi güldürdü."
+            },
+            {
+              "id": "d11r10",
+              "text": "We got the printer ___ before the meeting.",
+              "options": [
+                "fix",
+                "fixed",
+                "to fix",
+                "fixing"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Get something done: get + object + V3.",
+              "translation": "Toplantıdan önce yazıcıyı tamir ettirdik."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Conditionals",
+          "intro": "YDS odaklı konu: zero, first, second, third ve mixed conditionals. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d11g1",
+              "text": "If you heat ice, it ___.",
+              "options": [
+                "melts",
+                "will melt",
+                "would melt",
+                "melted"
+              ],
+              "correct": 0,
+              "explanation": "Zero Conditional genel gerçek: if + Present, Present.",
+              "translation": "Buzu ısıtırsan erir."
+            },
+            {
+              "id": "d11g2",
+              "text": "If it rains tomorrow, we ___ inside.",
+              "options": [
+                "stay",
+                "will stay",
+                "would stay",
+                "stayed"
+              ],
+              "correct": 1,
+              "explanation": "First Conditional gerçek olası gelecek: if + Present, will + V1.",
+              "translation": "Yarın yağmur yağarsa içeride kalacağız."
+            },
+            {
+              "id": "d11g3",
+              "text": "If I had more time, I ___ another language.",
+              "options": [
+                "learn",
+                "will learn",
+                "would learn",
+                "would have learned"
+              ],
+              "correct": 2,
+              "explanation": "Second Conditional: gerçek dışı/az olası şimdi-gelecek.",
+              "translation": "Daha fazla zamanım olsaydı başka bir dil öğrenirdim."
+            },
+            {
+              "id": "d11g4",
+              "text": "If they had left earlier, they ___ the train.",
+              "options": [
+                "catch",
+                "would catch",
+                "would have caught",
+                "will catch"
+              ],
+              "correct": 2,
+              "explanation": "Third Conditional: geçmişte gerçekleşmemiş koşul ve sonuç.",
+              "translation": "Daha erken çıksalardı treni yakalarlardı."
+            },
+            {
+              "id": "d11g5",
+              "text": "If I were you, I ___ the offer carefully.",
+              "options": [
+                "consider",
+                "will consider",
+                "would consider",
+                "considered"
+              ],
+              "correct": 2,
+              "explanation": "Tavsiye için Second Conditional kalıbı ‘If I were you...’.",
+              "translation": "Senin yerinde olsam teklifi dikkatle değerlendirirdim."
+            },
+            {
+              "id": "d11g6",
+              "text": "Unless you hurry, you ___ late.",
+              "options": [
+                "are",
+                "will be",
+                "would be",
+                "were"
+              ],
+              "correct": 1,
+              "explanation": "Unless = if not; gerçek gelecek koşulunda will kullanılır.",
+              "translation": "Acele etmezsen geç kalacaksın."
+            },
+            {
+              "id": "d11g7",
+              "text": "If she ___ the warning, the accident might have been avoided.",
+              "options": [
+                "heeded",
+                "had heeded",
+                "heeds",
+                "would heed"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte gerçekleşmemiş koşul: if + Past Perfect.",
+              "translation": "Uyarıyı dikkate alsaydı kaza önlenebilirdi."
+            },
+            {
+              "id": "d11g8",
+              "text": "If the system were more reliable, we ___ fewer interruptions now.",
+              "options": [
+                "have",
+                "would have",
+                "would have had",
+                "will have"
+              ],
+              "correct": 1,
+              "explanation": "Şimdiki varsayımsal sonuç için would + V1.",
+              "translation": "Sistem daha güvenilir olsaydı şimdi daha az kesintimiz olurdu."
+            },
+            {
+              "id": "d11g9",
+              "text": "Had I known, I ___ differently.",
+              "options": [
+                "act",
+                "would act",
+                "would have acted",
+                "will act"
+              ],
+              "correct": 2,
+              "explanation": "Inverted third conditional: Had I known = If I had known.",
+              "translation": "Bilseydim farklı davranırdım."
+            },
+            {
+              "id": "d11g10",
+              "text": "If he had accepted the job, he ___ in Berlin now.",
+              "options": [
+                "lives",
+                "would live",
+                "would have lived",
+                "will live"
+              ],
+              "correct": 1,
+              "explanation": "Mixed conditional: geçmiş koşulun şimdiki sonucu.",
+              "translation": "İşi kabul etseydi şimdi Berlin’de yaşıyor olurdu."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "reliable",
+              "tr": "güvenilir"
+            },
+            {
+              "en": "conduct",
+              "tr": "yürütmek"
+            },
+            {
+              "en": "feature",
+              "tr": "özellik"
+            },
+            {
+              "en": "decline",
+              "tr": "azalmak"
+            },
+            {
+              "en": "obtain",
+              "tr": "elde etmek"
+            },
+            {
+              "en": "issue",
+              "tr": "konu/sorun"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 11 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In decision scenarios, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Conditionals. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d11read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d11read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d11read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about decision scenarios. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Conditionals."
+        }
+      }
+    },
+    {
+      "id": "day12",
+      "number": 12,
+      "status": "available",
+      "title": "Wish / If Only / Would Rather",
+      "shortTitle": "Wish / If Only / Would Rather",
+      "focus": "gerçek dışı dilekler ve tercihler",
+      "duration": "20–25 dk",
+      "context": "preferences and regrets",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d12r1",
+              "text": "If you heat ice, it ___.",
+              "options": [
+                "melts",
+                "will melt",
+                "would melt",
+                "melted"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Zero Conditional genel gerçek: if + Present, Present.",
+              "translation": "Buzu ısıtırsan erir."
+            },
+            {
+              "id": "d12r2",
+              "text": "If it rains tomorrow, we ___ inside.",
+              "options": [
+                "stay",
+                "will stay",
+                "would stay",
+                "stayed"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: First Conditional gerçek olası gelecek: if + Present, will + V1.",
+              "translation": "Yarın yağmur yağarsa içeride kalacağız."
+            },
+            {
+              "id": "d12r3",
+              "text": "If I had more time, I ___ another language.",
+              "options": [
+                "learn",
+                "will learn",
+                "would learn",
+                "would have learned"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Second Conditional: gerçek dışı/az olası şimdi-gelecek.",
+              "translation": "Daha fazla zamanım olsaydı başka bir dil öğrenirdim."
+            },
+            {
+              "id": "d12r4",
+              "text": "If they had left earlier, they ___ the train.",
+              "options": [
+                "catch",
+                "would catch",
+                "would have caught",
+                "will catch"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Third Conditional: geçmişte gerçekleşmemiş koşul ve sonuç.",
+              "translation": "Daha erken çıksalardı treni yakalarlardı."
+            },
+            {
+              "id": "d12r5",
+              "text": "If I were you, I ___ the offer carefully.",
+              "options": [
+                "consider",
+                "will consider",
+                "would consider",
+                "considered"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Tavsiye için Second Conditional kalıbı ‘If I were you...’.",
+              "translation": "Senin yerinde olsam teklifi dikkatle değerlendirirdim."
+            },
+            {
+              "id": "d12r6",
+              "text": "Unless you hurry, you ___ late.",
+              "options": [
+                "are",
+                "will be",
+                "would be",
+                "were"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Unless = if not; gerçek gelecek koşulunda will kullanılır.",
+              "translation": "Acele etmezsen geç kalacaksın."
+            },
+            {
+              "id": "d12r7",
+              "text": "If she ___ the warning, the accident might have been avoided.",
+              "options": [
+                "heeded",
+                "had heeded",
+                "heeds",
+                "would heed"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte gerçekleşmemiş koşul: if + Past Perfect.",
+              "translation": "Uyarıyı dikkate alsaydı kaza önlenebilirdi."
+            },
+            {
+              "id": "d12r8",
+              "text": "If the system were more reliable, we ___ fewer interruptions now.",
+              "options": [
+                "have",
+                "would have",
+                "would have had",
+                "will have"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Şimdiki varsayımsal sonuç için would + V1.",
+              "translation": "Sistem daha güvenilir olsaydı şimdi daha az kesintimiz olurdu."
+            },
+            {
+              "id": "d12r9",
+              "text": "Had I known, I ___ differently.",
+              "options": [
+                "act",
+                "would act",
+                "would have acted",
+                "will act"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Inverted third conditional: Had I known = If I had known.",
+              "translation": "Bilseydim farklı davranırdım."
+            },
+            {
+              "id": "d12r10",
+              "text": "If he had accepted the job, he ___ in Berlin now.",
+              "options": [
+                "lives",
+                "would live",
+                "would have lived",
+                "will live"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Mixed conditional: geçmiş koşulun şimdiki sonucu.",
+              "translation": "İşi kabul etseydi şimdi Berlin’de yaşıyor olurdu."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Wish / If Only / Would Rather",
+          "intro": "YDS odaklı konu: gerçek dışı dilekler ve tercihler. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d12g1",
+              "text": "I wish I ___ more free time.",
+              "options": [
+                "have",
+                "had",
+                "will have",
+                "had had"
+              ],
+              "correct": 1,
+              "explanation": "Şimdiki gerçek dışı dilek: wish + Past Simple.",
+              "translation": "Keşke daha fazla boş zamanım olsa."
+            },
+            {
+              "id": "d12g2",
+              "text": "She wishes she ___ the opportunity last year.",
+              "options": [
+                "takes",
+                "had taken",
+                "would take",
+                "has taken"
+              ],
+              "correct": 1,
+              "explanation": "Geçmiş pişmanlık: wish + Past Perfect.",
+              "translation": "Geçen yıl fırsatı değerlendirmiş olmayı diliyor."
+            },
+            {
+              "id": "d12g3",
+              "text": "If only it ___ raining.",
+              "options": [
+                "stops",
+                "would stop",
+                "had stopped yesterday only",
+                "will stop"
+              ],
+              "correct": 1,
+              "explanation": "Rahatsız edici durumun değişmesini isteme: if only + would.",
+              "translation": "Keşke yağmur dursa."
+            },
+            {
+              "id": "d12g4",
+              "text": "I'd rather you ___ me before coming.",
+              "options": [
+                "call",
+                "called",
+                "will call",
+                "have called"
+              ],
+              "correct": 1,
+              "explanation": "Would rather + subject + Past Simple: şimdi/gelecek için tercih.",
+              "translation": "Gelmeden önce beni aramanı tercih ederim."
+            },
+            {
+              "id": "d12g5",
+              "text": "He'd rather ___ at home tonight.",
+              "options": [
+                "stay",
+                "stayed",
+                "to stay",
+                "staying"
+              ],
+              "correct": 0,
+              "explanation": "Aynı özneyle would rather + bare infinitive.",
+              "translation": "Bu gece evde kalmayı tercih eder."
+            },
+            {
+              "id": "d12g6",
+              "text": "I wish I ___ speak French fluently.",
+              "options": [
+                "can",
+                "could",
+                "will",
+                "must"
+              ],
+              "correct": 1,
+              "explanation": "Şimdiki yetenek dileği: wish + could.",
+              "translation": "Keşke akıcı Fransızca konuşabilsem."
+            },
+            {
+              "id": "d12g7",
+              "text": "If only we ___ the map before leaving.",
+              "options": [
+                "check",
+                "had checked",
+                "would check",
+                "have checked"
+              ],
+              "correct": 1,
+              "explanation": "Geçmişte yapılmamış eylem için if only + Past Perfect.",
+              "translation": "Keşke çıkmadan önce haritayı kontrol etseydik."
+            },
+            {
+              "id": "d12g8",
+              "text": "I'd rather not ___ the issue now.",
+              "options": [
+                "discuss",
+                "discussed",
+                "to discuss",
+                "discussing"
+              ],
+              "correct": 0,
+              "explanation": "Would rather + bare infinitive; olumsuz ‘rather not + V1’.",
+              "translation": "Konuyu şimdi tartışmamayı tercih ederim."
+            },
+            {
+              "id": "d12g9",
+              "text": "She wishes her neighbors ___ so much noise.",
+              "options": [
+                "don't make",
+                "wouldn't make",
+                "hadn't made ever",
+                "won't making"
+              ],
+              "correct": 1,
+              "explanation": "Başkasının rahatsız edici davranışının değişmesi için wish + would.",
+              "translation": "Komşularının bu kadar gürültü yapmamasını diliyor."
+            },
+            {
+              "id": "d12g10",
+              "text": "I wish I ___ that email yesterday.",
+              "options": [
+                "didn't send",
+                "hadn't sent",
+                "wouldn't send",
+                "don't send"
+              ],
+              "correct": 1,
+              "explanation": "Geçmiş pişmanlık için Past Perfect.",
+              "translation": "Keşke dün o e-postayı göndermeseydim."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "approach",
+              "tr": "yaklaşım"
+            },
+            {
+              "en": "increase",
+              "tr": "artmak/artırmak"
+            },
+            {
+              "en": "available",
+              "tr": "mevcut"
+            },
+            {
+              "en": "affect",
+              "tr": "etkilemek"
+            },
+            {
+              "en": "establish",
+              "tr": "kurmak"
+            },
+            {
+              "en": "likely",
+              "tr": "muhtemel"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 12 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In preferences and regrets, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Wish / If Only / Would Rather. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d12read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d12read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d12read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about preferences and regrets. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Wish / If Only / Would Rather."
+        }
+      }
+    },
+    {
+      "id": "day13",
+      "number": 13,
+      "status": "available",
+      "title": "Relative Clauses",
+      "shortTitle": "Relative Clauses",
+      "focus": "defining/non-defining, reduced relatives",
+      "duration": "20–25 dk",
+      "context": "people and objects",
+      "sections": {
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
+          "questions": [
+            {
+              "id": "d13r1",
+              "text": "I wish I ___ more free time.",
+              "options": [
+                "have",
+                "had",
+                "will have",
+                "had had"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Şimdiki gerçek dışı dilek: wish + Past Simple.",
+              "translation": "Keşke daha fazla boş zamanım olsa."
+            },
+            {
+              "id": "d13r2",
+              "text": "She wishes she ___ the opportunity last year.",
+              "options": [
+                "takes",
+                "had taken",
+                "would take",
+                "has taken"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmiş pişmanlık: wish + Past Perfect.",
+              "translation": "Geçen yıl fırsatı değerlendirmiş olmayı diliyor."
+            },
+            {
+              "id": "d13r3",
+              "text": "If only it ___ raining.",
+              "options": [
+                "stops",
+                "would stop",
+                "had stopped yesterday only",
+                "will stop"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Rahatsız edici durumun değişmesini isteme: if only + would.",
+              "translation": "Keşke yağmur dursa."
+            },
+            {
+              "id": "d13r4",
+              "text": "I'd rather you ___ me before coming.",
+              "options": [
+                "call",
+                "called",
+                "will call",
+                "have called"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Would rather + subject + Past Simple: şimdi/gelecek için tercih.",
+              "translation": "Gelmeden önce beni aramanı tercih ederim."
+            },
+            {
+              "id": "d13r5",
+              "text": "He'd rather ___ at home tonight.",
+              "options": [
+                "stay",
+                "stayed",
+                "to stay",
+                "staying"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Aynı özneyle would rather + bare infinitive.",
+              "translation": "Bu gece evde kalmayı tercih eder."
+            },
+            {
+              "id": "d13r6",
+              "text": "I wish I ___ speak French fluently.",
+              "options": [
+                "can",
+                "could",
+                "will",
+                "must"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Şimdiki yetenek dileği: wish + could.",
+              "translation": "Keşke akıcı Fransızca konuşabilsem."
+            },
+            {
+              "id": "d13r7",
+              "text": "If only we ___ the map before leaving.",
+              "options": [
+                "check",
+                "had checked",
+                "would check",
+                "have checked"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmişte yapılmamış eylem için if only + Past Perfect.",
+              "translation": "Keşke çıkmadan önce haritayı kontrol etseydik."
+            },
+            {
+              "id": "d13r8",
+              "text": "I'd rather not ___ the issue now.",
+              "options": [
+                "discuss",
+                "discussed",
+                "to discuss",
+                "discussing"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Would rather + bare infinitive; olumsuz ‘rather not + V1’.",
+              "translation": "Konuyu şimdi tartışmamayı tercih ederim."
+            },
+            {
+              "id": "d13r9",
+              "text": "She wishes her neighbors ___ so much noise.",
+              "options": [
+                "don't make",
+                "wouldn't make",
+                "hadn't made ever",
+                "won't making"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Başkasının rahatsız edici davranışının değişmesi için wish + would.",
+              "translation": "Komşularının bu kadar gürültü yapmamasını diliyor."
+            },
+            {
+              "id": "d13r10",
+              "text": "I wish I ___ that email yesterday.",
+              "options": [
+                "didn't send",
+                "hadn't sent",
+                "wouldn't send",
+                "don't send"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmiş pişmanlık için Past Perfect.",
+              "translation": "Keşke dün o e-postayı göndermeseydim."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Relative Clauses",
+          "intro": "YDS odaklı konu: defining/non-defining, reduced relatives. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d13g1",
+              "text": "The book ___ you lent me was fascinating.",
+              "options": [
+                "who",
+                "that",
+                "where",
+                "whose"
+              ],
+              "correct": 1,
+              "explanation": "Nesne/şey için defining relative clause’da ‘that/which’ kullanılabilir.",
+              "translation": "Bana ödünç verdiğin kitap büyüleyiciydi."
+            },
+            {
+              "id": "d13g2",
+              "text": "The scientist ___ won the award works here.",
+              "options": [
+                "which",
+                "who",
+                "where",
+                "whose"
+              ],
+              "correct": 1,
+              "explanation": "İnsan özne için ‘who’.",
+              "translation": "Ödülü kazanan bilim insanı burada çalışıyor."
+            },
+            {
+              "id": "d13g3",
+              "text": "The company, ___ was founded in 1990, now operates globally.",
+              "options": [
+                "that",
+                "which",
+                "where",
+                "what"
+              ],
+              "correct": 1,
+              "explanation": "Non-defining relative clause’da virgülden sonra ‘which’; ‘that’ kullanılmaz.",
+              "translation": "1990’da kurulan şirket artık küresel olarak faaliyet gösteriyor."
+            },
+            {
+              "id": "d13g4",
+              "text": "The woman ___ car was stolen called the police.",
+              "options": [
+                "who",
+                "whose",
+                "which",
+                "whom"
+              ],
+              "correct": 1,
+              "explanation": "Sahiplik için ‘whose’.",
+              "translation": "Arabası çalınan kadın polisi aradı."
+            },
+            {
+              "id": "d13g5",
+              "text": "This is the town ___ I grew up.",
+              "options": [
+                "which",
+                "where",
+                "who",
+                "whose"
+              ],
+              "correct": 1,
+              "explanation": "Yer bildiren relative adverb ‘where’.",
+              "translation": "Burası büyüdüğüm kasaba."
+            },
+            {
+              "id": "d13g6",
+              "text": "The person to ___ I spoke was very helpful.",
+              "options": [
+                "who",
+                "whom",
+                "which",
+                "whose"
+              ],
+              "correct": 1,
+              "explanation": "Preposition sonrası insan nesne için formal ‘whom’.",
+              "translation": "Konuştuğum kişi çok yardımcı oldu."
+            },
+            {
+              "id": "d13g7",
+              "text": "Students ___ late will not be admitted.",
+              "options": [
+                "arriving",
+                "arrived",
+                "who arriving",
+                "are arriving"
+              ],
+              "correct": 0,
+              "explanation": "Reduced relative: students who arrive/are arriving → students arriving.",
+              "translation": "Geç gelen öğrenciler içeri alınmayacak."
+            },
+            {
+              "id": "d13g8",
+              "text": "The documents ___ yesterday are on the desk.",
+              "options": [
+                "signing",
+                "signed",
+                "which signed",
+                "were signing"
+              ],
+              "correct": 1,
+              "explanation": "Passive reduced relative: documents that were signed → documents signed.",
+              "translation": "Dün imzalanan belgeler masada."
+            },
+            {
+              "id": "d13g9",
+              "text": "The reason ___ he resigned remains unclear.",
+              "options": [
+                "why",
+                "who",
+                "which person",
+                "whose"
+              ],
+              "correct": 0,
+              "explanation": "‘Reason’ ile relative adverb ‘why’ kullanılır.",
+              "translation": "İstifa etmesinin nedeni belirsizliğini koruyor."
+            },
+            {
+              "id": "d13g10",
+              "text": "The laptop ___ I bought last week is already faulty.",
+              "options": [
+                "who",
+                "which",
+                "where",
+                "whose"
+              ],
+              "correct": 1,
+              "explanation": "Şey/nesne için ‘which/that’.",
+              "translation": "Geçen hafta aldığım dizüstü bilgisayar şimdiden arızalı."
+            }
+          ]
+        },
+        "vocabulary": {
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
+            {
+              "en": "requirement",
+              "tr": "gereklilik"
+            },
+            {
+              "en": "indicate",
+              "tr": "göstermek"
+            },
+            {
+              "en": "prevent",
+              "tr": "önlemek"
+            },
+            {
+              "en": "benefit",
+              "tr": "fayda"
+            },
+            {
+              "en": "occur",
+              "tr": "meydana gelmek"
+            },
+            {
+              "en": "maintain",
+              "tr": "sürdürmek"
+            }
+          ]
+        },
+        "reading": {
+          "title": "Reading",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 13 Reading",
+          "passage": [
+            "Modern English proficiency requires more than memorizing isolated rules. In people and objects, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Relative Clauses. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
+          ],
+          "questions": [
+            {
+              "id": "d13read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
+            },
+            {
+              "id": "d13read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
+            },
+            {
+              "id": "d13read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
+            }
+          ]
+        },
+        "speaking": {
+          "title": "Speaking",
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about people and objects. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Relative Clauses."
         }
       }
     },
     {
       "id": "day14",
       "number": 14,
-      "title": "Week 2 Review",
-      "shortTitle": "Week 2 Review",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Review • Mixed Test",
-      "objective": "Consolidate Days 8–13 and recycle vocabulary.",
-      "level": "B1+ → B2",
+      "title": "Noun Clauses",
+      "shortTitle": "Noun Clauses",
+      "focus": "that, whether/if, wh-clauses",
+      "duration": "20–25 dk",
+      "context": "uncertainty and reported information",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g14_1",
-              "type": "mcq",
-              "text": "We ___ the report yet.",
+              "id": "d14r1",
+              "text": "The book ___ you lent me was fascinating.",
               "options": [
-                "haven’t received",
-                "didn’t receive yesterday",
-                "aren’t receive",
-                "haven’t receive"
+                "who",
+                "that",
+                "where",
+                "whose"
               ],
-              "answer": "haven’t received",
-              "explanation": "Yet commonly takes Present Perfect."
+              "correct": 1,
+              "explanation": "Tekrar notu: Nesne/şey için defining relative clause’da ‘that/which’ kullanılabilir.",
+              "translation": "Bana ödünç verdiğin kitap büyüleyiciydi."
             },
             {
-              "id": "g14_2",
-              "type": "mcq",
-              "text": "The new model is ___ more efficient than the old one.",
+              "id": "d14r2",
+              "text": "The scientist ___ won the award works here.",
               "options": [
-                "considerably",
-                "most",
-                "as",
-                "very much than"
+                "which",
+                "who",
+                "where",
+                "whose"
               ],
-              "answer": "considerably",
-              "explanation": "A modifier can strengthen a comparative."
+              "correct": 1,
+              "explanation": "Tekrar notu: İnsan özne için ‘who’.",
+              "translation": "Ödülü kazanan bilim insanı burada çalışıyor."
             },
             {
-              "id": "g14_3",
-              "type": "mcq",
-              "text": "Users ___ disconnect the power before maintenance.",
+              "id": "d14r3",
+              "text": "The company, ___ was founded in 1990, now operates globally.",
               "options": [
-                "must",
-                "might perhaps",
-                "would",
-                "used"
+                "that",
+                "which",
+                "where",
+                "what"
               ],
-              "answer": "must",
-              "explanation": "Strong obligation."
+              "correct": 1,
+              "explanation": "Tekrar notu: Non-defining relative clause’da virgülden sonra ‘which’; ‘that’ kullanılmaz.",
+              "translation": "1990’da kurulan şirket artık küresel olarak faaliyet gösteriyor."
             },
             {
-              "id": "g14_4",
-              "type": "mcq",
-              "text": "The failure occurred ___ a loose connector.",
+              "id": "d14r4",
+              "text": "The woman ___ car was stolen called the police.",
               "options": [
-                "due to",
-                "therefore",
-                "although",
-                "whereas"
+                "who",
+                "whose",
+                "which",
+                "whom"
               ],
-              "answer": "due to",
-              "explanation": "Due to + noun phrase expresses cause."
+              "correct": 1,
+              "explanation": "Tekrar notu: Sahiplik için ‘whose’.",
+              "translation": "Arabası çalınan kadın polisi aradı."
             },
             {
-              "id": "g14_5",
-              "type": "input",
-              "text": "Write a Present Perfect Continuous sentence with “for two hours”.",
-              "answers": [
-                "I have been working on the task for two hours."
+              "id": "d14r5",
+              "text": "This is the town ___ I grew up.",
+              "options": [
+                "which",
+                "where",
+                "who",
+                "whose"
               ],
-              "answer": "I have been working on the task for two hours.",
-              "explanation": "Use have/has been + -ing for duration."
+              "correct": 1,
+              "explanation": "Tekrar notu: Yer bildiren relative adverb ‘where’.",
+              "translation": "Burası büyüdüğüm kasaba."
             },
             {
-              "id": "g14_6",
-              "type": "input",
-              "text": "Write one sentence comparing two methods.",
-              "answers": [
-                "Method A is faster, whereas Method B is more accurate."
+              "id": "d14r6",
+              "text": "The person to ___ I spoke was very helpful.",
+              "options": [
+                "who",
+                "whom",
+                "which",
+                "whose"
               ],
-              "answer": "Method A is faster, whereas Method B is more accurate.",
-              "explanation": "A good comparison can include contrast language."
+              "correct": 1,
+              "explanation": "Tekrar notu: Preposition sonrası insan nesne için formal ‘whom’.",
+              "translation": "Konuştuğum kişi çok yardımcı oldu."
+            },
+            {
+              "id": "d14r7",
+              "text": "Students ___ late will not be admitted.",
+              "options": [
+                "arriving",
+                "arrived",
+                "who arriving",
+                "are arriving"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Reduced relative: students who arrive/are arriving → students arriving.",
+              "translation": "Geç gelen öğrenciler içeri alınmayacak."
+            },
+            {
+              "id": "d14r8",
+              "text": "The documents ___ yesterday are on the desk.",
+              "options": [
+                "signing",
+                "signed",
+                "which signed",
+                "were signing"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Passive reduced relative: documents that were signed → documents signed.",
+              "translation": "Dün imzalanan belgeler masada."
+            },
+            {
+              "id": "d14r9",
+              "text": "The reason ___ he resigned remains unclear.",
+              "options": [
+                "why",
+                "who",
+                "which person",
+                "whose"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Reason’ ile relative adverb ‘why’ kullanılır.",
+              "translation": "İstifa etmesinin nedeni belirsizliğini koruyor."
+            },
+            {
+              "id": "d14r10",
+              "text": "The laptop ___ I bought last week is already faulty.",
+              "options": [
+                "who",
+                "which",
+                "where",
+                "whose"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Şey/nesne için ‘which/that’.",
+              "translation": "Geçen hafta aldığım dizüstü bilgisayar şimdiden arızalı."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Noun Clauses",
+          "intro": "YDS odaklı konu: that, whether/if, wh-clauses. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d14g1",
+              "text": "I don't know ___ he will attend.",
+              "options": [
+                "that",
+                "whether",
+                "what",
+                "because"
+              ],
+              "correct": 1,
+              "explanation": "Evet/hayır belirsizliği noun clause’da ‘whether/if’ ile verilir.",
+              "translation": "Katılıp katılmayacağını bilmiyorum."
+            },
+            {
+              "id": "d14g2",
+              "text": "___ she said surprised everyone.",
+              "options": [
+                "What",
+                "Which",
+                "Where",
+                "Because"
+              ],
+              "correct": 0,
+              "explanation": "‘What she said’ tümüyle isim cümleciğidir ve özne olur.",
+              "translation": "Onun söylediği şey herkesi şaşırttı."
+            },
+            {
+              "id": "d14g3",
+              "text": "The fact ___ the project succeeded pleased the team.",
+              "options": [
+                "what",
+                "that",
+                "whether",
+                "where"
+              ],
+              "correct": 1,
+              "explanation": "‘The fact that...’ yapısında that-clause açıklama yapar.",
+              "translation": "Projenin başarılı olması ekibi sevindirdi."
+            },
+            {
+              "id": "d14g4",
+              "text": "Can you tell me ___ the station is?",
+              "options": [
+                "where",
+                "where is",
+                "that where",
+                "which"
+              ],
+              "correct": 0,
+              "explanation": "Indirect question’da normal cümle sırası kullanılır: where the station is.",
+              "translation": "İstasyonun nerede olduğunu söyleyebilir misin?"
+            },
+            {
+              "id": "d14g5",
+              "text": "It depends on ___ we receive enough funding.",
+              "options": [
+                "that",
+                "whether",
+                "what",
+                "which"
+              ],
+              "correct": 1,
+              "explanation": "Preposition sonrası belirsizlik için ‘whether’ kullanılır.",
+              "translation": "Yeterli finansman alıp almamamıza bağlı."
+            },
+            {
+              "id": "d14g6",
+              "text": "I wonder ___ caused the delay.",
+              "options": [
+                "what",
+                "that",
+                "whether did",
+                "where did"
+              ],
+              "correct": 0,
+              "explanation": "Bilinmeyen şey özne olduğunda ‘what caused...’ normal sıralamayla gelir.",
+              "translation": "Gecikmeye neyin sebep olduğunu merak ediyorum."
+            },
+            {
+              "id": "d14g7",
+              "text": "She explained ___ the system worked.",
+              "options": [
+                "how",
+                "how did",
+                "that how",
+                "which"
+              ],
+              "correct": 0,
+              "explanation": "Noun clause’da ‘how + subject + verb’ normal dizilim.",
+              "translation": "Sistemin nasıl çalıştığını açıkladı."
+            },
+            {
+              "id": "d14g8",
+              "text": "___ he will resign is still uncertain.",
+              "options": [
+                "Whether",
+                "If",
+                "That why",
+                "Because"
+              ],
+              "correct": 0,
+              "explanation": "Cümle başında özne noun clause için ‘whether’ tercih edilir; ‘if’ kullanılmaz.",
+              "translation": "İstifa edip etmeyeceği hâlâ belirsiz."
+            },
+            {
+              "id": "d14g9",
+              "text": "We are confident ___ the plan will succeed.",
+              "options": [
+                "that",
+                "what",
+                "whether not",
+                "where"
+              ],
+              "correct": 0,
+              "explanation": "Sıfat sonrasında içerik bildiren that-clause kullanılabilir.",
+              "translation": "Planın başarılı olacağından eminiz."
+            },
+            {
+              "id": "d14g10",
+              "text": "Nobody knows ___ decision they will make.",
+              "options": [
+                "what",
+                "which",
+                "that",
+                "whether"
+              ],
+              "correct": 1,
+              "explanation": "Sınırlı seçeneklerden hangisi anlamında ‘which decision’.",
+              "translation": "Hangi kararı vereceklerini kimse bilmiyor."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v14_1",
-              "word": "evaluate",
-              "meaning": "değerlendirmek",
-              "example": "Evaluate your mistakes before moving on."
+              "en": "evidence",
+              "tr": "kanıt"
             },
             {
-              "id": "v14_2",
-              "word": "pattern",
-              "meaning": "örüntü / kalıp",
-              "example": "Look for patterns in repeated errors."
+              "en": "significant",
+              "tr": "önemli"
             },
             {
-              "id": "v14_3",
-              "word": "master",
-              "meaning": "ustalaşmak",
-              "example": "It takes time to master complex structures."
+              "en": "assume",
+              "tr": "varsaymak"
             },
             {
-              "id": "v14_4",
-              "word": "weakness",
-              "meaning": "zayıf yön",
-              "example": "Turn each weakness into a review target."
+              "en": "outcome",
+              "tr": "sonuç"
             },
             {
-              "id": "v14_5",
-              "word": "strengthen",
-              "meaning": "güçlendirmek",
-              "example": "Short quizzes strengthen recall."
+              "en": "relevant",
+              "tr": "ilgili"
             },
             {
-              "id": "v14_6",
-              "word": "cumulative",
-              "meaning": "birikimli",
-              "example": "The exam includes cumulative review."
-            },
-            {
-              "id": "v14_7",
-              "word": "strategy",
-              "meaning": "strateji",
-              "example": "A good strategy saves time in long readings."
-            },
-            {
-              "id": "v14_8",
-              "word": "self-check",
-              "meaning": "öz kontrol",
-              "example": "Use the answer key only after a self-check."
+              "en": "ensure",
+              "tr": "sağlamak/garanti etmek"
             }
-          ],
-          "sentenceWords": [
-            "pattern",
-            "cumulative"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Why Review Should Be Difficult",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 14 Reading",
           "passage": [
-            "Many learners prefer review activities that feel easy because success is encouraging. However, a review that requires almost no effort may provide limited information about what a learner can actually recall. More demanding retrieval tasks reveal gaps that passive rereading often hides.",
-            "This does not mean that every exercise should be extremely difficult. If a task is consistently impossible, it can waste time and reduce motivation. Effective review sits between these extremes. It should require effort, but the learner should still be able to reach the answer with careful thought. Feedback is most useful after an honest attempt. In this way, mistakes become information rather than simply evidence of failure."
+            "Modern English proficiency requires more than memorizing isolated rules. In uncertainty and reported information, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Noun Clauses. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r14_1",
-              "text": "Why can very easy review be misleading?"
+              "id": "d14read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r14_2",
-              "text": "What problem can excessively difficult tasks cause?"
+              "id": "d14read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r14_3",
-              "text": "Where should effective review sit?"
-            },
-            {
-              "id": "r14_4",
-              "text": "When is feedback most useful?"
-            },
-            {
-              "id": "r14_5",
-              "text": "What does the writer mean by 'mistakes become information'?"
+              "id": "d14read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 14 speaking bölümüne geçelim: Week 2 Review. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about uncertainty and reported information. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Noun Clauses."
         }
       }
     },
     {
       "id": "day15",
       "number": 15,
-      "title": "Future Forms: will, going to & Present Continuous",
-      "shortTitle": "Future Forms",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Speaking",
-      "objective": "Choose future forms according to prediction, plan and arrangement.",
-      "level": "B1+ → B2",
+      "title": "Adverb Clauses",
+      "shortTitle": "Adverb Clauses",
+      "focus": "time, reason, purpose, contrast, condition",
+      "duration": "20–25 dk",
+      "context": "purpose and conditions",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g15_1",
-              "type": "mcq",
-              "text": "Look at those dark clouds. It ___ rain.",
+              "id": "d15r1",
+              "text": "I don't know ___ he will attend.",
               "options": [
-                "is going to",
-                "will yesterday",
-                "is rain",
-                "has rained tomorrow"
+                "that",
+                "whether",
+                "what",
+                "because"
               ],
-              "answer": "is going to",
-              "explanation": "Visible evidence supports going to."
+              "correct": 1,
+              "explanation": "Tekrar notu: Evet/hayır belirsizliği noun clause’da ‘whether/if’ ile verilir.",
+              "translation": "Katılıp katılmayacağını bilmiyorum."
             },
             {
-              "id": "g15_2",
-              "type": "mcq",
-              "text": "I think demand ___ increase next year.",
+              "id": "d15r2",
+              "text": "___ she said surprised everyone.",
               "options": [
-                "will",
-                "is increasing yesterday",
-                "has",
-                "did"
+                "What",
+                "Which",
+                "Where",
+                "Because"
               ],
-              "answer": "will",
-              "explanation": "Will is common for predictions/opinions."
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘What she said’ tümüyle isim cümleciğidir ve özne olur.",
+              "translation": "Onun söylediği şey herkesi şaşırttı."
             },
             {
-              "id": "g15_3",
-              "type": "mcq",
-              "text": "We ___ the supplier at 10 a.m. tomorrow; the meeting is already arranged.",
+              "id": "d15r3",
+              "text": "The fact ___ the project succeeded pleased the team.",
               "options": [
-                "are meeting",
-                "will met",
-                "meet yesterday",
-                "have meeting"
+                "what",
+                "that",
+                "whether",
+                "where"
               ],
-              "answer": "are meeting",
-              "explanation": "Present Continuous can describe fixed arrangements."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘The fact that...’ yapısında that-clause açıklama yapar.",
+              "translation": "Projenin başarılı olması ekibi sevindirdi."
             },
             {
-              "id": "g15_4",
-              "type": "mcq",
-              "text": "I forgot the file. I ___ send it now.",
+              "id": "d15r4",
+              "text": "Can you tell me ___ the station is?",
               "options": [
-                "will",
-                "am going yesterday",
-                "have",
-                "did"
+                "where",
+                "where is",
+                "that where",
+                "which"
               ],
-              "answer": "will",
-              "explanation": "Will can express a spontaneous decision."
+              "correct": 0,
+              "explanation": "Tekrar notu: Indirect question’da normal cümle sırası kullanılır: where the station is.",
+              "translation": "İstasyonun nerede olduğunu söyleyebilir misin?"
             },
             {
-              "id": "g15_5",
-              "type": "input",
-              "text": "Complete: They ___ (install) the equipment next Monday; everything is booked.",
-              "answers": [
-                "are installing"
+              "id": "d15r5",
+              "text": "It depends on ___ we receive enough funding.",
+              "options": [
+                "that",
+                "whether",
+                "what",
+                "which"
               ],
-              "answer": "are installing",
-              "explanation": "A fixed arrangement can use Present Continuous."
+              "correct": 1,
+              "explanation": "Tekrar notu: Preposition sonrası belirsizlik için ‘whether’ kullanılır.",
+              "translation": "Yeterli finansman alıp almamamıza bağlı."
             },
             {
-              "id": "g15_6",
-              "type": "input",
-              "text": "Write one prediction with “probably”.",
-              "answers": [
-                "The new version will probably be more stable."
+              "id": "d15r6",
+              "text": "I wonder ___ caused the delay.",
+              "options": [
+                "what",
+                "that",
+                "whether did",
+                "where did"
               ],
-              "answer": "The new version will probably be more stable.",
-              "explanation": "Probably often appears with will for predictions."
+              "correct": 0,
+              "explanation": "Tekrar notu: Bilinmeyen şey özne olduğunda ‘what caused...’ normal sıralamayla gelir.",
+              "translation": "Gecikmeye neyin sebep olduğunu merak ediyorum."
+            },
+            {
+              "id": "d15r7",
+              "text": "She explained ___ the system worked.",
+              "options": [
+                "how",
+                "how did",
+                "that how",
+                "which"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Noun clause’da ‘how + subject + verb’ normal dizilim.",
+              "translation": "Sistemin nasıl çalıştığını açıkladı."
+            },
+            {
+              "id": "d15r8",
+              "text": "___ he will resign is still uncertain.",
+              "options": [
+                "Whether",
+                "If",
+                "That why",
+                "Because"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Cümle başında özne noun clause için ‘whether’ tercih edilir; ‘if’ kullanılmaz.",
+              "translation": "İstifa edip etmeyeceği hâlâ belirsiz."
+            },
+            {
+              "id": "d15r9",
+              "text": "We are confident ___ the plan will succeed.",
+              "options": [
+                "that",
+                "what",
+                "whether not",
+                "where"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Sıfat sonrasında içerik bildiren that-clause kullanılabilir.",
+              "translation": "Planın başarılı olacağından eminiz."
+            },
+            {
+              "id": "d15r10",
+              "text": "Nobody knows ___ decision they will make.",
+              "options": [
+                "what",
+                "which",
+                "that",
+                "whether"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Sınırlı seçeneklerden hangisi anlamında ‘which decision’.",
+              "translation": "Hangi kararı vereceklerini kimse bilmiyor."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Adverb Clauses",
+          "intro": "YDS odaklı konu: time, reason, purpose, contrast, condition. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d15g1",
+              "text": "I'll call you ___ I arrive.",
+              "options": [
+                "as soon as",
+                "because of",
+                "despite",
+                "unless not"
+              ],
+              "correct": 0,
+              "explanation": "Zaman bağlacı ‘as soon as’ + clause kullanılır.",
+              "translation": "Varır varmaz seni arayacağım."
+            },
+            {
+              "id": "d15g2",
+              "text": "We canceled the picnic ___ it was raining heavily.",
+              "options": [
+                "because",
+                "despite",
+                "therefore",
+                "however"
+              ],
+              "correct": 0,
+              "explanation": "Neden bildiren clause öncesi ‘because’.",
+              "translation": "Şiddetli yağmur yağdığı için pikniği iptal ettik."
+            },
+            {
+              "id": "d15g3",
+              "text": "He whispered ___ nobody would hear him.",
+              "options": [
+                "so that",
+                "although",
+                "because of",
+                "unless"
+              ],
+              "correct": 0,
+              "explanation": "Amaç bildiren clause için ‘so that’.",
+              "translation": "Kimse duymasın diye fısıldadı."
+            },
+            {
+              "id": "d15g4",
+              "text": "___ she was tired, she continued working.",
+              "options": [
+                "Although",
+                "Because of",
+                "Therefore",
+                "In order to"
+              ],
+              "correct": 0,
+              "explanation": "Tam cümlecikler arasında zıtlık ‘although’ ile kurulur.",
+              "translation": "Yorgun olmasına rağmen çalışmaya devam etti."
+            },
+            {
+              "id": "d15g5",
+              "text": "Take an umbrella ___ it rains.",
+              "options": [
+                "in case",
+                "because",
+                "despite",
+                "so"
+              ],
+              "correct": 0,
+              "explanation": "Olası duruma karşı önlem ‘in case’ ile ifade edilir.",
+              "translation": "Yağmur yağması ihtimaline karşı şemsiye al."
+            },
+            {
+              "id": "d15g6",
+              "text": "We left early ___ avoid traffic.",
+              "options": [
+                "so that",
+                "in order to",
+                "although",
+                "because"
+              ],
+              "correct": 1,
+              "explanation": "Amaç + fiil için ‘in order to + V1’.",
+              "translation": "Trafikten kaçınmak için erken çıktık."
+            },
+            {
+              "id": "d15g7",
+              "text": "You can borrow the car ___ you drive carefully.",
+              "options": [
+                "provided that",
+                "despite",
+                "therefore",
+                "because of"
+              ],
+              "correct": 0,
+              "explanation": "Koşul bildiren formal bağlaç ‘provided that’.",
+              "translation": "Dikkatli sürmen şartıyla arabayı ödünç alabilirsin."
+            },
+            {
+              "id": "d15g8",
+              "text": "___ the meeting ended, everyone went home.",
+              "options": [
+                "Once",
+                "Despite",
+                "Because of",
+                "Whereas"
+              ],
+              "correct": 0,
+              "explanation": "Zaman ilişkisi ‘once + clause’ ile verilir.",
+              "translation": "Toplantı biter bitmez herkes eve gitti."
+            },
+            {
+              "id": "d15g9",
+              "text": "She took notes ___ she would remember the details.",
+              "options": [
+                "so that",
+                "despite",
+                "whereas",
+                "unless"
+              ],
+              "correct": 0,
+              "explanation": "Amaç/sonuç için ‘so that + subject + modal/verb’.",
+              "translation": "Ayrıntıları hatırlasın diye not aldı."
+            },
+            {
+              "id": "d15g10",
+              "text": "___ you have any questions, contact support.",
+              "options": [
+                "If",
+                "Despite",
+                "Therefore",
+                "As a result"
+              ],
+              "correct": 0,
+              "explanation": "Doğrudan koşul clause’u için ‘if’.",
+              "translation": "Herhangi bir sorunuz olursa destekle iletişime geçin."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v15_1",
-              "word": "forecast",
-              "meaning": "öngörmek / tahmin",
-              "example": "Analysts forecast moderate growth next year."
+              "en": "evaluate",
+              "tr": "değerlendirmek"
             },
             {
-              "id": "v15_2",
-              "word": "arrangement",
-              "meaning": "düzenleme / plan",
-              "example": "We have a travel arrangement for Monday."
+              "en": "approximately",
+              "tr": "yaklaşık olarak"
             },
             {
-              "id": "v15_3",
-              "word": "intend",
-              "meaning": "niyet etmek",
-              "example": "They intend to upgrade the network."
+              "en": "despite",
+              "tr": "rağmen"
             },
             {
-              "id": "v15_4",
-              "word": "expect",
-              "meaning": "beklemek",
-              "example": "We expect demand to increase."
+              "en": "consequently",
+              "tr": "sonuç olarak"
             },
             {
-              "id": "v15_5",
-              "word": "probably",
-              "meaning": "muhtemelen",
-              "example": "The repair will probably take an hour."
+              "en": "adequate",
+              "tr": "yeterli"
             },
             {
-              "id": "v15_6",
-              "word": "scheduled",
-              "meaning": "planlanmış",
-              "example": "The inspection is scheduled for Thursday."
-            },
-            {
-              "id": "v15_7",
-              "word": "decision",
-              "meaning": "karar",
-              "example": "It was a spontaneous decision."
-            },
-            {
-              "id": "v15_8",
-              "word": "prediction",
-              "meaning": "tahmin",
-              "example": "The prediction is based on recent data."
+              "en": "require",
+              "tr": "gerektirmek"
             }
-          ],
-          "sentenceWords": [
-            "arrangement",
-            "scheduled"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Planning a Public Event",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 15 Reading",
           "passage": [
-            "A science museum is preparing an outdoor event for next month. The organizers are going to install temporary exhibits in the main square, and several researchers are giving short demonstrations throughout the day. The weather forecast is uncertain, so the team has also reserved an indoor hall.",
-            "Most arrangements have already been confirmed. The catering company is arriving at 7 a.m., volunteers are meeting at 8 a.m., and the first session starts at 10. If heavy rain is forecast the evening before, the organizers will move the entire program indoors. They expect several hundred visitors, but they will not know the final number until the day of the event."
+            "Modern English proficiency requires more than memorizing isolated rules. In purpose and conditions, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Adverb Clauses. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r15_1",
-              "text": "What are the organizers going to install?"
+              "id": "d15read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r15_2",
-              "text": "Which arrangements use the Present Continuous for the future?"
+              "id": "d15read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r15_3",
-              "text": "What will happen if heavy rain is forecast?"
-            },
-            {
-              "id": "r15_4",
-              "text": "What prediction is still uncertain?"
-            },
-            {
-              "id": "r15_5",
-              "text": "Explain why different future forms are used in the passage."
+              "id": "d15read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 15 speaking bölümüne geçelim: Future Forms: will, going to & Present Continuous. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about purpose and conditions. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Adverb Clauses."
         }
       }
     },
     {
       "id": "day16",
       "number": 16,
-      "title": "Interview English: Background & Achievements",
-      "shortTitle": "Interview Intro",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Speaking • Vocabulary",
-      "objective": "Give a structured professional introduction with evidence.",
-      "level": "B1+ → B2",
+      "title": "Gerunds & Infinitives",
+      "shortTitle": "Gerunds & Infinitives",
+      "focus": "verb patterns ve anlam değişiklikleri",
+      "duration": "20–25 dk",
+      "context": "learning and work choices",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g16_1",
-              "type": "mcq",
-              "text": "In an interview, a strong achievement answer should include a specific ___.",
+              "id": "d16r1",
+              "text": "I'll call you ___ I arrive.",
               "options": [
-                "result",
-                "adjective only",
-                "greeting",
-                "question tag"
+                "as soon as",
+                "because of",
+                "despite",
+                "unless not"
               ],
-              "answer": "result",
-              "explanation": "Evidence makes an achievement concrete."
+              "correct": 0,
+              "explanation": "Tekrar notu: Zaman bağlacı ‘as soon as’ + clause kullanılır.",
+              "translation": "Varır varmaz seni arayacağım."
             },
             {
-              "id": "g16_2",
-              "type": "mcq",
-              "text": "“I was responsible ___ coordinating the testing schedule.”",
+              "id": "d16r2",
+              "text": "We canceled the picnic ___ it was raining heavily.",
               "options": [
-                "for",
-                "to",
-                "at",
-                "with"
+                "because",
+                "despite",
+                "therefore",
+                "however"
               ],
-              "answer": "for",
-              "explanation": "Responsible for is the correct collocation."
+              "correct": 0,
+              "explanation": "Tekrar notu: Neden bildiren clause öncesi ‘because’.",
+              "translation": "Şiddetli yağmur yağdığı için pikniği iptal ettik."
             },
             {
-              "id": "g16_3",
-              "type": "mcq",
-              "text": "“I contributed ___ the successful launch.”",
+              "id": "d16r3",
+              "text": "He whispered ___ nobody would hear him.",
               "options": [
-                "to",
-                "for",
-                "on",
-                "at"
+                "so that",
+                "although",
+                "because of",
+                "unless"
               ],
-              "answer": "to",
-              "explanation": "Contribute to is the correct collocation."
+              "correct": 0,
+              "explanation": "Tekrar notu: Amaç bildiren clause için ‘so that’.",
+              "translation": "Kimse duymasın diye fısıldadı."
             },
             {
-              "id": "g16_4",
-              "type": "mcq",
-              "text": "A STAR answer should focus mainly on what ___ did.",
+              "id": "d16r4",
+              "text": "___ she was tired, she continued working.",
               "options": [
-                "you",
-                "the weather",
-                "everyone generally",
-                "the interviewer"
+                "Although",
+                "Because of",
+                "Therefore",
+                "In order to"
               ],
-              "answer": "you",
-              "explanation": "The action section should emphasize your contribution."
+              "correct": 0,
+              "explanation": "Tekrar notu: Tam cümlecikler arasında zıtlık ‘although’ ile kurulur.",
+              "translation": "Yorgun olmasına rağmen çalışmaya devam etti."
             },
             {
-              "id": "g16_5",
-              "type": "input",
-              "text": "Complete professionally: “One of my main responsibilities is ___.”",
-              "answers": [
-                "One of my main responsibilities is coordinating technical projects."
+              "id": "d16r5",
+              "text": "Take an umbrella ___ it rains.",
+              "options": [
+                "in case",
+                "because",
+                "despite",
+                "so"
               ],
-              "answer": "One of my main responsibilities is coordinating technical projects.",
-              "explanation": "Use a gerund phrase after is when describing a responsibility."
+              "correct": 0,
+              "explanation": "Tekrar notu: Olası duruma karşı önlem ‘in case’ ile ifade edilir.",
+              "translation": "Yağmur yağması ihtimaline karşı şemsiye al."
             },
             {
-              "id": "g16_6",
-              "type": "input",
-              "text": "Write one achievement sentence containing a measurable result.",
-              "answers": [
-                "I improved the process and reduced average response time by 20%."
+              "id": "d16r6",
+              "text": "We left early ___ avoid traffic.",
+              "options": [
+                "so that",
+                "in order to",
+                "although",
+                "because"
               ],
-              "answer": "I improved the process and reduced average response time by 20%.",
-              "explanation": "Measurable results strengthen professional examples."
+              "correct": 1,
+              "explanation": "Tekrar notu: Amaç + fiil için ‘in order to + V1’.",
+              "translation": "Trafikten kaçınmak için erken çıktık."
+            },
+            {
+              "id": "d16r7",
+              "text": "You can borrow the car ___ you drive carefully.",
+              "options": [
+                "provided that",
+                "despite",
+                "therefore",
+                "because of"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Koşul bildiren formal bağlaç ‘provided that’.",
+              "translation": "Dikkatli sürmen şartıyla arabayı ödünç alabilirsin."
+            },
+            {
+              "id": "d16r8",
+              "text": "___ the meeting ended, everyone went home.",
+              "options": [
+                "Once",
+                "Despite",
+                "Because of",
+                "Whereas"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Zaman ilişkisi ‘once + clause’ ile verilir.",
+              "translation": "Toplantı biter bitmez herkes eve gitti."
+            },
+            {
+              "id": "d16r9",
+              "text": "She took notes ___ she would remember the details.",
+              "options": [
+                "so that",
+                "despite",
+                "whereas",
+                "unless"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Amaç/sonuç için ‘so that + subject + modal/verb’.",
+              "translation": "Ayrıntıları hatırlasın diye not aldı."
+            },
+            {
+              "id": "d16r10",
+              "text": "___ you have any questions, contact support.",
+              "options": [
+                "If",
+                "Despite",
+                "Therefore",
+                "As a result"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Doğrudan koşul clause’u için ‘if’.",
+              "translation": "Herhangi bir sorunuz olursa destekle iletişime geçin."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Gerunds & Infinitives",
+          "intro": "YDS odaklı konu: verb patterns ve anlam değişiklikleri. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d16g1",
+              "text": "I enjoy ___ historical documentaries.",
+              "options": [
+                "watch",
+                "watching",
+                "to watched",
+                "watched"
+              ],
+              "correct": 1,
+              "explanation": "Enjoy + gerund (-ing).",
+              "translation": "Tarih belgeselleri izlemekten hoşlanırım."
+            },
+            {
+              "id": "d16g2",
+              "text": "They decided ___ the launch.",
+              "options": [
+                "delay",
+                "delaying",
+                "to delay",
+                "delayed"
+              ],
+              "correct": 2,
+              "explanation": "Decide + to-infinitive.",
+              "translation": "Lansmanı ertelemeye karar verdiler."
+            },
+            {
+              "id": "d16g3",
+              "text": "He avoided ___ the question.",
+              "options": [
+                "answer",
+                "to answer",
+                "answering",
+                "answered"
+              ],
+              "correct": 2,
+              "explanation": "Avoid + gerund.",
+              "translation": "Soruyu cevaplamaktan kaçındı."
+            },
+            {
+              "id": "d16g4",
+              "text": "Remember ___ the door before you leave.",
+              "options": [
+                "locking",
+                "to lock",
+                "locked",
+                "lock to"
+              ],
+              "correct": 1,
+              "explanation": "Gelecekte yapılacak şeyi hatırlamak: remember to + V1.",
+              "translation": "Çıkmadan önce kapıyı kilitlemeyi unutma."
+            },
+            {
+              "id": "d16g5",
+              "text": "I remember ___ that building as a child.",
+              "options": [
+                "visit",
+                "to visit",
+                "visiting",
+                "visited"
+              ],
+              "correct": 2,
+              "explanation": "Geçmişteki anıyı hatırlamak: remember + gerund.",
+              "translation": "Çocukken o binayı ziyaret ettiğimi hatırlıyorum."
+            },
+            {
+              "id": "d16g6",
+              "text": "She stopped ___ coffee because it affected her sleep.",
+              "options": [
+                "drink",
+                "to drink",
+                "drinking",
+                "drank"
+              ],
+              "correct": 2,
+              "explanation": "Bir alışkanlığı bırakmak: stop + gerund.",
+              "translation": "Uykusunu etkilediği için kahve içmeyi bıraktı."
+            },
+            {
+              "id": "d16g7",
+              "text": "She stopped ___ some coffee on the way.",
+              "options": [
+                "buying",
+                "to buy",
+                "bought",
+                "buy"
+              ],
+              "correct": 1,
+              "explanation": "Başka bir işi yapmak için durmak: stop to + V1.",
+              "translation": "Yolda biraz kahve almak için durdu."
+            },
+            {
+              "id": "d16g8",
+              "text": "We hope ___ the contract soon.",
+              "options": [
+                "signing",
+                "to sign",
+                "sign",
+                "signed"
+              ],
+              "correct": 1,
+              "explanation": "Hope + to-infinitive.",
+              "translation": "Sözleşmeyi yakında imzalamayı umuyoruz."
+            },
+            {
+              "id": "d16g9",
+              "text": "He suggested ___ a short break.",
+              "options": [
+                "take",
+                "to take",
+                "taking",
+                "taken"
+              ],
+              "correct": 2,
+              "explanation": "Suggest + gerund.",
+              "translation": "Kısa bir mola vermeyi önerdi."
+            },
+            {
+              "id": "d16g10",
+              "text": "I regret ___ you that your application was unsuccessful.",
+              "options": [
+                "informing",
+                "to inform",
+                "inform",
+                "informed"
+              ],
+              "correct": 1,
+              "explanation": "Resmî kötü haberi şimdi vermek: regret to inform.",
+              "translation": "Başvurunuzun başarısız olduğunu bildirmekten üzgünüm."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v16_1",
-              "word": "responsibility",
-              "meaning": "sorumluluk",
-              "example": "My main responsibility is coordinating inspections."
+              "en": "reliable",
+              "tr": "güvenilir"
             },
             {
-              "id": "v16_2",
-              "word": "achievement",
-              "meaning": "başarı",
-              "example": "One achievement was reducing response time."
+              "en": "conduct",
+              "tr": "yürütmek"
             },
             {
-              "id": "v16_3",
-              "word": "contribute",
-              "meaning": "katkıda bulunmak",
-              "example": "I contributed to a cross-functional project."
+              "en": "feature",
+              "tr": "özellik"
             },
             {
-              "id": "v16_4",
-              "word": "strength",
-              "meaning": "güçlü yön",
-              "example": "Problem solving is one of her strengths."
+              "en": "decline",
+              "tr": "azalmak"
             },
             {
-              "id": "v16_5",
-              "word": "challenge",
-              "meaning": "zorluk",
-              "example": "The biggest challenge was a tight deadline."
+              "en": "obtain",
+              "tr": "elde etmek"
             },
             {
-              "id": "v16_6",
-              "word": "collaborate",
-              "meaning": "iş birliği yapmak",
-              "example": "I collaborated with teams in three countries."
-            },
-            {
-              "id": "v16_7",
-              "word": "implement",
-              "meaning": "uygulamak",
-              "example": "We implemented a simpler reporting process."
-            },
-            {
-              "id": "v16_8",
-              "word": "outcome",
-              "meaning": "sonuç",
-              "example": "The outcome was a measurable reduction in errors."
+              "en": "issue",
+              "tr": "konu/sorun"
             }
-          ],
-          "sentenceWords": [
-            "achievement",
-            "collaborate"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "A Strong Interview Answer",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 16 Reading",
           "passage": [
-            "Interviewers often ask candidates to describe a difficult situation they have handled. A weak answer may contain general claims such as 'I work well under pressure.' A stronger answer gives a specific example and explains the candidate's actions and the result.",
-            "One useful structure is Situation, Task, Action, Result. First, briefly describe the context. Next, explain what you were responsible for. Then focus on what you personally did, even if other people were involved. Finally, describe the outcome and, when possible, include a measurable result. The goal is not to tell a long story. A concise, well-structured example usually demonstrates a skill more effectively than several unsupported statements."
+            "Modern English proficiency requires more than memorizing isolated rules. In learning and work choices, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Gerunds & Infinitives. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r16_1",
-              "text": "Why is a general claim often weaker than a specific example?"
+              "id": "d16read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r16_2",
-              "text": "What does STAR stand for?"
+              "id": "d16read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r16_3",
-              "text": "Which part should focus on what the candidate personally did?"
-            },
-            {
-              "id": "r16_4",
-              "text": "Why is a measurable result useful?"
-            },
-            {
-              "id": "r16_5",
-              "text": "Create a two-sentence mini answer using the structure."
+              "id": "d16read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 16 speaking bölümüne geçelim: Interview English: Background & Achievements. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about learning and work choices. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Gerunds & Infinitives."
         }
       }
     },
     {
       "id": "day17",
       "number": 17,
-      "title": "Relative Clauses",
-      "shortTitle": "Relative Clauses",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Reading",
-      "objective": "Add essential and non-essential information efficiently.",
-      "level": "B1+ → B2",
+      "title": "Participles & Reduced Clauses",
+      "shortTitle": "Participles & Reduced Clauses",
+      "focus": "-ing/-ed participles ve kısaltılmış yapılar",
+      "duration": "20–25 dk",
+      "context": "academic descriptions",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g17_1",
-              "type": "mcq",
-              "text": "The engineer ___ designed the system joined the meeting.",
+              "id": "d17r1",
+              "text": "I enjoy ___ historical documentaries.",
               "options": [
-                "who",
-                "which",
-                "where",
-                "whose is"
+                "watch",
+                "watching",
+                "to watched",
+                "watched"
               ],
-              "answer": "who",
-              "explanation": "Who refers to people."
+              "correct": 1,
+              "explanation": "Tekrar notu: Enjoy + gerund (-ing).",
+              "translation": "Tarih belgeselleri izlemekten hoşlanırım."
             },
             {
-              "id": "g17_2",
-              "type": "mcq",
-              "text": "The device, ___ was installed last month, is working well.",
+              "id": "d17r2",
+              "text": "They decided ___ the launch.",
               "options": [
-                "which",
-                "who",
-                "where",
-                "what"
+                "delay",
+                "delaying",
+                "to delay",
+                "delayed"
               ],
-              "answer": "which",
-              "explanation": "Which introduces a non-defining clause about a thing."
+              "correct": 2,
+              "explanation": "Tekrar notu: Decide + to-infinitive.",
+              "translation": "Lansmanı ertelemeye karar verdiler."
             },
             {
-              "id": "g17_3",
-              "type": "mcq",
-              "text": "This is the room ___ the samples are stored.",
+              "id": "d17r3",
+              "text": "He avoided ___ the question.",
               "options": [
-                "where",
-                "who",
-                "whose",
-                "which person"
+                "answer",
+                "to answer",
+                "answering",
+                "answered"
               ],
-              "answer": "where",
-              "explanation": "Where refers to places."
+              "correct": 2,
+              "explanation": "Tekrar notu: Avoid + gerund.",
+              "translation": "Soruyu cevaplamaktan kaçındı."
             },
             {
-              "id": "g17_4",
-              "type": "mcq",
-              "text": "We contacted the supplier ___ products had failed the test.",
+              "id": "d17r4",
+              "text": "Remember ___ the door before you leave.",
               "options": [
-                "whose",
-                "who is",
-                "where",
-                "which is"
+                "locking",
+                "to lock",
+                "locked",
+                "lock to"
               ],
-              "answer": "whose",
-              "explanation": "Whose shows possession."
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecekte yapılacak şeyi hatırlamak: remember to + V1.",
+              "translation": "Çıkmadan önce kapıyı kilitlemeyi unutma."
             },
             {
-              "id": "g17_5",
-              "type": "input",
-              "text": "Combine: “The sensor is very accurate. It was developed in Sweden.”",
-              "answers": [
-                "The sensor, which was developed in Sweden, is very accurate."
+              "id": "d17r5",
+              "text": "I remember ___ that building as a child.",
+              "options": [
+                "visit",
+                "to visit",
+                "visiting",
+                "visited"
               ],
-              "answer": "The sensor, which was developed in Sweden, is very accurate.",
-              "explanation": "Non-defining clauses add extra information."
+              "correct": 2,
+              "explanation": "Tekrar notu: Geçmişteki anıyı hatırlamak: remember + gerund.",
+              "translation": "Çocukken o binayı ziyaret ettiğimi hatırlıyorum."
             },
             {
-              "id": "g17_6",
-              "type": "input",
-              "text": "Write a defining relative clause about a tool you use.",
-              "answers": [
-                "The software that we use for reporting is cloud-based."
+              "id": "d17r6",
+              "text": "She stopped ___ coffee because it affected her sleep.",
+              "options": [
+                "drink",
+                "to drink",
+                "drinking",
+                "drank"
               ],
-              "answer": "The software that we use for reporting is cloud-based.",
-              "explanation": "Defining clauses identify which person or thing is meant."
+              "correct": 2,
+              "explanation": "Tekrar notu: Bir alışkanlığı bırakmak: stop + gerund.",
+              "translation": "Uykusunu etkilediği için kahve içmeyi bıraktı."
+            },
+            {
+              "id": "d17r7",
+              "text": "She stopped ___ some coffee on the way.",
+              "options": [
+                "buying",
+                "to buy",
+                "bought",
+                "buy"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Başka bir işi yapmak için durmak: stop to + V1.",
+              "translation": "Yolda biraz kahve almak için durdu."
+            },
+            {
+              "id": "d17r8",
+              "text": "We hope ___ the contract soon.",
+              "options": [
+                "signing",
+                "to sign",
+                "sign",
+                "signed"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Hope + to-infinitive.",
+              "translation": "Sözleşmeyi yakında imzalamayı umuyoruz."
+            },
+            {
+              "id": "d17r9",
+              "text": "He suggested ___ a short break.",
+              "options": [
+                "take",
+                "to take",
+                "taking",
+                "taken"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Suggest + gerund.",
+              "translation": "Kısa bir mola vermeyi önerdi."
+            },
+            {
+              "id": "d17r10",
+              "text": "I regret ___ you that your application was unsuccessful.",
+              "options": [
+                "informing",
+                "to inform",
+                "inform",
+                "informed"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Resmî kötü haberi şimdi vermek: regret to inform.",
+              "translation": "Başvurunuzun başarısız olduğunu bildirmekten üzgünüm."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Participles & Reduced Clauses",
+          "intro": "YDS odaklı konu: -ing/-ed participles ve kısaltılmış yapılar. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d17g1",
+              "text": "___ by the noise, the baby woke up.",
+              "options": [
+                "Frightening",
+                "Frightened",
+                "To frighten",
+                "Frighten"
+              ],
+              "correct": 1,
+              "explanation": "Özne gürültüden etkilendi; past participle ‘frightened’.",
+              "translation": "Gürültüden korkan bebek uyandı."
+            },
+            {
+              "id": "d17g2",
+              "text": "___ down the street, I saw an old friend.",
+              "options": [
+                "Walking",
+                "Walked",
+                "Having walk",
+                "To walked"
+              ],
+              "correct": 0,
+              "explanation": "Aynı öznenin eşzamanlı aktif eylemi -ing participle ile kısaltılır.",
+              "translation": "Sokakta yürürken eski bir arkadaşımı gördüm."
+            },
+            {
+              "id": "d17g3",
+              "text": "The documents ___ on the table need signatures.",
+              "options": [
+                "lying",
+                "lain",
+                "lie",
+                "to lying"
+              ],
+              "correct": 0,
+              "explanation": "Aktif devam eden konum: documents that are lying → documents lying.",
+              "translation": "Masada duran belgelerin imzalanması gerekiyor."
+            },
+            {
+              "id": "d17g4",
+              "text": "___ the report, she emailed it to the manager.",
+              "options": [
+                "Finishing",
+                "Having finished",
+                "Finished by",
+                "To finishing"
+              ],
+              "correct": 1,
+              "explanation": "Önce tamamlanan eylem ‘having + V3’ ile vurgulanır.",
+              "translation": "Raporu bitirdikten sonra müdüre e-posta attı."
+            },
+            {
+              "id": "d17g5",
+              "text": "The products ___ in this factory are exported.",
+              "options": [
+                "manufacturing",
+                "manufactured",
+                "manufacture",
+                "to manufacture"
+              ],
+              "correct": 1,
+              "explanation": "Passive reduced clause: products that are manufactured → products manufactured.",
+              "translation": "Bu fabrikada üretilen ürünler ihraç edilir."
+            },
+            {
+              "id": "d17g6",
+              "text": "___ no alternative, we accepted the proposal.",
+              "options": [
+                "Having",
+                "Had",
+                "Have",
+                "To had"
+              ],
+              "correct": 0,
+              "explanation": "‘Having no alternative’ neden/koşul bildiren participle clause.",
+              "translation": "Başka seçeneğimiz olmadığı için teklifi kabul ettik."
+            },
+            {
+              "id": "d17g7",
+              "text": "The man ___ near the entrance is our guide.",
+              "options": [
+                "standing",
+                "stood",
+                "is stand",
+                "to stood"
+              ],
+              "correct": 0,
+              "explanation": "Aktif reduced relative: man who is standing → man standing.",
+              "translation": "Girişin yanında duran adam rehberimiz."
+            },
+            {
+              "id": "d17g8",
+              "text": "___ carefully, the device can last for years.",
+              "options": [
+                "Using",
+                "Used",
+                "Having use",
+                "Use"
+              ],
+              "correct": 1,
+              "explanation": "Özne cihaz ve edilgen anlam: if it is used carefully → used carefully.",
+              "translation": "Dikkatli kullanılırsa cihaz yıllarca dayanabilir."
+            },
+            {
+              "id": "d17g9",
+              "text": "Not ___ the answer, I remained silent.",
+              "options": [
+                "know",
+                "knowing",
+                "known",
+                "to know"
+              ],
+              "correct": 1,
+              "explanation": "Aktif participle clause: not knowing.",
+              "translation": "Cevabı bilmediğim için sessiz kaldım."
+            },
+            {
+              "id": "d17g10",
+              "text": "___ all the evidence, the committee reached a decision.",
+              "options": [
+                "Considering",
+                "Considered",
+                "To considered",
+                "Having consider"
+              ],
+              "correct": 0,
+              "explanation": "Aktif eş/önceki değerlendirme ‘considering’.",
+              "translation": "Tüm kanıtları değerlendirerek komite bir karara vardı."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v17_1",
-              "word": "which",
-              "meaning": "-ki / hangi",
-              "example": "The tool, which was recently updated, is easier to use."
+              "en": "approach",
+              "tr": "yaklaşım"
             },
             {
-              "id": "v17_2",
-              "word": "whose",
-              "meaning": "-ın/-in",
-              "example": "The engineer whose design won the award joined the team."
+              "en": "increase",
+              "tr": "artmak/artırmak"
             },
             {
-              "id": "v17_3",
-              "word": "where",
-              "meaning": "-dığı yer",
-              "example": "This is the lab where the tests are performed."
+              "en": "available",
+              "tr": "mevcut"
             },
             {
-              "id": "v17_4",
-              "word": "essential",
-              "meaning": "gerekli / temel",
-              "example": "Essential information defines exactly which item we mean."
+              "en": "affect",
+              "tr": "etkilemek"
             },
             {
-              "id": "v17_5",
-              "word": "additional",
-              "meaning": "ek",
-              "example": "The clause provides additional information."
+              "en": "establish",
+              "tr": "kurmak"
             },
             {
-              "id": "v17_6",
-              "word": "specify",
-              "meaning": "belirtmek",
-              "example": "Use a relative clause to specify the component."
-            },
-            {
-              "id": "v17_7",
-              "word": "omit",
-              "meaning": "çıkarmak",
-              "example": "The pronoun can sometimes be omitted."
-            },
-            {
-              "id": "v17_8",
-              "word": "clause",
-              "meaning": "yan cümle",
-              "example": "The sentence contains a defining relative clause."
+              "en": "likely",
+              "tr": "muhtemel"
             }
-          ],
-          "sentenceWords": [
-            "whose",
-            "specify"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "The Building That Produces Energy",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 17 Reading",
           "passage": [
-            "A new office building in Rotterdam uses a glass roof that contains transparent solar cells. The cells, which allow some daylight to pass through, generate part of the building's electricity. Sensors control blinds and ventilation according to temperature and sunlight.",
-            "The architects who designed the building wanted to reduce energy use without creating dark interior spaces. Employees work in areas where natural light is available for much of the day. The system also stores information about energy production, which helps facility managers identify periods of unusually high consumption. The project is being studied by other organizations that are considering similar designs."
+            "Modern English proficiency requires more than memorizing isolated rules. In academic descriptions, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Participles & Reduced Clauses. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r17_1",
-              "text": "What does the glass roof contain?"
+              "id": "d17read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r17_2",
-              "text": "Why did the architects choose this design?"
+              "id": "d17read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r17_3",
-              "text": "What information does the system store?"
-            },
-            {
-              "id": "r17_4",
-              "text": "Who is studying the project?"
-            },
-            {
-              "id": "r17_5",
-              "text": "Identify one defining and one non-defining relative clause."
+              "id": "d17read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 17 speaking bölümüne geçelim: Relative Clauses. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about academic descriptions. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Participles & Reduced Clauses."
         }
       }
     },
     {
       "id": "day18",
       "number": 18,
-      "title": "Conditionals: Zero, First & Second",
-      "shortTitle": "Conditionals",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Test",
-      "objective": "Discuss facts, likely outcomes and hypothetical situations.",
-      "level": "B1+ → B2",
+      "title": "Conjunctions I",
+      "shortTitle": "Conjunctions I",
+      "focus": "although, even though, whereas, while, despite, in spite of",
+      "duration": "20–25 dk",
+      "context": "contrast in public policy",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g18_1",
-              "type": "mcq",
-              "text": "If water reaches 100°C at sea level, it ___.",
+              "id": "d18r1",
+              "text": "___ by the noise, the baby woke up.",
               "options": [
-                "boils",
-                "will boiled",
-                "would boil always",
-                "boiled"
+                "Frightening",
+                "Frightened",
+                "To frighten",
+                "Frighten"
               ],
-              "answer": "boils",
-              "explanation": "Zero conditional describes general facts."
+              "correct": 1,
+              "explanation": "Tekrar notu: Özne gürültüden etkilendi; past participle ‘frightened’.",
+              "translation": "Gürültüden korkan bebek uyandı."
             },
             {
-              "id": "g18_2",
-              "type": "mcq",
-              "text": "If the shipment arrives today, we ___ the installation tomorrow.",
+              "id": "d18r2",
+              "text": "___ down the street, I saw an old friend.",
               "options": [
-                "will start",
-                "would start yesterday",
-                "started",
-                "have start"
+                "Walking",
+                "Walked",
+                "Having walk",
+                "To walked"
               ],
-              "answer": "will start",
-              "explanation": "First conditional: real future possibility."
+              "correct": 0,
+              "explanation": "Tekrar notu: Aynı öznenin eşzamanlı aktif eylemi -ing participle ile kısaltılır.",
+              "translation": "Sokakta yürürken eski bir arkadaşımı gördüm."
             },
             {
-              "id": "g18_3",
-              "type": "mcq",
-              "text": "If I had more time, I ___ another language.",
+              "id": "d18r3",
+              "text": "The documents ___ on the table need signatures.",
               "options": [
-                "would learn",
-                "will learn",
-                "learned yesterday",
-                "have learned now"
+                "lying",
+                "lain",
+                "lie",
+                "to lying"
               ],
-              "answer": "would learn",
-              "explanation": "Second conditional describes a hypothetical present/future situation."
+              "correct": 0,
+              "explanation": "Tekrar notu: Aktif devam eden konum: documents that are lying → documents lying.",
+              "translation": "Masada duran belgelerin imzalanması gerekiyor."
             },
             {
-              "id": "g18_4",
-              "type": "mcq",
-              "text": "The alarm will continue ___ you close the door.",
+              "id": "d18r4",
+              "text": "___ the report, she emailed it to the manager.",
               "options": [
-                "unless",
-                "provided",
+                "Finishing",
+                "Having finished",
+                "Finished by",
+                "To finishing"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Önce tamamlanan eylem ‘having + V3’ ile vurgulanır.",
+              "translation": "Raporu bitirdikten sonra müdüre e-posta attı."
+            },
+            {
+              "id": "d18r5",
+              "text": "The products ___ in this factory are exported.",
+              "options": [
+                "manufacturing",
+                "manufactured",
+                "manufacture",
+                "to manufacture"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Passive reduced clause: products that are manufactured → products manufactured.",
+              "translation": "Bu fabrikada üretilen ürünler ihraç edilir."
+            },
+            {
+              "id": "d18r6",
+              "text": "___ no alternative, we accepted the proposal.",
+              "options": [
+                "Having",
+                "Had",
+                "Have",
+                "To had"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Having no alternative’ neden/koşul bildiren participle clause.",
+              "translation": "Başka seçeneğimiz olmadığı için teklifi kabul ettik."
+            },
+            {
+              "id": "d18r7",
+              "text": "The man ___ near the entrance is our guide.",
+              "options": [
+                "standing",
+                "stood",
+                "is stand",
+                "to stood"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Aktif reduced relative: man who is standing → man standing.",
+              "translation": "Girişin yanında duran adam rehberimiz."
+            },
+            {
+              "id": "d18r8",
+              "text": "___ carefully, the device can last for years.",
+              "options": [
+                "Using",
+                "Used",
+                "Having use",
+                "Use"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Özne cihaz ve edilgen anlam: if it is used carefully → used carefully.",
+              "translation": "Dikkatli kullanılırsa cihaz yıllarca dayanabilir."
+            },
+            {
+              "id": "d18r9",
+              "text": "Not ___ the answer, I remained silent.",
+              "options": [
+                "know",
+                "knowing",
+                "known",
+                "to know"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Aktif participle clause: not knowing.",
+              "translation": "Cevabı bilmediğim için sessiz kaldım."
+            },
+            {
+              "id": "d18r10",
+              "text": "___ all the evidence, the committee reached a decision.",
+              "options": [
+                "Considering",
+                "Considered",
+                "To considered",
+                "Having consider"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Aktif eş/önceki değerlendirme ‘considering’.",
+              "translation": "Tüm kanıtları değerlendirerek komite bir karara vardı."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Conjunctions I",
+          "intro": "YDS odaklı konu: although, even though, whereas, while, despite, in spite of. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d18g1",
+              "text": "___ the task was difficult, they completed it on time.",
+              "options": [
+                "Although",
+                "Despite",
+                "Because of",
+                "Therefore"
+              ],
+              "correct": 0,
+              "explanation": "‘Although’ + clause; zıtlık bildirir.",
+              "translation": "Görev zor olmasına rağmen zamanında tamamladılar."
+            },
+            {
+              "id": "d18g2",
+              "text": "___ the difficulty of the task, they completed it on time.",
+              "options": [
+                "Although",
+                "Despite",
+                "Whereas",
+                "However"
+              ],
+              "correct": 1,
+              "explanation": "‘Despite’ + noun/gerund; zıtlık bildirir.",
+              "translation": "Görevin zorluğuna rağmen zamanında tamamladılar."
+            },
+            {
+              "id": "d18g3",
+              "text": "City life is fast-paced, ___ rural life is often quieter.",
+              "options": [
+                "whereas",
+                "because",
+                "therefore",
+                "so that"
+              ],
+              "correct": 0,
+              "explanation": "İki karşıt durumu aynı cümlede karşılaştırmak için ‘whereas’.",
+              "translation": "Şehir hayatı hızlıdır, oysa kırsal yaşam genellikle daha sakindir."
+            },
+            {
+              "id": "d18g4",
+              "text": "She went to work ___ feeling ill.",
+              "options": [
                 "although",
-                "therefore"
+                "despite",
+                "because",
+                "whereas"
               ],
-              "answer": "unless",
-              "explanation": "Unless means if not."
+              "correct": 1,
+              "explanation": "‘Despite’ ardından noun/gerund gelir: despite feeling.",
+              "translation": "Hasta hissetmesine rağmen işe gitti."
             },
             {
-              "id": "g18_5",
-              "type": "input",
-              "text": "Complete: If the test ___ (fail), we will repeat it.",
-              "answers": [
-                "fails"
+              "id": "d18g5",
+              "text": "___ he apologized, she remained upset.",
+              "options": [
+                "Even though",
+                "Because of",
+                "Therefore",
+                "In spite"
               ],
-              "answer": "fails",
-              "explanation": "The if-clause of a first conditional uses Present Simple."
+              "correct": 0,
+              "explanation": "Beklenen sonucu değiştirmeyen güçlü zıtlık: even though + clause.",
+              "translation": "Özür dilemesine rağmen o üzgün kalmaya devam etti."
             },
             {
-              "id": "g18_6",
-              "type": "input",
-              "text": "Write a second conditional about work or study.",
-              "answers": [
-                "If I had an extra hour every day, I would spend it on speaking practice."
+              "id": "d18g6",
+              "text": "___ the heavy traffic, we arrived on time.",
+              "options": [
+                "Although",
+                "In spite of",
+                "Whereas",
+                "However"
               ],
-              "answer": "If I had an extra hour every day, I would spend it on speaking practice.",
-              "explanation": "Second conditional = if + Past Simple, would + base verb."
+              "correct": 1,
+              "explanation": "‘In spite of’ + noun phrase.",
+              "translation": "Yoğun trafiğe rağmen zamanında vardık."
+            },
+            {
+              "id": "d18g7",
+              "text": "The north is wet, ___ the south is relatively dry.",
+              "options": [
+                "while",
+                "because of",
+                "therefore",
+                "so"
+              ],
+              "correct": 0,
+              "explanation": "‘While’ karşıtlık anlamında iki clause bağlayabilir.",
+              "translation": "Kuzey yağışlıyken güney nispeten kurudur."
+            },
+            {
+              "id": "d18g8",
+              "text": "He is highly qualified. ___, he has little practical experience.",
+              "options": [
+                "However",
+                "Because",
+                "So that",
+                "Despite"
+              ],
+              "correct": 0,
+              "explanation": "İki bağımsız cümle arasında zıtlık geçiş zarfı ‘however’.",
+              "translation": "Oldukça nitelikli. Ancak pratik deneyimi az."
+            },
+            {
+              "id": "d18g9",
+              "text": "___ being expensive, the device is very popular.",
+              "options": [
+                "Although",
+                "Despite",
+                "Whereas",
+                "Because"
+              ],
+              "correct": 1,
+              "explanation": "‘Despite + gerund’ doğru yapıdır.",
+              "translation": "Pahalı olmasına rağmen cihaz çok popüler."
+            },
+            {
+              "id": "d18g10",
+              "text": "The two methods look similar; ___, their results differ significantly.",
+              "options": [
+                "nevertheless",
+                "because",
+                "so that",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "Beklenmeyen karşıt sonucu bağlayan conjunctive adverb ‘nevertheless’.",
+              "translation": "İki yöntem benzer görünüyor; yine de sonuçları önemli ölçüde farklı."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v18_1",
-              "word": "condition",
-              "meaning": "koşul",
-              "example": "The warranty applies under one condition."
+              "en": "requirement",
+              "tr": "gereklilik"
             },
             {
-              "id": "v18_2",
-              "word": "outcome",
-              "meaning": "sonuç",
-              "example": "The outcome depends on the initial setting."
+              "en": "indicate",
+              "tr": "göstermek"
             },
             {
-              "id": "v18_3",
-              "word": "provided that",
-              "meaning": "şartıyla",
-              "example": "You can enter provided that you show your badge."
+              "en": "prevent",
+              "tr": "önlemek"
             },
             {
-              "id": "v18_4",
-              "word": "unless",
-              "meaning": "-medikçe",
-              "example": "The alarm will continue unless the door is closed."
+              "en": "benefit",
+              "tr": "fayda"
             },
             {
-              "id": "v18_5",
-              "word": "hypothetical",
-              "meaning": "varsayımsal",
-              "example": "The question describes a hypothetical situation."
+              "en": "occur",
+              "tr": "meydana gelmek"
             },
             {
-              "id": "v18_6",
-              "word": "consequence",
-              "meaning": "sonuç",
-              "example": "Every decision has a potential consequence."
-            },
-            {
-              "id": "v18_7",
-              "word": "otherwise",
-              "meaning": "aksi takdirde",
-              "example": "Save the file; otherwise, your changes may be lost."
-            },
-            {
-              "id": "v18_8",
-              "word": "scenario",
-              "meaning": "senaryo",
-              "example": "Consider the worst-case scenario."
+              "en": "maintain",
+              "tr": "sürdürmek"
             }
-          ],
-          "sentenceWords": [
-            "outcome",
-            "consequence"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "When Water Becomes Scarce",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 18 Reading",
           "passage": [
-            "Many cities have plans for periods of unusually low rainfall. If reservoir levels fall below a certain point, local authorities introduce restrictions on non-essential water use. If people reduce consumption early, supplies usually last longer and emergency measures become less likely.",
-            "Some policies also use financial incentives. Households may pay a higher rate if they use significantly more water than the local average. In a severe shortage, authorities might limit watering gardens or washing cars. If a city had unlimited water, such restrictions would not be necessary, but in reality every system has physical and environmental limits."
+            "Modern English proficiency requires more than memorizing isolated rules. In contrast in public policy, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Conjunctions I. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r18_1",
-              "text": "What happens if reservoir levels fall too low?"
+              "id": "d18read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r18_2",
-              "text": "What usually happens if people reduce consumption early?"
+              "id": "d18read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r18_3",
-              "text": "How can financial incentives affect behavior?"
-            },
-            {
-              "id": "r18_4",
-              "text": "Which sentence describes a hypothetical situation?"
-            },
-            {
-              "id": "r18_5",
-              "text": "Write one zero, one first and one second conditional inspired by the passage."
+              "id": "d18read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 18 speaking bölümüne geçelim: Conditionals: Zero, First & Second. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about contrast in public policy. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Conjunctions I."
         }
       }
     },
     {
       "id": "day19",
       "number": 19,
-      "title": "Passive Voice in Technical English",
-      "shortTitle": "Passive Voice",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Technical English • Grammar",
-      "objective": "Describe processes and results when the action is more important than the actor.",
-      "level": "B1+ → B2",
+      "title": "Conjunctions II",
+      "shortTitle": "Conjunctions II",
+      "focus": "because, since, as, therefore, thus, so, so that, in order to",
+      "duration": "20–25 dk",
+      "context": "cause and result",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g19_1",
-              "type": "mcq",
-              "text": "Each unit ___ before shipment.",
+              "id": "d19r1",
+              "text": "___ the task was difficult, they completed it on time.",
               "options": [
-                "is inspected",
-                "inspects itself",
-                "was inspect",
-                "has inspecting"
+                "Although",
+                "Despite",
+                "Because of",
+                "Therefore"
               ],
-              "answer": "is inspected",
-              "explanation": "Present passive: be + past participle."
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Although’ + clause; zıtlık bildirir.",
+              "translation": "Görev zor olmasına rağmen zamanında tamamladılar."
             },
             {
-              "id": "g19_2",
-              "type": "mcq",
-              "text": "The final design ___ yesterday.",
+              "id": "d19r2",
+              "text": "___ the difficulty of the task, they completed it on time.",
               "options": [
-                "was approved",
-                "approved itself",
-                "is approve yesterday",
-                "has approving"
+                "Although",
+                "Despite",
+                "Whereas",
+                "However"
               ],
-              "answer": "was approved",
-              "explanation": "Past passive: was/were + past participle."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Despite’ + noun/gerund; zıtlık bildirir.",
+              "translation": "Görevin zorluğuna rağmen zamanında tamamladılar."
             },
             {
-              "id": "g19_3",
-              "type": "mcq",
-              "text": "The data ___ on a secure server.",
+              "id": "d19r3",
+              "text": "City life is fast-paced, ___ rural life is often quieter.",
               "options": [
-                "is stored",
-                "stores by itself",
-                "stored is",
-                "is store"
+                "whereas",
+                "because",
+                "therefore",
+                "so that"
               ],
-              "answer": "is stored",
-              "explanation": "Passive focuses on the action/result."
+              "correct": 0,
+              "explanation": "Tekrar notu: İki karşıt durumu aynı cümlede karşılaştırmak için ‘whereas’.",
+              "translation": "Şehir hayatı hızlıdır, oysa kırsal yaşam genellikle daha sakindir."
             },
             {
-              "id": "g19_4",
-              "type": "mcq",
-              "text": "The instruments must ___ once a year.",
+              "id": "d19r4",
+              "text": "She went to work ___ feeling ill.",
               "options": [
-                "be calibrated",
-                "calibrated be",
-                "be calibrate",
-                "calibrating"
+                "although",
+                "despite",
+                "because",
+                "whereas"
               ],
-              "answer": "be calibrated",
-              "explanation": "Modal passive: modal + be + past participle."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Despite’ ardından noun/gerund gelir: despite feeling.",
+              "translation": "Hasta hissetmesine rağmen işe gitti."
             },
             {
-              "id": "g19_5",
-              "type": "input",
-              "text": "Change to passive: “Technicians inspect every unit.”",
-              "answers": [
-                "Every unit is inspected by technicians."
+              "id": "d19r5",
+              "text": "___ he apologized, she remained upset.",
+              "options": [
+                "Even though",
+                "Because of",
+                "Therefore",
+                "In spite"
               ],
-              "answer": "Every unit is inspected by technicians.",
-              "explanation": "Object becomes subject; use is inspected."
+              "correct": 0,
+              "explanation": "Tekrar notu: Beklenen sonucu değiştirmeyen güçlü zıtlık: even though + clause.",
+              "translation": "Özür dilemesine rağmen o üzgün kalmaya devam etti."
             },
             {
-              "id": "g19_6",
-              "type": "input",
-              "text": "Change to passive: “The team completed the test yesterday.”",
-              "answers": [
-                "The test was completed yesterday."
+              "id": "d19r6",
+              "text": "___ the heavy traffic, we arrived on time.",
+              "options": [
+                "Although",
+                "In spite of",
+                "Whereas",
+                "However"
               ],
-              "answer": "The test was completed yesterday.",
-              "explanation": "Past passive uses was/were + past participle."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘In spite of’ + noun phrase.",
+              "translation": "Yoğun trafiğe rağmen zamanında vardık."
+            },
+            {
+              "id": "d19r7",
+              "text": "The north is wet, ___ the south is relatively dry.",
+              "options": [
+                "while",
+                "because of",
+                "therefore",
+                "so"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘While’ karşıtlık anlamında iki clause bağlayabilir.",
+              "translation": "Kuzey yağışlıyken güney nispeten kurudur."
+            },
+            {
+              "id": "d19r8",
+              "text": "He is highly qualified. ___, he has little practical experience.",
+              "options": [
+                "However",
+                "Because",
+                "So that",
+                "Despite"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: İki bağımsız cümle arasında zıtlık geçiş zarfı ‘however’.",
+              "translation": "Oldukça nitelikli. Ancak pratik deneyimi az."
+            },
+            {
+              "id": "d19r9",
+              "text": "___ being expensive, the device is very popular.",
+              "options": [
+                "Although",
+                "Despite",
+                "Whereas",
+                "Because"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Despite + gerund’ doğru yapıdır.",
+              "translation": "Pahalı olmasına rağmen cihaz çok popüler."
+            },
+            {
+              "id": "d19r10",
+              "text": "The two methods look similar; ___, their results differ significantly.",
+              "options": [
+                "nevertheless",
+                "because",
+                "so that",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Beklenmeyen karşıt sonucu bağlayan conjunctive adverb ‘nevertheless’.",
+              "translation": "İki yöntem benzer görünüyor; yine de sonuçları önemli ölçüde farklı."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Conjunctions II",
+          "intro": "YDS odaklı konu: because, since, as, therefore, thus, so, so that, in order to. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d19g1",
+              "text": "The flight was delayed ___ bad weather.",
+              "options": [
+                "because",
+                "because of",
+                "therefore",
+                "so that"
+              ],
+              "correct": 1,
+              "explanation": "‘Because of’ + noun phrase; neden bildirir.",
+              "translation": "Uçuş kötü hava nedeniyle gecikti."
+            },
+            {
+              "id": "d19g2",
+              "text": "The flight was delayed ___ the weather was bad.",
+              "options": [
+                "because",
+                "because of",
+                "therefore",
+                "despite"
+              ],
+              "correct": 0,
+              "explanation": "‘Because’ + clause.",
+              "translation": "Hava kötü olduğu için uçuş gecikti."
+            },
+            {
+              "id": "d19g3",
+              "text": "The road was closed; ___, we took another route.",
+              "options": [
+                "therefore",
+                "because",
+                "although",
+                "in order to"
+              ],
+              "correct": 0,
+              "explanation": "Sonuç bağlayıcısı ‘therefore’.",
+              "translation": "Yol kapalıydı; bu nedenle başka bir rota kullandık."
+            },
+            {
+              "id": "d19g4",
+              "text": "He left early ___ catch the first train.",
+              "options": [
+                "so that",
+                "in order to",
+                "because of",
+                "since"
+              ],
+              "correct": 1,
+              "explanation": "Amaç + fiil: in order to + V1.",
+              "translation": "İlk treni yakalamak için erken ayrıldı."
+            },
+            {
+              "id": "d19g5",
+              "text": "He spoke slowly ___ everyone could understand.",
+              "options": [
+                "so that",
+                "because of",
+                "therefore",
+                "despite"
+              ],
+              "correct": 0,
+              "explanation": "Amaç cümleciği: so that + subject + could.",
+              "translation": "Herkes anlayabilsin diye yavaş konuştu."
+            },
+            {
+              "id": "d19g6",
+              "text": "___ demand increased, the company expanded production.",
+              "options": [
+                "Since",
+                "Despite",
+                "Therefore",
+                "In order to"
+              ],
+              "correct": 0,
+              "explanation": "‘Since’ burada neden bildiren clause bağlacıdır.",
+              "translation": "Talep arttığı için şirket üretimi genişletti."
+            },
+            {
+              "id": "d19g7",
+              "text": "The evidence was insufficient; ___, the case was dismissed.",
+              "options": [
+                "thus",
+                "although",
+                "because",
+                "while"
+              ],
+              "correct": 0,
+              "explanation": "‘Thus’ sonuç bildirir.",
+              "translation": "Kanıt yetersizdi; dolayısıyla dava düşürüldü."
+            },
+            {
+              "id": "d19g8",
+              "text": "We installed a backup system ___ prevent data loss.",
+              "options": [
+                "so that",
+                "in order to",
+                "because",
+                "therefore"
+              ],
+              "correct": 1,
+              "explanation": "Amaç + V1: in order to.",
+              "translation": "Veri kaybını önlemek için yedek sistem kurduk."
+            },
+            {
+              "id": "d19g9",
+              "text": "The price fell ___ supply increased.",
+              "options": [
+                "because",
+                "despite",
+                "therefore",
+                "so that"
+              ],
+              "correct": 0,
+              "explanation": "Neden bildiren tam clause için ‘because’.",
+              "translation": "Arz arttığı için fiyat düştü."
+            },
+            {
+              "id": "d19g10",
+              "text": "The experiment failed; ___, the team redesigned the procedure.",
+              "options": [
+                "as a result",
+                "because of",
+                "although",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "‘As a result’ önceki cümlenin sonucunu ifade eder.",
+              "translation": "Deney başarısız oldu; bunun sonucunda ekip prosedürü yeniden tasarladı."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v19_1",
-              "word": "manufacture",
-              "meaning": "üretmek",
-              "example": "The components are manufactured locally."
+              "en": "evidence",
+              "tr": "kanıt"
             },
             {
-              "id": "v19_2",
-              "word": "inspect",
-              "meaning": "kontrol etmek",
-              "example": "Each unit is inspected before shipment."
+              "en": "significant",
+              "tr": "önemli"
             },
             {
-              "id": "v19_3",
-              "word": "calibrate",
-              "meaning": "kalibre etmek",
-              "example": "The instrument is calibrated once a year."
+              "en": "assume",
+              "tr": "varsaymak"
             },
             {
-              "id": "v19_4",
-              "word": "record",
-              "meaning": "kaydetmek",
-              "example": "All measurements are recorded automatically."
+              "en": "outcome",
+              "tr": "sonuç"
             },
             {
-              "id": "v19_5",
-              "word": "detect",
-              "meaning": "tespit etmek",
-              "example": "Small defects can be detected by the camera."
+              "en": "relevant",
+              "tr": "ilgili"
             },
             {
-              "id": "v19_6",
-              "word": "approve",
-              "meaning": "onaylamak",
-              "example": "The final design was approved yesterday."
-            },
-            {
-              "id": "v19_7",
-              "word": "process",
-              "meaning": "işlemek / süreç",
-              "example": "The data is processed on a local server."
-            },
-            {
-              "id": "v19_8",
-              "word": "specification",
-              "meaning": "teknik özellik",
-              "example": "The product was tested according to the specification."
+              "en": "ensure",
+              "tr": "sağlamak/garanti etmek"
             }
-          ],
-          "sentenceWords": [
-            "inspect",
-            "approve"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "How Medical Samples Are Tracked",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 19 Reading",
           "passage": [
-            "In a modern diagnostic laboratory, each medical sample is given a unique identifier as soon as it is received. The label is scanned at every major stage, and the time of each action is recorded automatically. Samples are then prepared according to the type of analysis that has been requested.",
-            "Before results are released, measurements are checked against quality-control limits. If an unusual result is detected, the test may be repeated or reviewed by a specialist. Completed reports are stored securely and are sent only to authorized recipients. This tracking system reduces the risk of samples being confused and creates a clear record of how each result was produced."
+            "Modern English proficiency requires more than memorizing isolated rules. In cause and result, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Conjunctions II. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r19_1",
-              "text": "What happens when a sample is first received?"
+              "id": "d19read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r19_2",
-              "text": "How is each major stage recorded?"
+              "id": "d19read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r19_3",
-              "text": "What may happen if an unusual result is detected?"
-            },
-            {
-              "id": "r19_4",
-              "text": "Why are completed reports stored securely?"
-            },
-            {
-              "id": "r19_5",
-              "text": "Find four passive structures in the passage."
+              "id": "d19read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 19 speaking bölümüne geçelim: Passive Voice in Technical English. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about cause and result. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Conjunctions II."
         }
       }
     },
     {
       "id": "day20",
       "number": 20,
-      "title": "Understanding Technical Documentation",
-      "shortTitle": "Technical Documentation",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Reading • Vocabulary",
-      "objective": "Decode dense noun phrases, warnings and specification language.",
-      "level": "B1+ → B2",
+      "title": "Correlative Conjunctions",
+      "shortTitle": "Correlative Conjunctions",
+      "focus": "both...and, either...or, neither...nor, not only...but also",
+      "duration": "20–25 dk",
+      "context": "paired alternatives",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g20_1",
-              "type": "mcq",
-              "text": "“Maximum operating temperature” is an example of a dense ___.",
+              "id": "d20r1",
+              "text": "The flight was delayed ___ bad weather.",
               "options": [
-                "noun phrase",
-                "question tag",
-                "phrasal verb",
-                "conditional"
+                "because",
+                "because of",
+                "therefore",
+                "so that"
               ],
-              "answer": "noun phrase",
-              "explanation": "Technical English often packs information into noun phrases."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Because of’ + noun phrase; neden bildirir.",
+              "translation": "Uçuş kötü hava nedeniyle gecikti."
             },
             {
-              "id": "g20_2",
-              "type": "mcq",
-              "text": "A value described as “maximum” should usually be understood as an upper ___.",
+              "id": "d20r2",
+              "text": "The flight was delayed ___ the weather was bad.",
               "options": [
-                "limit",
-                "routine",
-                "average always",
-                "permission"
+                "because",
+                "because of",
+                "therefore",
+                "despite"
               ],
-              "answer": "limit",
-              "explanation": "Maximum marks the upper boundary."
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Because’ + clause.",
+              "translation": "Hava kötü olduğu için uçuş gecikti."
             },
             {
-              "id": "g20_3",
-              "type": "mcq",
-              "text": "“Applicable regulations” means regulations that ___.",
+              "id": "d20r3",
+              "text": "The road was closed; ___, we took another route.",
               "options": [
-                "apply to the situation",
-                "were deleted",
-                "are optional always",
-                "cannot be read"
+                "therefore",
+                "because",
+                "although",
+                "in order to"
               ],
-              "answer": "apply to the situation",
-              "explanation": "Applicable = relevant/valid for the case."
+              "correct": 0,
+              "explanation": "Tekrar notu: Sonuç bağlayıcısı ‘therefore’.",
+              "translation": "Yol kapalıydı; bu nedenle başka bir rota kullandık."
             },
             {
-              "id": "g20_4",
-              "type": "mcq",
-              "text": "Before comparing specifications, you should check the ___.",
+              "id": "d20r4",
+              "text": "He left early ___ catch the first train.",
               "options": [
-                "units and conditions",
-                "font only",
-                "logo",
-                "page color"
+                "so that",
+                "in order to",
+                "because of",
+                "since"
               ],
-              "answer": "units and conditions",
-              "explanation": "Numbers are meaningful only with units and conditions."
+              "correct": 1,
+              "explanation": "Tekrar notu: Amaç + fiil: in order to + V1.",
+              "translation": "İlk treni yakalamak için erken ayrıldı."
             },
             {
-              "id": "g20_5",
-              "type": "input",
-              "text": "Rewrite clearly: “10 A maximum current rating.”",
-              "answers": [
-                "The maximum current rating is 10 A."
+              "id": "d20r5",
+              "text": "He spoke slowly ___ everyone could understand.",
+              "options": [
+                "so that",
+                "because of",
+                "therefore",
+                "despite"
               ],
-              "answer": "The maximum current rating is 10 A.",
-              "explanation": "Expanding noun phrases can make dense specifications easier to process."
+              "correct": 0,
+              "explanation": "Tekrar notu: Amaç cümleciği: so that + subject + could.",
+              "translation": "Herkes anlayabilsin diye yavaş konuştu."
             },
             {
-              "id": "g20_6",
-              "type": "input",
-              "text": "Write one warning sentence using “must not”.",
-              "answers": [
-                "The unit must not be operated above the specified temperature."
+              "id": "d20r6",
+              "text": "___ demand increased, the company expanded production.",
+              "options": [
+                "Since",
+                "Despite",
+                "Therefore",
+                "In order to"
               ],
-              "answer": "The unit must not be operated above the specified temperature.",
-              "explanation": "Technical warnings often use strong modal language."
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Since’ burada neden bildiren clause bağlacıdır.",
+              "translation": "Talep arttığı için şirket üretimi genişletti."
+            },
+            {
+              "id": "d20r7",
+              "text": "The evidence was insufficient; ___, the case was dismissed.",
+              "options": [
+                "thus",
+                "although",
+                "because",
+                "while"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘Thus’ sonuç bildirir.",
+              "translation": "Kanıt yetersizdi; dolayısıyla dava düşürüldü."
+            },
+            {
+              "id": "d20r8",
+              "text": "We installed a backup system ___ prevent data loss.",
+              "options": [
+                "so that",
+                "in order to",
+                "because",
+                "therefore"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Amaç + V1: in order to.",
+              "translation": "Veri kaybını önlemek için yedek sistem kurduk."
+            },
+            {
+              "id": "d20r9",
+              "text": "The price fell ___ supply increased.",
+              "options": [
+                "because",
+                "despite",
+                "therefore",
+                "so that"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Neden bildiren tam clause için ‘because’.",
+              "translation": "Arz arttığı için fiyat düştü."
+            },
+            {
+              "id": "d20r10",
+              "text": "The experiment failed; ___, the team redesigned the procedure.",
+              "options": [
+                "as a result",
+                "because of",
+                "although",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: ‘As a result’ önceki cümlenin sonucunu ifade eder.",
+              "translation": "Deney başarısız oldu; bunun sonucunda ekip prosedürü yeniden tasarladı."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Correlative Conjunctions",
+          "intro": "YDS odaklı konu: both...and, either...or, neither...nor, not only...but also. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d20g1",
+              "text": "___ the manager and the director approved the plan.",
+              "options": [
+                "Both",
+                "Either",
+                "Neither",
+                "Not"
+              ],
+              "correct": 0,
+              "explanation": "Both A and B = her ikisi de.",
+              "translation": "Hem müdür hem direktör planı onayladı."
+            },
+            {
+              "id": "d20g2",
+              "text": "You can ___ call us ___ send an email.",
+              "options": [
+                "either / or",
+                "neither / nor",
+                "both / but",
+                "not only / or"
+              ],
+              "correct": 0,
+              "explanation": "Either A or B = iki seçenekten biri.",
+              "translation": "Bizi ya arayabilir ya da e-posta gönderebilirsin."
+            },
+            {
+              "id": "d20g3",
+              "text": "___ the printer ___ the scanner is working.",
+              "options": [
+                "Either / or",
+                "Neither / nor",
+                "Both / and",
+                "Not only / but"
+              ],
+              "correct": 1,
+              "explanation": "Neither A nor B = ikisi de değil.",
+              "translation": "Ne yazıcı ne de tarayıcı çalışıyor."
+            },
+            {
+              "id": "d20g4",
+              "text": "She is ___ intelligent ___ hardworking.",
+              "options": [
+                "both / and",
+                "either / nor",
+                "neither / or",
+                "both / but"
+              ],
+              "correct": 0,
+              "explanation": "Both...and iki olumlu özelliği birlikte verir.",
+              "translation": "O hem zeki hem çalışkan."
+            },
+            {
+              "id": "d20g5",
+              "text": "Not only ___ late, but he also forgot the documents.",
+              "options": [
+                "he arrived",
+                "did he arrive",
+                "he did arrive",
+                "arrived he"
+              ],
+              "correct": 1,
+              "explanation": "‘Not only’ cümle başında olduğunda inversion gerekir.",
+              "translation": "Sadece geç kalmakla kalmadı, belgeleri de unuttu."
+            },
+            {
+              "id": "d20g6",
+              "text": "Either the teachers or the principal ___ attending.",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "be"
+              ],
+              "correct": 1,
+              "explanation": "Either...or’da fiil yakın özneyle uyumlu; ‘principal’ tekildir.",
+              "translation": "Ya öğretmenler ya da müdür katılıyor."
+            },
+            {
+              "id": "d20g7",
+              "text": "Neither the manager nor the employees ___ satisfied.",
+              "options": [
+                "was",
+                "were",
+                "is",
+                "be"
+              ],
+              "correct": 1,
+              "explanation": "Yakın özne ‘employees’ çoğul; fiil ‘were’.",
+              "translation": "Ne müdür ne de çalışanlar memnundu."
+            },
+            {
+              "id": "d20g8",
+              "text": "The course is not only practical ___ also affordable.",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "nor"
+              ],
+              "correct": 1,
+              "explanation": "Sabit yapı: not only ... but also.",
+              "translation": "Kurs yalnızca pratik değil, aynı zamanda uygun fiyatlı."
+            },
+            {
+              "id": "d20g9",
+              "text": "Both the design ___ the performance have improved.",
+              "options": [
+                "or",
+                "and",
+                "nor",
+                "but"
+              ],
+              "correct": 1,
+              "explanation": "Both ... and.",
+              "translation": "Hem tasarım hem performans gelişti."
+            },
+            {
+              "id": "d20g10",
+              "text": "You must choose either Monday ___ Tuesday.",
+              "options": [
+                "and",
+                "or",
+                "nor",
+                "but"
+              ],
+              "correct": 1,
+              "explanation": "Either ... or.",
+              "translation": "Pazartesi ya da salı gününü seçmelisin."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v20_1",
-              "word": "specification",
-              "meaning": "şartname / teknik özellik",
-              "example": "Check the specification before selecting a replacement."
+              "en": "evaluate",
+              "tr": "değerlendirmek"
             },
             {
-              "id": "v20_2",
-              "word": "tolerance",
-              "meaning": "tolerans",
-              "example": "The dimension is within tolerance."
+              "en": "approximately",
+              "tr": "yaklaşık olarak"
             },
             {
-              "id": "v20_3",
-              "word": "rated",
-              "meaning": "anma değerli",
-              "example": "Use a cable rated for the required current."
+              "en": "despite",
+              "tr": "rağmen"
             },
             {
-              "id": "v20_4",
-              "word": "compliance",
-              "meaning": "uyumluluk",
-              "example": "The document confirms regulatory compliance."
+              "en": "consequently",
+              "tr": "sonuç olarak"
             },
             {
-              "id": "v20_5",
-              "word": "requirement",
-              "meaning": "gereksinim",
-              "example": "Every requirement must be traceable."
+              "en": "adequate",
+              "tr": "yeterli"
             },
             {
-              "id": "v20_6",
-              "word": "warning",
-              "meaning": "uyarı",
-              "example": "Read the warning before removing the cover."
-            },
-            {
-              "id": "v20_7",
-              "word": "dimension",
-              "meaning": "ölçü / boyut",
-              "example": "The drawing lists all critical dimensions."
-            },
-            {
-              "id": "v20_8",
-              "word": "applicable",
-              "meaning": "uygulanabilir",
-              "example": "Follow all applicable safety regulations."
+              "en": "require",
+              "tr": "gerektirmek"
             }
-          ],
-          "sentenceWords": [
-            "tolerance",
-            "warning"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Reading a Battery Specification",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 20 Reading",
           "passage": [
-            "Technical specifications often compress a large amount of information into a small space. Consider a rechargeable battery described as '12 V nominal, 10 Ah capacity, operating temperature -10°C to 45°C.' Each phrase answers a different question: expected voltage, stored charge, and acceptable environmental conditions.",
-            "A specification may also contain limits that must not be treated as normal operating targets. For example, a maximum charging current is an upper boundary, not necessarily the recommended everyday value. Notes and warnings can be just as important as the headline numbers. A careful reader therefore checks units, test conditions, tolerances, and exceptions before comparing two products."
+            "Modern English proficiency requires more than memorizing isolated rules. In paired alternatives, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Correlative Conjunctions. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r20_1",
-              "text": "What three types of information appear in the example specification?"
+              "id": "d20read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r20_2",
-              "text": "Why should a maximum value not always be used as a normal target?"
+              "id": "d20read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r20_3",
-              "text": "What details should a careful reader check?"
-            },
-            {
-              "id": "r20_4",
-              "text": "What does 'nominal' suggest in this context?"
-            },
-            {
-              "id": "r20_5",
-              "text": "Summarize the reading strategy recommended by the writer."
+              "id": "d20read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 20 speaking bölümüne geçelim: Understanding Technical Documentation. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about paired alternatives. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Correlative Conjunctions."
         }
       }
     },
     {
       "id": "day21",
       "number": 21,
-      "title": "Week 3 Review",
-      "shortTitle": "Week 3 Review",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Review • Mixed Test",
-      "objective": "Consolidate Days 15–20 through cumulative practice.",
-      "level": "B1+ → B2",
+      "title": "Articles & Determiners",
+      "shortTitle": "Articles & Determiners",
+      "focus": "a/an/the, zero article, this/that, each/every",
+      "duration": "20–25 dk",
+      "context": "education and institutions",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g21_1",
-              "type": "mcq",
-              "text": "We ___ the installation tomorrow; it is already arranged.",
+              "id": "d21r1",
+              "text": "___ the manager and the director approved the plan.",
               "options": [
-                "are starting",
-                "started",
-                "have start",
-                "will yesterday"
+                "Both",
+                "Either",
+                "Neither",
+                "Not"
               ],
-              "answer": "are starting",
-              "explanation": "Future arrangement."
+              "correct": 0,
+              "explanation": "Tekrar notu: Both A and B = her ikisi de.",
+              "translation": "Hem müdür hem direktör planı onayladı."
             },
             {
-              "id": "g21_2",
-              "type": "mcq",
-              "text": "The component ___ in Germany.",
+              "id": "d21r2",
+              "text": "You can ___ call us ___ send an email.",
               "options": [
-                "is manufactured",
-                "manufactures itself",
-                "is manufacture",
-                "was manufacturing always"
+                "either / or",
+                "neither / nor",
+                "both / but",
+                "not only / or"
               ],
-              "answer": "is manufactured",
-              "explanation": "Present passive."
+              "correct": 0,
+              "explanation": "Tekrar notu: Either A or B = iki seçenekten biri.",
+              "translation": "Bizi ya arayabilir ya da e-posta gönderebilirsin."
             },
             {
-              "id": "g21_3",
-              "type": "mcq",
-              "text": "If the result is outside tolerance, we ___ the test.",
+              "id": "d21r3",
+              "text": "___ the printer ___ the scanner is working.",
               "options": [
-                "will repeat",
-                "would repeated",
-                "repeated always",
-                "are repeat"
+                "Either / or",
+                "Neither / nor",
+                "Both / and",
+                "Not only / but"
               ],
-              "answer": "will repeat",
-              "explanation": "First conditional."
+              "correct": 1,
+              "explanation": "Tekrar notu: Neither A nor B = ikisi de değil.",
+              "translation": "Ne yazıcı ne de tarayıcı çalışıyor."
             },
             {
-              "id": "g21_4",
-              "type": "mcq",
-              "text": "The engineer ___ developed the tool presented the results.",
+              "id": "d21r4",
+              "text": "She is ___ intelligent ___ hardworking.",
               "options": [
-                "who",
-                "which",
-                "where",
-                "whose tool is?"
+                "both / and",
+                "either / nor",
+                "neither / or",
+                "both / but"
               ],
-              "answer": "who",
-              "explanation": "Relative pronoun for people."
+              "correct": 0,
+              "explanation": "Tekrar notu: Both...and iki olumlu özelliği birlikte verir.",
+              "translation": "O hem zeki hem çalışkan."
             },
             {
-              "id": "g21_5",
-              "type": "input",
-              "text": "Write a passive sentence about a process.",
-              "answers": [
-                "The measurements are recorded automatically."
+              "id": "d21r5",
+              "text": "Not only ___ late, but he also forgot the documents.",
+              "options": [
+                "he arrived",
+                "did he arrive",
+                "he did arrive",
+                "arrived he"
               ],
-              "answer": "The measurements are recorded automatically.",
-              "explanation": "Use be + past participle."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Not only’ cümle başında olduğunda inversion gerekir.",
+              "translation": "Sadece geç kalmakla kalmadı, belgeleri de unuttu."
             },
             {
-              "id": "g21_6",
-              "type": "input",
-              "text": "Write a future plan using “going to”.",
-              "answers": [
-                "We are going to update the documentation next week."
+              "id": "d21r6",
+              "text": "Either the teachers or the principal ___ attending.",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "be"
               ],
-              "answer": "We are going to update the documentation next week.",
-              "explanation": "Going to expresses an intention/plan."
+              "correct": 1,
+              "explanation": "Tekrar notu: Either...or’da fiil yakın özneyle uyumlu; ‘principal’ tekildir.",
+              "translation": "Ya öğretmenler ya da müdür katılıyor."
+            },
+            {
+              "id": "d21r7",
+              "text": "Neither the manager nor the employees ___ satisfied.",
+              "options": [
+                "was",
+                "were",
+                "is",
+                "be"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Yakın özne ‘employees’ çoğul; fiil ‘were’.",
+              "translation": "Ne müdür ne de çalışanlar memnundu."
+            },
+            {
+              "id": "d21r8",
+              "text": "The course is not only practical ___ also affordable.",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "nor"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Sabit yapı: not only ... but also.",
+              "translation": "Kurs yalnızca pratik değil, aynı zamanda uygun fiyatlı."
+            },
+            {
+              "id": "d21r9",
+              "text": "Both the design ___ the performance have improved.",
+              "options": [
+                "or",
+                "and",
+                "nor",
+                "but"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Both ... and.",
+              "translation": "Hem tasarım hem performans gelişti."
+            },
+            {
+              "id": "d21r10",
+              "text": "You must choose either Monday ___ Tuesday.",
+              "options": [
+                "and",
+                "or",
+                "nor",
+                "but"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Either ... or.",
+              "translation": "Pazartesi ya da salı gününü seçmelisin."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Articles & Determiners",
+          "intro": "YDS odaklı konu: a/an/the, zero article, this/that, each/every. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d21g1",
+              "text": "She bought ___ umbrella because it was raining.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 1,
+              "explanation": "Sesli harfle başlayan tekil sayılabilir isim: an umbrella.",
+              "translation": "Yağmur yağdığı için bir şemsiye aldı."
+            },
+            {
+              "id": "d21g2",
+              "text": "___ sun rises in the east.",
+              "options": [
+                "A",
+                "An",
+                "The",
+                "—"
+              ],
+              "correct": 2,
+              "explanation": "Tek ve herkesçe bilinen varlıklar ‘the’ alır.",
+              "translation": "Güneş doğudan doğar."
+            },
+            {
+              "id": "d21g3",
+              "text": "He is ___ engineer.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 1,
+              "explanation": "‘Engineer’ vowel sound ile başlar; ‘an’.",
+              "translation": "O bir mühendistir."
+            },
+            {
+              "id": "d21g4",
+              "text": "We had ___ breakfast at 7.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 3,
+              "explanation": "Genel öğün isimlerinde çoğunlukla zero article kullanılır.",
+              "translation": "Saat 7’de kahvaltı yaptık."
+            },
+            {
+              "id": "d21g5",
+              "text": "I visited ___ British Museum last year.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 2,
+              "explanation": "Belirli müze/kurum adlarında ‘the’ kullanılır.",
+              "translation": "Geçen yıl British Museum’u ziyaret ettim."
+            },
+            {
+              "id": "d21g6",
+              "text": "Every student ___ a badge.",
+              "options": [
+                "need",
+                "needs",
+                "needing",
+                "have need"
+              ],
+              "correct": 1,
+              "explanation": "‘Every + singular noun’ tekil fiil alır.",
+              "translation": "Her öğrencinin bir rozete ihtiyacı vardır."
+            },
+            {
+              "id": "d21g7",
+              "text": "Each of the answers ___ possible.",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "be"
+              ],
+              "correct": 1,
+              "explanation": "‘Each of...’ gramer olarak tekil kabul edilir.",
+              "translation": "Cevapların her biri mümkündür."
+            },
+            {
+              "id": "d21g8",
+              "text": "This is ___ first time I've been here.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 2,
+              "explanation": "Ordinal numbers genellikle ‘the’ ile kullanılır.",
+              "translation": "Buraya ilk gelişim."
+            },
+            {
+              "id": "d21g9",
+              "text": "She plays ___ violin.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 2,
+              "explanation": "Müzik aletlerinde geleneksel olarak ‘the’ kullanılır.",
+              "translation": "Keman çalar."
+            },
+            {
+              "id": "d21g10",
+              "text": "___ information you gave me was useful.",
+              "options": [
+                "A",
+                "An",
+                "The",
+                "Many"
+              ],
+              "correct": 2,
+              "explanation": "Belirli bilgi ‘the information’; information sayılamaz.",
+              "translation": "Bana verdiğin bilgi faydalıydı."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v21_1",
-              "word": "integrate",
-              "meaning": "bütünleştirmek",
-              "example": "The review integrates grammar and vocabulary."
+              "en": "reliable",
+              "tr": "güvenilir"
             },
             {
-              "id": "v21_2",
-              "word": "retrieve",
-              "meaning": "hatırlayıp geri çağırmak",
-              "example": "Testing yourself helps retrieve information."
+              "en": "conduct",
+              "tr": "yürütmek"
             },
             {
-              "id": "v21_3",
-              "word": "transfer",
-              "meaning": "aktarmak",
-              "example": "Practice helps transfer knowledge to real tasks."
+              "en": "feature",
+              "tr": "özellik"
             },
             {
-              "id": "v21_4",
-              "word": "monitor",
-              "meaning": "takip etmek",
-              "example": "Monitor your accuracy over time."
+              "en": "decline",
+              "tr": "azalmak"
             },
             {
-              "id": "v21_5",
-              "word": "target",
-              "meaning": "hedeflemek",
-              "example": "Target recurring mistakes first."
+              "en": "obtain",
+              "tr": "elde etmek"
             },
             {
-              "id": "v21_6",
-              "word": "balanced",
-              "meaning": "dengeli",
-              "example": "A balanced session includes input and output."
-            },
-            {
-              "id": "v21_7",
-              "word": "independent",
-              "meaning": "bağımsız",
-              "example": "Independent practice builds confidence."
-            },
-            {
-              "id": "v21_8",
-              "word": "reflection",
-              "meaning": "değerlendirme / yansıtma",
-              "example": "A short reflection can reveal useful patterns."
+              "en": "issue",
+              "tr": "konu/sorun"
             }
-          ],
-          "sentenceWords": [
-            "retrieve",
-            "balanced"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "From Practice to Performance",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 21 Reading",
           "passage": [
-            "Practice is most useful when it resembles the skill that will eventually be required. Someone who only reads grammar explanations may understand rules but still struggle to produce accurate sentences in conversation. Similarly, memorizing isolated vocabulary does not guarantee that the words will appear naturally in speech.",
-            "A balanced course therefore moves from recognition to production. Learners first notice a form, then choose it in controlled exercises, and finally use it in a meaningful task. Review remains important, but the final goal is flexible use rather than perfect performance on a familiar worksheet. Progress becomes clearer when learners can transfer what they have studied to a new situation."
+            "Modern English proficiency requires more than memorizing isolated rules. In education and institutions, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Articles & Determiners. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r21_1",
-              "text": "Why may reading grammar explanations be insufficient?"
+              "id": "d21read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r21_2",
-              "text": "What problem can occur with isolated vocabulary study?"
+              "id": "d21read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r21_3",
-              "text": "What sequence does the writer recommend?"
-            },
-            {
-              "id": "r21_4",
-              "text": "What is the final goal of practice?"
-            },
-            {
-              "id": "r21_5",
-              "text": "Give one example of transferring English knowledge to a new situation."
+              "id": "d21read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 21 speaking bölümüne geçelim: Week 3 Review. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about education and institutions. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Articles & Determiners."
         }
       }
     },
     {
       "id": "day22",
       "number": 22,
-      "title": "Reported Speech",
-      "shortTitle": "Reported Speech",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Speaking",
-      "objective": "Report statements, questions and instructions accurately.",
-      "level": "B1+ → B2",
+      "title": "Quantifiers & Pronouns",
+      "shortTitle": "Quantifiers & Pronouns",
+      "focus": "much/many, few/little, some/any, another/other/others",
+      "duration": "20–25 dk",
+      "context": "resources and quantities",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g22_1",
-              "type": "mcq",
-              "text": "“The test is complete,” she said. → She said that the test ___.",
+              "id": "d22r1",
+              "text": "She bought ___ umbrella because it was raining.",
               "options": [
-                "was complete",
-                "is complete always",
-                "complete was?",
-                "has complete"
+                "a",
+                "an",
+                "the",
+                "—"
               ],
-              "answer": "was complete",
-              "explanation": "Backshift is common in reported speech."
+              "correct": 1,
+              "explanation": "Tekrar notu: Sesli harfle başlayan tekil sayılabilir isim: an umbrella.",
+              "translation": "Yağmur yağdığı için bir şemsiye aldı."
             },
             {
-              "id": "g22_2",
-              "type": "mcq",
-              "text": "“Can you finish today?” → He asked whether I ___ finish that day.",
+              "id": "d22r2",
+              "text": "___ sun rises in the east.",
               "options": [
-                "could",
-                "can yesterday",
-                "will can",
-                "am"
+                "A",
+                "An",
+                "The",
+                "—"
               ],
-              "answer": "could",
-              "explanation": "Can often backshifts to could."
+              "correct": 2,
+              "explanation": "Tekrar notu: Tek ve herkesçe bilinen varlıklar ‘the’ alır.",
+              "translation": "Güneş doğudan doğar."
             },
             {
-              "id": "g22_3",
-              "type": "mcq",
-              "text": "“Do not restart the unit.” → She told us ___ the unit.",
+              "id": "d22r3",
+              "text": "He is ___ engineer.",
               "options": [
-                "not to restart",
-                "do not restart",
-                "not restart yesterday",
-                "to not restarted"
+                "a",
+                "an",
+                "the",
+                "—"
               ],
-              "answer": "not to restart",
-              "explanation": "Negative reported instruction: told + object + not to + verb."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Engineer’ vowel sound ile başlar; ‘an’.",
+              "translation": "O bir mühendistir."
             },
             {
-              "id": "g22_4",
-              "type": "mcq",
-              "text": "“Why did it fail?” → He asked why it ___.",
+              "id": "d22r4",
+              "text": "We had ___ breakfast at 7.",
               "options": [
-                "had failed",
-                "did fail?",
-                "fails yesterday",
-                "has fail"
+                "a",
+                "an",
+                "the",
+                "—"
               ],
-              "answer": "had failed",
-              "explanation": "Reported questions use statement word order and can backshift."
+              "correct": 3,
+              "explanation": "Tekrar notu: Genel öğün isimlerinde çoğunlukla zero article kullanılır.",
+              "translation": "Saat 7’de kahvaltı yaptık."
             },
             {
-              "id": "g22_5",
-              "type": "input",
-              "text": "Report: “I will send the file tomorrow,” Ana said.",
-              "answers": [
-                "Ana said that she would send the file the next day."
+              "id": "d22r5",
+              "text": "I visited ___ British Museum last year.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
               ],
-              "answer": "Ana said that she would send the file the next day.",
-              "explanation": "Will often becomes would; tomorrow can become the next day."
+              "correct": 2,
+              "explanation": "Tekrar notu: Belirli müze/kurum adlarında ‘the’ kullanılır.",
+              "translation": "Geçen yıl British Museum’u ziyaret ettim."
             },
             {
-              "id": "g22_6",
-              "type": "input",
-              "text": "Report: “Please check the settings,” he said to me.",
-              "answers": [
-                "He asked me to check the settings."
+              "id": "d22r6",
+              "text": "Every student ___ a badge.",
+              "options": [
+                "need",
+                "needs",
+                "needing",
+                "have need"
               ],
-              "answer": "He asked me to check the settings.",
-              "explanation": "Polite requests can use asked + object + to-infinitive."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Every + singular noun’ tekil fiil alır.",
+              "translation": "Her öğrencinin bir rozete ihtiyacı vardır."
+            },
+            {
+              "id": "d22r7",
+              "text": "Each of the answers ___ possible.",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "be"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Each of...’ gramer olarak tekil kabul edilir.",
+              "translation": "Cevapların her biri mümkündür."
+            },
+            {
+              "id": "d22r8",
+              "text": "This is ___ first time I've been here.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Ordinal numbers genellikle ‘the’ ile kullanılır.",
+              "translation": "Buraya ilk gelişim."
+            },
+            {
+              "id": "d22r9",
+              "text": "She plays ___ violin.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "—"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Müzik aletlerinde geleneksel olarak ‘the’ kullanılır.",
+              "translation": "Keman çalar."
+            },
+            {
+              "id": "d22r10",
+              "text": "___ information you gave me was useful.",
+              "options": [
+                "A",
+                "An",
+                "The",
+                "Many"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Belirli bilgi ‘the information’; information sayılamaz.",
+              "translation": "Bana verdiğin bilgi faydalıydı."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Quantifiers & Pronouns",
+          "intro": "YDS odaklı konu: much/many, few/little, some/any, another/other/others. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d22g1",
+              "text": "There aren't ___ chairs in the room.",
+              "options": [
+                "much",
+                "many",
+                "little",
+                "a little"
+              ],
+              "correct": 1,
+              "explanation": "Countable plural ‘chairs’ ile ‘many’.",
+              "translation": "Odada çok sandalye yok."
+            },
+            {
+              "id": "d22g2",
+              "text": "We have very ___ time left.",
+              "options": [
+                "few",
+                "little",
+                "many",
+                "several"
+              ],
+              "correct": 1,
+              "explanation": "Uncountable ‘time’ ve olumsuz azlık: little.",
+              "translation": "Çok az zamanımız kaldı."
+            },
+            {
+              "id": "d22g3",
+              "text": "Only a ___ people understood the question.",
+              "options": [
+                "little",
+                "few",
+                "much",
+                "any"
+              ],
+              "correct": 1,
+              "explanation": "Countable plural ‘people’: a few.",
+              "translation": "Sadece birkaç kişi soruyu anladı."
+            },
+            {
+              "id": "d22g4",
+              "text": "Could I have ___ water?",
+              "options": [
+                "some",
+                "many",
+                "few",
+                "another"
+              ],
+              "correct": 0,
+              "explanation": "Rica/teklif sorularında olumlu beklentiyle ‘some’ kullanılabilir.",
+              "translation": "Biraz su alabilir miyim?"
+            },
+            {
+              "id": "d22g5",
+              "text": "I don't have ___ information about it.",
+              "options": [
+                "some",
+                "any",
+                "many",
+                "few"
+              ],
+              "correct": 1,
+              "explanation": "Olumsuz cümlede uncountable noun ile ‘any’.",
+              "translation": "Bunun hakkında hiç bilgim yok."
+            },
+            {
+              "id": "d22g6",
+              "text": "We need ___ solution; this one doesn't work.",
+              "options": [
+                "another",
+                "other",
+                "others",
+                "the others"
+              ],
+              "correct": 0,
+              "explanation": "Tekil countable isim öncesi ‘another’.",
+              "translation": "Başka bir çözüme ihtiyacımız var; bu işe yaramıyor."
+            },
+            {
+              "id": "d22g7",
+              "text": "Some students left; ___ stayed.",
+              "options": [
+                "other",
+                "others",
+                "another",
+                "the other"
+              ],
+              "correct": 1,
+              "explanation": "İsim tekrar edilmeden çoğul zamir olarak ‘others’.",
+              "translation": "Bazı öğrenciler ayrıldı; diğerleri kaldı."
+            },
+            {
+              "id": "d22g8",
+              "text": "There is ___ milk in the fridge, enough for one cup.",
+              "options": [
+                "a little",
+                "little",
+                "a few",
+                "few"
+              ],
+              "correct": 0,
+              "explanation": "Olumlu anlamda ‘biraz’ uncountable noun ile a little.",
+              "translation": "Buzdolabında bir fincan için yeterli biraz süt var."
+            },
+            {
+              "id": "d22g9",
+              "text": "Very ___ applicants met all the requirements.",
+              "options": [
+                "little",
+                "few",
+                "much",
+                "any"
+              ],
+              "correct": 1,
+              "explanation": "Countable plural ‘applicants’ ile few.",
+              "translation": "Çok az başvuru sahibi tüm şartları karşıladı."
+            },
+            {
+              "id": "d22g10",
+              "text": "Two options are available; one is cheap, and ___ is faster.",
+              "options": [
+                "another",
+                "the other",
+                "others",
+                "other"
+              ],
+              "correct": 1,
+              "explanation": "İki seçenekten ikincisi ‘the other’.",
+              "translation": "İki seçenek var; biri ucuz, diğeri daha hızlı."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v22_1",
-              "word": "report",
-              "meaning": "aktarmak / bildirmek",
-              "example": "She reported that the system was stable."
+              "en": "approach",
+              "tr": "yaklaşım"
             },
             {
-              "id": "v22_2",
-              "word": "claim",
-              "meaning": "iddia etmek",
-              "example": "The supplier claimed that the part was compatible."
+              "en": "increase",
+              "tr": "artmak/artırmak"
             },
             {
-              "id": "v22_3",
-              "word": "explain",
-              "meaning": "açıklamak",
-              "example": "He explained why the test had failed."
+              "en": "available",
+              "tr": "mevcut"
             },
             {
-              "id": "v22_4",
-              "word": "instruct",
-              "meaning": "talimat vermek",
-              "example": "The supervisor instructed us to stop the machine."
+              "en": "affect",
+              "tr": "etkilemek"
             },
             {
-              "id": "v22_5",
-              "word": "ask whether",
-              "meaning": "olup olmadığını sormak",
-              "example": "They asked whether the file had been updated."
+              "en": "establish",
+              "tr": "kurmak"
             },
             {
-              "id": "v22_6",
-              "word": "mention",
-              "meaning": "bahsetmek",
-              "example": "She mentioned that the deadline had changed."
-            },
-            {
-              "id": "v22_7",
-              "word": "according to",
-              "meaning": "-e göre",
-              "example": "According to the report, demand has increased."
-            },
-            {
-              "id": "v22_8",
-              "word": "statement",
-              "meaning": "ifade / beyan",
-              "example": "The statement was later corrected."
+              "en": "likely",
+              "tr": "muhtemel"
             }
-          ],
-          "sentenceWords": [
-            "claim",
-            "mention"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "A Delayed Software Release",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 22 Reading",
           "passage": [
-            "A project manager told the team that a software release would be delayed by one week. She explained that an external security review had identified two issues that needed further testing. She asked whether the developers could complete the fixes by Wednesday and instructed the testing team to prepare a new verification plan.",
-            "Later that day, the supplier reported that one of the issues was less serious than originally thought. However, the manager said that the release date would not change until all tests had been completed. She reminded everyone that the revised schedule had already been sent to customers."
+            "Modern English proficiency requires more than memorizing isolated rules. In resources and quantities, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Quantifiers & Pronouns. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r22_1",
-              "text": "What did the manager say about the release?"
+              "id": "d22read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r22_2",
-              "text": "Why was it delayed?"
+              "id": "d22read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r22_3",
-              "text": "What did she ask the developers?"
-            },
-            {
-              "id": "r22_4",
-              "text": "What did the supplier report later?"
-            },
-            {
-              "id": "r22_5",
-              "text": "Rewrite two statements from the passage as direct speech."
+              "id": "d22read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 22 speaking bölümüne geçelim: Reported Speech. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about resources and quantities. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Quantifiers & Pronouns."
         }
       }
     },
     {
       "id": "day23",
       "number": 23,
-      "title": "Linking Ideas: Contrast, Addition & Concession",
-      "shortTitle": "Linking Devices",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Reading",
-      "objective": "Connect ideas with formal B1+/B2 linking expressions.",
-      "level": "B1+ → B2",
+      "title": "Prepositions",
+      "shortTitle": "Prepositions",
+      "focus": "time/place/dependent prepositions",
+      "duration": "20–25 dk",
+      "context": "workplace and travel",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g23_1",
-              "type": "mcq",
-              "text": "___ the sample was small, the trend was clear.",
+              "id": "d23r1",
+              "text": "There aren't ___ chairs in the room.",
               "options": [
-                "Although",
-                "Despite of",
-                "Therefore",
-                "Moreover but"
+                "much",
+                "many",
+                "little",
+                "a little"
               ],
-              "answer": "Although",
-              "explanation": "Although + clause expresses concession."
+              "correct": 1,
+              "explanation": "Tekrar notu: Countable plural ‘chairs’ ile ‘many’.",
+              "translation": "Odada çok sandalye yok."
             },
             {
-              "id": "g23_2",
-              "type": "mcq",
-              "text": "The device is accurate; ___, it is relatively slow.",
+              "id": "d23r2",
+              "text": "We have very ___ time left.",
               "options": [
-                "however",
-                "because",
-                "due to",
-                "in addition to it is"
+                "few",
+                "little",
+                "many",
+                "several"
               ],
-              "answer": "however",
-              "explanation": "However introduces contrast."
+              "correct": 1,
+              "explanation": "Tekrar notu: Uncountable ‘time’ ve olumsuz azlık: little.",
+              "translation": "Çok az zamanımız kaldı."
             },
             {
-              "id": "g23_3",
-              "type": "mcq",
-              "text": "___ the delay, the project finished within budget.",
+              "id": "d23r3",
+              "text": "Only a ___ people understood the question.",
               "options": [
-                "Despite",
-                "Although",
-                "Because",
-                "Therefore"
+                "little",
+                "few",
+                "much",
+                "any"
               ],
-              "answer": "Despite",
-              "explanation": "Despite + noun phrase."
+              "correct": 1,
+              "explanation": "Tekrar notu: Countable plural ‘people’: a few.",
+              "translation": "Sadece birkaç kişi soruyu anladı."
             },
             {
-              "id": "g23_4",
-              "type": "mcq",
-              "text": "The first option is cheaper, ___ the second is more flexible.",
+              "id": "d23r4",
+              "text": "Could I have ___ water?",
               "options": [
-                "whereas",
-                "therefore",
-                "because of",
-                "moreover only"
+                "some",
+                "many",
+                "few",
+                "another"
               ],
-              "answer": "whereas",
-              "explanation": "Whereas contrasts two facts."
+              "correct": 0,
+              "explanation": "Tekrar notu: Rica/teklif sorularında olumlu beklentiyle ‘some’ kullanılabilir.",
+              "translation": "Biraz su alabilir miyim?"
             },
             {
-              "id": "g23_5",
-              "type": "input",
-              "text": "Combine using “although”: “The task was difficult. We finished on time.”",
-              "answers": [
-                "Although the task was difficult, we finished on time."
+              "id": "d23r5",
+              "text": "I don't have ___ information about it.",
+              "options": [
+                "some",
+                "any",
+                "many",
+                "few"
               ],
-              "answer": "Although the task was difficult, we finished on time.",
-              "explanation": "Although is followed by a clause."
+              "correct": 1,
+              "explanation": "Tekrar notu: Olumsuz cümlede uncountable noun ile ‘any’.",
+              "translation": "Bunun hakkında hiç bilgim yok."
             },
             {
-              "id": "g23_6",
-              "type": "input",
-              "text": "Write one addition sentence with “moreover” or “in addition”.",
-              "answers": [
-                "The tool is accurate; moreover, it is easy to configure."
+              "id": "d23r6",
+              "text": "We need ___ solution; this one doesn't work.",
+              "options": [
+                "another",
+                "other",
+                "others",
+                "the others"
               ],
-              "answer": "The tool is accurate; moreover, it is easy to configure.",
-              "explanation": "Formal linking devices connect related ideas."
+              "correct": 0,
+              "explanation": "Tekrar notu: Tekil countable isim öncesi ‘another’.",
+              "translation": "Başka bir çözüme ihtiyacımız var; bu işe yaramıyor."
+            },
+            {
+              "id": "d23r7",
+              "text": "Some students left; ___ stayed.",
+              "options": [
+                "other",
+                "others",
+                "another",
+                "the other"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: İsim tekrar edilmeden çoğul zamir olarak ‘others’.",
+              "translation": "Bazı öğrenciler ayrıldı; diğerleri kaldı."
+            },
+            {
+              "id": "d23r8",
+              "text": "There is ___ milk in the fridge, enough for one cup.",
+              "options": [
+                "a little",
+                "little",
+                "a few",
+                "few"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Olumlu anlamda ‘biraz’ uncountable noun ile a little.",
+              "translation": "Buzdolabında bir fincan için yeterli biraz süt var."
+            },
+            {
+              "id": "d23r9",
+              "text": "Very ___ applicants met all the requirements.",
+              "options": [
+                "little",
+                "few",
+                "much",
+                "any"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Countable plural ‘applicants’ ile few.",
+              "translation": "Çok az başvuru sahibi tüm şartları karşıladı."
+            },
+            {
+              "id": "d23r10",
+              "text": "Two options are available; one is cheap, and ___ is faster.",
+              "options": [
+                "another",
+                "the other",
+                "others",
+                "other"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: İki seçenekten ikincisi ‘the other’.",
+              "translation": "İki seçenek var; biri ucuz, diğeri daha hızlı."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Prepositions",
+          "intro": "YDS odaklı konu: time/place/dependent prepositions. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d23g1",
+              "text": "The meeting starts ___ 9 a.m.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "by"
+              ],
+              "correct": 2,
+              "explanation": "Saatlerle ‘at’ kullanılır.",
+              "translation": "Toplantı saat 9’da başlar."
+            },
+            {
+              "id": "d23g2",
+              "text": "We moved here ___ 2020.",
+              "options": [
+                "at",
+                "on",
+                "in",
+                "for"
+              ],
+              "correct": 2,
+              "explanation": "Yıllarla ‘in’ kullanılır.",
+              "translation": "2020’de buraya taşındık."
+            },
+            {
+              "id": "d23g3",
+              "text": "The deadline is ___ Friday.",
+              "options": [
+                "at",
+                "on",
+                "in",
+                "since"
+              ],
+              "correct": 1,
+              "explanation": "Günlerle ‘on’ kullanılır.",
+              "translation": "Son tarih cuma günü."
+            },
+            {
+              "id": "d23g4",
+              "text": "She is responsible ___ customer support.",
+              "options": [
+                "for",
+                "of",
+                "to",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "Sabit kullanım: responsible for.",
+              "translation": "Müşteri desteğinden sorumludur."
+            },
+            {
+              "id": "d23g5",
+              "text": "He is interested ___ renewable energy.",
+              "options": [
+                "on",
+                "at",
+                "in",
+                "for"
+              ],
+              "correct": 2,
+              "explanation": "Sabit kullanım: interested in.",
+              "translation": "Yenilenebilir enerjiyle ilgileniyor."
+            },
+            {
+              "id": "d23g6",
+              "text": "This solution differs ___ the previous one.",
+              "options": [
+                "from",
+                "to",
+                "at",
+                "by"
+              ],
+              "correct": 0,
+              "explanation": "Sabit kullanım: differ from.",
+              "translation": "Bu çözüm öncekinden farklıdır."
+            },
+            {
+              "id": "d23g7",
+              "text": "The report consists ___ five sections.",
+              "options": [
+                "from",
+                "of",
+                "in",
+                "with"
+              ],
+              "correct": 1,
+              "explanation": "Sabit kullanım: consist of.",
+              "translation": "Rapor beş bölümden oluşur."
+            },
+            {
+              "id": "d23g8",
+              "text": "We arrived ___ the airport early.",
+              "options": [
+                "in",
+                "at",
+                "on",
+                "to"
+              ],
+              "correct": 1,
+              "explanation": "Küçük/belirli yer noktalarıyla arrive at.",
+              "translation": "Havalimanına erken vardık."
+            },
+            {
+              "id": "d23g9",
+              "text": "They arrived ___ Paris yesterday.",
+              "options": [
+                "at",
+                "in",
+                "on",
+                "to"
+              ],
+              "correct": 1,
+              "explanation": "Şehir/ülke gibi büyük yerlerle arrive in.",
+              "translation": "Dün Paris’e vardılar."
+            },
+            {
+              "id": "d23g10",
+              "text": "Success depends ___ careful planning.",
+              "options": [
+                "at",
+                "on",
+                "for",
+                "of"
+              ],
+              "correct": 1,
+              "explanation": "Sabit kullanım: depend on.",
+              "translation": "Başarı dikkatli planlamaya bağlıdır."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v23_1",
-              "word": "although",
-              "meaning": "-e rağmen",
-              "example": "Although the task was difficult, the team finished early."
+              "en": "requirement",
+              "tr": "gereklilik"
             },
             {
-              "id": "v23_2",
-              "word": "however",
-              "meaning": "ancak / bununla birlikte",
-              "example": "The method is accurate; however, it is relatively slow."
+              "en": "indicate",
+              "tr": "göstermek"
             },
             {
-              "id": "v23_3",
-              "word": "moreover",
-              "meaning": "ayrıca",
-              "example": "The device is compact; moreover, it uses little power."
+              "en": "prevent",
+              "tr": "önlemek"
             },
             {
-              "id": "v23_4",
-              "word": "despite",
-              "meaning": "-e rağmen",
-              "example": "Despite the delay, the launch was successful."
+              "en": "benefit",
+              "tr": "fayda"
             },
             {
-              "id": "v23_5",
-              "word": "whereas",
-              "meaning": "oysa",
-              "example": "The first option is cheaper, whereas the second is more flexible."
+              "en": "occur",
+              "tr": "meydana gelmek"
             },
             {
-              "id": "v23_6",
-              "word": "nevertheless",
-              "meaning": "yine de",
-              "example": "The sample was small; nevertheless, the trend was clear."
-            },
-            {
-              "id": "v23_7",
-              "word": "in addition",
-              "meaning": "ek olarak",
-              "example": "In addition, the software supports offline use."
-            },
-            {
-              "id": "v23_8",
-              "word": "consequently",
-              "meaning": "sonuç olarak",
-              "example": "The input was incorrect; consequently, the result was invalid."
+              "en": "maintain",
+              "tr": "sürdürmek"
             }
-          ],
-          "sentenceWords": [
-            "however",
-            "nevertheless"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Remote Work and Office Design",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 23 Reading",
           "passage": [
-            "Remote work has reduced the number of employees who are in the office every day. Nevertheless, many companies are still investing in physical workplaces. The purpose of the office, however, is changing. Instead of providing a permanent desk for every employee, some organizations are creating more spaces for meetings, collaboration, and focused project work.",
-            "This approach can reduce unused space and give teams more flexibility. On the other hand, it may create problems if too many people choose to come in on the same day. Some employees also prefer a consistent personal workspace, whereas others value variety. Consequently, successful office design increasingly depends on understanding how different teams actually work rather than following a single universal model."
+            "Modern English proficiency requires more than memorizing isolated rules. In workplace and travel, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Prepositions. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r23_1",
-              "text": "Why are some companies changing office design?"
+              "id": "d23read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r23_2",
-              "text": "What advantage can the new approach provide?"
+              "id": "d23read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r23_3",
-              "text": "What problem may occur on busy days?"
-            },
-            {
-              "id": "r23_4",
-              "text": "How do employee preferences differ?"
-            },
-            {
-              "id": "r23_5",
-              "text": "Identify four linking expressions and state their functions."
+              "id": "d23read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 23 speaking bölümüne geçelim: Linking Ideas: Contrast, Addition & Concession. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about workplace and travel. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Prepositions."
         }
       }
     },
     {
       "id": "day24",
       "number": 24,
-      "title": "Gerunds & Infinitives",
-      "shortTitle": "Gerunds & Infinitives",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Vocabulary",
-      "objective": "Use common verb patterns naturally and accurately.",
-      "level": "B1+ → B2",
+      "title": "Adjectives & Adverbs",
+      "shortTitle": "Adjectives & Adverbs",
+      "focus": "position, -ed/-ing adjectives, degree adverbs",
+      "duration": "20–25 dk",
+      "context": "descriptions and reactions",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g24_1",
-              "type": "mcq",
-              "text": "We are considering ___ the supplier.",
+              "id": "d24r1",
+              "text": "The meeting starts ___ 9 a.m.",
               "options": [
-                "changing",
-                "to changing",
-                "change yesterday",
-                "changed to"
+                "in",
+                "on",
+                "at",
+                "by"
               ],
-              "answer": "changing",
-              "explanation": "Consider is followed by a gerund."
+              "correct": 2,
+              "explanation": "Tekrar notu: Saatlerle ‘at’ kullanılır.",
+              "translation": "Toplantı saat 9’da başlar."
             },
             {
-              "id": "g24_2",
-              "type": "mcq",
-              "text": "They managed ___ the work on time.",
+              "id": "d24r2",
+              "text": "We moved here ___ 2020.",
               "options": [
-                "to finish",
-                "finishing to",
-                "finish yesterday to",
-                "to finished"
+                "at",
+                "on",
+                "in",
+                "for"
               ],
-              "answer": "to finish",
-              "explanation": "Manage is followed by to-infinitive."
+              "correct": 2,
+              "explanation": "Tekrar notu: Yıllarla ‘in’ kullanılır.",
+              "translation": "2020’de buraya taşındık."
             },
             {
-              "id": "g24_3",
-              "type": "mcq",
-              "text": "I recommend ___ the logs first.",
+              "id": "d24r3",
+              "text": "The deadline is ___ Friday.",
               "options": [
-                "checking",
-                "to checked",
-                "check to",
-                "checked"
+                "at",
+                "on",
+                "in",
+                "since"
               ],
-              "answer": "checking",
-              "explanation": "Recommend is commonly followed by a gerund."
+              "correct": 1,
+              "explanation": "Tekrar notu: Günlerle ‘on’ kullanılır.",
+              "translation": "Son tarih cuma günü."
             },
             {
-              "id": "g24_4",
-              "type": "mcq",
-              "text": "The company expects ___ the update next month.",
+              "id": "d24r4",
+              "text": "She is responsible ___ customer support.",
               "options": [
-                "to release",
-                "releasing to",
-                "released",
-                "to released"
+                "for",
+                "of",
+                "to",
+                "with"
               ],
-              "answer": "to release",
-              "explanation": "Expect is followed by to-infinitive."
+              "correct": 0,
+              "explanation": "Tekrar notu: Sabit kullanım: responsible for.",
+              "translation": "Müşteri desteğinden sorumludur."
             },
             {
-              "id": "g24_5",
-              "type": "input",
-              "text": "Complete: She suggested ___ (use) a different method.",
-              "answers": [
-                "using"
+              "id": "d24r5",
+              "text": "He is interested ___ renewable energy.",
+              "options": [
+                "on",
+                "at",
+                "in",
+                "for"
               ],
-              "answer": "using",
-              "explanation": "Suggest is followed by a gerund."
+              "correct": 2,
+              "explanation": "Tekrar notu: Sabit kullanım: interested in.",
+              "translation": "Yenilenebilir enerjiyle ilgileniyor."
             },
             {
-              "id": "g24_6",
-              "type": "input",
-              "text": "Write a sentence with “avoid + -ing”.",
-              "answers": [
-                "Avoid touching the exposed contacts."
+              "id": "d24r6",
+              "text": "This solution differs ___ the previous one.",
+              "options": [
+                "from",
+                "to",
+                "at",
+                "by"
               ],
-              "answer": "Avoid touching the exposed contacts.",
-              "explanation": "Avoid is followed by a gerund."
+              "correct": 0,
+              "explanation": "Tekrar notu: Sabit kullanım: differ from.",
+              "translation": "Bu çözüm öncekinden farklıdır."
+            },
+            {
+              "id": "d24r7",
+              "text": "The report consists ___ five sections.",
+              "options": [
+                "from",
+                "of",
+                "in",
+                "with"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Sabit kullanım: consist of.",
+              "translation": "Rapor beş bölümden oluşur."
+            },
+            {
+              "id": "d24r8",
+              "text": "We arrived ___ the airport early.",
+              "options": [
+                "in",
+                "at",
+                "on",
+                "to"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Küçük/belirli yer noktalarıyla arrive at.",
+              "translation": "Havalimanına erken vardık."
+            },
+            {
+              "id": "d24r9",
+              "text": "They arrived ___ Paris yesterday.",
+              "options": [
+                "at",
+                "in",
+                "on",
+                "to"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Şehir/ülke gibi büyük yerlerle arrive in.",
+              "translation": "Dün Paris’e vardılar."
+            },
+            {
+              "id": "d24r10",
+              "text": "Success depends ___ careful planning.",
+              "options": [
+                "at",
+                "on",
+                "for",
+                "of"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Sabit kullanım: depend on.",
+              "translation": "Başarı dikkatli planlamaya bağlıdır."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Adjectives & Adverbs",
+          "intro": "YDS odaklı konu: position, -ed/-ing adjectives, degree adverbs. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d24g1",
+              "text": "The lecture was extremely ___.",
+              "options": [
+                "interested",
+                "interesting",
+                "interest",
+                "interestingly person"
+              ],
+              "correct": 1,
+              "explanation": "Şeyin yarattığı etki -ing adjective ile: interesting.",
+              "translation": "Ders son derece ilginçti."
+            },
+            {
+              "id": "d24g2",
+              "text": "I was ___ by the results.",
+              "options": [
+                "surprising",
+                "surprised",
+                "surprise",
+                "surprisingly"
+              ],
+              "correct": 1,
+              "explanation": "Kişinin hissettiği duygu -ed adjective ile: surprised.",
+              "translation": "Sonuçlara şaşırdım."
+            },
+            {
+              "id": "d24g3",
+              "text": "She completed the task ___.",
+              "options": [
+                "careful",
+                "carefully",
+                "care",
+                "more careful"
+              ],
+              "correct": 1,
+              "explanation": "Fiili nitelemek için adverb gerekir: carefully.",
+              "translation": "Görevi dikkatlice tamamladı."
+            },
+            {
+              "id": "d24g4",
+              "text": "The test was ___ difficult.",
+              "options": [
+                "remarkably",
+                "remarkable",
+                "remark",
+                "remarked"
+              ],
+              "correct": 0,
+              "explanation": "Sıfat ‘difficult’i degree adverb niteler.",
+              "translation": "Test dikkate değer derecede zordu."
+            },
+            {
+              "id": "d24g5",
+              "text": "He speaks English very ___.",
+              "options": [
+                "good",
+                "well",
+                "betterly",
+                "bestly"
+              ],
+              "correct": 1,
+              "explanation": "‘Speak’ fiilini ‘well’ zarfı niteler.",
+              "translation": "İngilizceyi çok iyi konuşur."
+            },
+            {
+              "id": "d24g6",
+              "text": "It was a ___ designed system.",
+              "options": [
+                "careful",
+                "carefully",
+                "care",
+                "caring"
+              ],
+              "correct": 1,
+              "explanation": "Past participle adjective ‘designed’ bir adverb ile nitelenir.",
+              "translation": "Dikkatle tasarlanmış bir sistemdi."
+            },
+            {
+              "id": "d24g7",
+              "text": "The news was deeply ___.",
+              "options": [
+                "disturbed",
+                "disturbing",
+                "disturb",
+                "disturbingly person"
+              ],
+              "correct": 1,
+              "explanation": "Haber rahatsız edici etki yaratıyor: disturbing.",
+              "translation": "Haber son derece rahatsız ediciydi."
+            },
+            {
+              "id": "d24g8",
+              "text": "She looked __ after the long journey.",
+              "options": [
+                "tired",
+                "tiring",
+                "tiredly",
+                "tire"
+              ],
+              "correct": 0,
+              "explanation": "Linking verb ‘look’ sonrası adjective kullanılır.",
+              "translation": "Uzun yolculuktan sonra yorgun görünüyordu."
+            },
+            {
+              "id": "d24g9",
+              "text": "The machine operates ___.",
+              "options": [
+                "quiet",
+                "quietly",
+                "quieter adjective only",
+                "quietness"
+              ],
+              "correct": 1,
+              "explanation": "Fiil ‘operates’i adverb niteler.",
+              "translation": "Makine sessizce çalışır."
+            },
+            {
+              "id": "d24g10",
+              "text": "This is a highly ___ position.",
+              "options": [
+                "competition",
+                "competitive",
+                "competitively",
+                "compete"
+              ],
+              "correct": 1,
+              "explanation": "Noun ‘position’ı adjective ‘competitive’ niteler.",
+              "translation": "Bu oldukça rekabetçi bir pozisyondur."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v24_1",
-              "word": "avoid",
-              "meaning": "kaçınmak",
-              "example": "Avoid touching the exposed contacts."
+              "en": "evidence",
+              "tr": "kanıt"
             },
             {
-              "id": "v24_2",
-              "word": "consider",
-              "meaning": "değerlendirmek",
-              "example": "We are considering changing the supplier."
+              "en": "significant",
+              "tr": "önemli"
             },
             {
-              "id": "v24_3",
-              "word": "manage to",
-              "meaning": "başarmak",
-              "example": "They managed to finish on time."
+              "en": "assume",
+              "tr": "varsaymak"
             },
             {
-              "id": "v24_4",
-              "word": "recommend",
-              "meaning": "önermek",
-              "example": "I recommend checking the logs first."
+              "en": "outcome",
+              "tr": "sonuç"
             },
             {
-              "id": "v24_5",
-              "word": "expect to",
-              "meaning": "beklemek",
-              "example": "We expect to receive the parts tomorrow."
+              "en": "relevant",
+              "tr": "ilgili"
             },
             {
-              "id": "v24_6",
-              "word": "admit",
-              "meaning": "kabul etmek",
-              "example": "He admitted making a mistake."
-            },
-            {
-              "id": "v24_7",
-              "word": "refuse",
-              "meaning": "reddetmek",
-              "example": "The device refused to start after the update."
-            },
-            {
-              "id": "v24_8",
-              "word": "suggest",
-              "meaning": "önermek",
-              "example": "She suggested using a different method."
+              "en": "ensure",
+              "tr": "sağlamak/garanti etmek"
             }
-          ],
-          "sentenceWords": [
-            "consider",
-            "admit"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Learning to Repair Instead of Replace",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 24 Reading",
           "passage": [
-            "A growing number of community workshops encourage people to repair household items instead of throwing them away. Visitors can bring small appliances, clothing, or furniture and work with volunteers who have practical skills. The aim is not simply to provide a free repair service. Organizers want visitors to learn how to diagnose simple problems and feel confident attempting basic repairs themselves.",
-            "Some manufacturers have also begun offering repair guides and replacement parts. Supporters argue that making products easier to repair can reduce waste and save consumers money. Critics, however, warn that people should avoid opening devices that contain dangerous voltages or sealed safety systems. Knowing when to stop is therefore an important part of learning to repair responsibly."
+            "Modern English proficiency requires more than memorizing isolated rules. In descriptions and reactions, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Adjectives & Adverbs. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r24_1",
-              "text": "What do community workshops encourage people to do?"
+              "id": "d24read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r24_2",
-              "text": "What is the broader aim beyond free repairs?"
+              "id": "d24read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r24_3",
-              "text": "What have some manufacturers begun offering?"
-            },
-            {
-              "id": "r24_4",
-              "text": "What safety warning does the text give?"
-            },
-            {
-              "id": "r24_5",
-              "text": "Find three gerund or infinitive patterns in the passage."
+              "id": "d24read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 24 speaking bölümüne geçelim: Gerunds & Infinitives. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about descriptions and reactions. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Adjectives & Adverbs."
         }
       }
     },
     {
       "id": "day25",
       "number": 25,
-      "title": "Articles, Quantifiers & Determiners",
-      "shortTitle": "Articles & Quantifiers",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Grammar • Test",
-      "objective": "Improve accuracy with countability, quantity and reference.",
-      "level": "B1+ → B2",
+      "title": "Comparisons",
+      "shortTitle": "Comparisons",
+      "focus": "comparative, superlative, as...as, the more...the more",
+      "duration": "20–25 dk",
+      "context": "data comparisons",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g25_1",
-              "type": "mcq",
-              "text": "There is ___ evidence to support that claim.",
+              "id": "d25r1",
+              "text": "The lecture was extremely ___.",
               "options": [
-                "little",
-                "few",
-                "many",
-                "several"
+                "interested",
+                "interesting",
+                "interest",
+                "interestingly person"
               ],
-              "answer": "little",
-              "explanation": "Evidence is uncountable."
+              "correct": 1,
+              "explanation": "Tekrar notu: Şeyin yarattığı etki -ing adjective ile: interesting.",
+              "translation": "Ders son derece ilginçti."
             },
             {
-              "id": "g25_2",
-              "type": "mcq",
-              "text": "___ users reported the problem, so it was not widespread.",
+              "id": "d25r2",
+              "text": "I was ___ by the results.",
               "options": [
-                "Few",
-                "Little",
-                "Much",
-                "An amount of"
+                "surprising",
+                "surprised",
+                "surprise",
+                "surprisingly"
               ],
-              "answer": "Few",
-              "explanation": "Users is countable plural."
+              "correct": 1,
+              "explanation": "Tekrar notu: Kişinin hissettiği duygu -ed adjective ile: surprised.",
+              "translation": "Sonuçlara şaşırdım."
             },
             {
-              "id": "g25_3",
-              "type": "mcq",
-              "text": "We need ___ information before making a decision.",
+              "id": "d25r3",
+              "text": "She completed the task ___.",
               "options": [
-                "more",
-                "many",
-                "a few of",
-                "several of information"
+                "careful",
+                "carefully",
+                "care",
+                "more careful"
               ],
-              "answer": "more",
-              "explanation": "Information is uncountable."
+              "correct": 1,
+              "explanation": "Tekrar notu: Fiili nitelemek için adverb gerekir: carefully.",
+              "translation": "Görevi dikkatlice tamamladı."
             },
             {
-              "id": "g25_4",
-              "type": "mcq",
-              "text": "___ majority of participants preferred the second option.",
+              "id": "d25r4",
+              "text": "The test was ___ difficult.",
               "options": [
-                "The",
-                "A little",
-                "Few",
-                "An"
+                "remarkably",
+                "remarkable",
+                "remark",
+                "remarked"
               ],
-              "answer": "The",
-              "explanation": "The majority of is a fixed expression."
+              "correct": 0,
+              "explanation": "Tekrar notu: Sıfat ‘difficult’i degree adverb niteler.",
+              "translation": "Test dikkate değer derecede zordu."
             },
             {
-              "id": "g25_5",
-              "type": "input",
-              "text": "Complete: We have ___ (sufficient / a sufficient) time to finish.",
-              "answers": [
-                "sufficient"
+              "id": "d25r5",
+              "text": "He speaks English very ___.",
+              "options": [
+                "good",
+                "well",
+                "betterly",
+                "bestly"
               ],
-              "answer": "sufficient",
-              "explanation": "Sufficient can directly modify an uncountable noun."
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Speak’ fiilini ‘well’ zarfı niteler.",
+              "translation": "İngilizceyi çok iyi konuşur."
             },
             {
-              "id": "g25_6",
-              "type": "input",
-              "text": "Write one sentence with “a number of”.",
-              "answers": [
-                "A number of issues were identified during testing."
+              "id": "d25r6",
+              "text": "It was a ___ designed system.",
+              "options": [
+                "careful",
+                "carefully",
+                "care",
+                "caring"
               ],
-              "answer": "A number of issues were identified during testing.",
-              "explanation": "A number of + plural noun takes a plural verb."
+              "correct": 1,
+              "explanation": "Tekrar notu: Past participle adjective ‘designed’ bir adverb ile nitelenir.",
+              "translation": "Dikkatle tasarlanmış bir sistemdi."
+            },
+            {
+              "id": "d25r7",
+              "text": "The news was deeply ___.",
+              "options": [
+                "disturbed",
+                "disturbing",
+                "disturb",
+                "disturbingly person"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Haber rahatsız edici etki yaratıyor: disturbing.",
+              "translation": "Haber son derece rahatsız ediciydi."
+            },
+            {
+              "id": "d25r8",
+              "text": "She looked __ after the long journey.",
+              "options": [
+                "tired",
+                "tiring",
+                "tiredly",
+                "tire"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Linking verb ‘look’ sonrası adjective kullanılır.",
+              "translation": "Uzun yolculuktan sonra yorgun görünüyordu."
+            },
+            {
+              "id": "d25r9",
+              "text": "The machine operates ___.",
+              "options": [
+                "quiet",
+                "quietly",
+                "quieter adjective only",
+                "quietness"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Fiil ‘operates’i adverb niteler.",
+              "translation": "Makine sessizce çalışır."
+            },
+            {
+              "id": "d25r10",
+              "text": "This is a highly ___ position.",
+              "options": [
+                "competition",
+                "competitive",
+                "competitively",
+                "compete"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Noun ‘position’ı adjective ‘competitive’ niteler.",
+              "translation": "Bu oldukça rekabetçi bir pozisyondur."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Comparisons",
+          "intro": "YDS odaklı konu: comparative, superlative, as...as, the more...the more. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d25g1",
+              "text": "This model is ___ than the previous one.",
+              "options": [
+                "efficient",
+                "more efficient",
+                "most efficient",
+                "as efficient"
+              ],
+              "correct": 1,
+              "explanation": "Uzun sıfatlarda comparative: more + adjective.",
+              "translation": "Bu model öncekinden daha verimli."
+            },
+            {
+              "id": "d25g2",
+              "text": "She is the ___ person on the team.",
+              "options": [
+                "experienced",
+                "more experienced",
+                "most experienced",
+                "as experienced"
+              ],
+              "correct": 2,
+              "explanation": "Grup içindeki en üstün derece: the most + adjective.",
+              "translation": "Takımdaki en deneyimli kişidir."
+            },
+            {
+              "id": "d25g3",
+              "text": "The new method is ___ the old one.",
+              "options": [
+                "as reliable as",
+                "as reliable than",
+                "more reliable as",
+                "reliable than"
+              ],
+              "correct": 0,
+              "explanation": "Eşitlik karşılaştırması: as + adj + as.",
+              "translation": "Yeni yöntem eskisi kadar güvenilir."
+            },
+            {
+              "id": "d25g4",
+              "text": "The ___ you practice, the ___ you become.",
+              "options": [
+                "more / better",
+                "most / best",
+                "much / good",
+                "more / best"
+              ],
+              "correct": 0,
+              "explanation": "Paralel değişim: the more..., the better....",
+              "translation": "Ne kadar çok pratik yaparsan o kadar iyi olursun."
+            },
+            {
+              "id": "d25g5",
+              "text": "This route is slightly ___ than the highway.",
+              "options": [
+                "short",
+                "shorter",
+                "shortest",
+                "more short"
+              ],
+              "correct": 1,
+              "explanation": "Kısa sıfat comparative -er alır; ‘slightly’ dereceyi yumuşatır.",
+              "translation": "Bu rota otoyoldan biraz daha kısa."
+            },
+            {
+              "id": "d25g6",
+              "text": "Of the three options, this is ___ expensive.",
+              "options": [
+                "less",
+                "the least",
+                "least than",
+                "the less"
+              ],
+              "correct": 1,
+              "explanation": "Üç+ seçenek içinde en az: the least + adjective.",
+              "translation": "Üç seçenek içinde bu en ucuzu/en az pahalı olanı."
+            },
+            {
+              "id": "d25g7",
+              "text": "My office is twice ___ yours.",
+              "options": [
+                "as large as",
+                "larger as",
+                "more large than",
+                "as larger as"
+              ],
+              "correct": 0,
+              "explanation": "Kat karşılaştırması: twice as + adj + as.",
+              "translation": "Ofisim seninkinin iki katı büyüklüğünde."
+            },
+            {
+              "id": "d25g8",
+              "text": "No other city in the region is ___ this one.",
+              "options": [
+                "larger than",
+                "as large as",
+                "the largest",
+                "more large"
+              ],
+              "correct": 1,
+              "explanation": "‘No other ... as + adjective + as’ eşdeğer superlative anlamı verir.",
+              "translation": "Bölgede başka hiçbir şehir bunun kadar büyük değil."
+            },
+            {
+              "id": "d25g9",
+              "text": "The situation is becoming ___.",
+              "options": [
+                "bad and bad",
+                "worse and worse",
+                "more worse",
+                "worst and worst"
+              ],
+              "correct": 1,
+              "explanation": "Kademeli değişim: comparative + and + comparative.",
+              "translation": "Durum giderek kötüleşiyor."
+            },
+            {
+              "id": "d25g10",
+              "text": "The faster we respond, ___ the damage will be.",
+              "options": [
+                "less",
+                "the less",
+                "the least",
+                "lesser"
+              ],
+              "correct": 1,
+              "explanation": "The + comparative, the + comparative yapısı.",
+              "translation": "Ne kadar hızlı müdahale edersek zarar o kadar az olur."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v25_1",
-              "word": "several",
-              "meaning": "birkaç",
-              "example": "Several tests produced similar results."
+              "en": "evaluate",
+              "tr": "değerlendirmek"
             },
             {
-              "id": "v25_2",
-              "word": "a great deal of",
-              "meaning": "çok miktarda",
-              "example": "The project required a great deal of planning."
+              "en": "approximately",
+              "tr": "yaklaşık olarak"
             },
             {
-              "id": "v25_3",
-              "word": "few",
-              "meaning": "az sayıda",
-              "example": "Few users reported the problem."
+              "en": "despite",
+              "tr": "rağmen"
             },
             {
-              "id": "v25_4",
-              "word": "little",
-              "meaning": "az miktarda",
-              "example": "There is little evidence for that claim."
+              "en": "consequently",
+              "tr": "sonuç olarak"
             },
             {
-              "id": "v25_5",
-              "word": "the majority of",
-              "meaning": "çoğunluğu",
-              "example": "The majority of participants preferred option B."
+              "en": "adequate",
+              "tr": "yeterli"
             },
             {
-              "id": "v25_6",
-              "word": "an amount of",
-              "meaning": "bir miktar",
-              "example": "A small amount of heat is generated."
-            },
-            {
-              "id": "v25_7",
-              "word": "a number of",
-              "meaning": "bir dizi / birçok",
-              "example": "A number of issues were identified."
-            },
-            {
-              "id": "v25_8",
-              "word": "sufficient",
-              "meaning": "yeterli",
-              "example": "There is sufficient space for the equipment."
+              "en": "require",
+              "tr": "gerektirmek"
             }
-          ],
-          "sentenceWords": [
-            "a great deal of",
-            "an amount of"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "How Much Choice Is Too Much?",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 25 Reading",
           "passage": [
-            "Consumers often say that they want more choice, but a very large number of options can make decisions more difficult. In one study, shoppers were shown either a small selection of products or a much larger selection. More people stopped to look at the large display, yet fewer of them actually made a purchase.",
-            "Researchers suggest that too many similar alternatives increase the amount of information a person must compare. This can create uncertainty, especially when there is little difference between the products. A limited number of clearly distinct options may therefore be more useful than dozens of nearly identical ones. The best amount of choice probably depends on the importance of the decision and the knowledge of the person making it."
+            "Modern English proficiency requires more than memorizing isolated rules. In data comparisons, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Comparisons. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r25_1",
-              "text": "What happened when shoppers saw the larger selection?"
+              "id": "d25read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r25_2",
-              "text": "Why can many similar alternatives be difficult?"
+              "id": "d25read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r25_3",
-              "text": "What kind of options may be more useful?"
-            },
-            {
-              "id": "r25_4",
-              "text": "Does the writer suggest one ideal number of choices?"
-            },
-            {
-              "id": "r25_5",
-              "text": "Find examples of countable and uncountable quantity expressions."
+              "id": "d25read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 25 speaking bölümüne geçelim: Articles, Quantifiers & Determiners. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about data comparisons. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Comparisons."
         }
       }
     },
     {
       "id": "day26",
       "number": 26,
-      "title": "Describing Data, Trends & Results",
-      "shortTitle": "Data & Results",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Vocabulary • Speaking",
-      "objective": "Describe changes, comparisons and findings in professional English.",
-      "level": "B1+ → B2",
+      "title": "Reported Speech",
+      "shortTitle": "Reported Speech",
+      "focus": "statements, questions, commands ve reporting verbs",
+      "duration": "20–25 dk",
+      "context": "interviews and statements",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g26_1",
-              "type": "mcq",
-              "text": "Energy use ___ by 12% last year.",
+              "id": "d26r1",
+              "text": "This model is ___ than the previous one.",
               "options": [
-                "decreased",
-                "has decreasing",
-                "was decrease",
-                "decrease did"
+                "efficient",
+                "more efficient",
+                "most efficient",
+                "as efficient"
               ],
-              "answer": "decreased",
-              "explanation": "Past Simple describes a completed change."
+              "correct": 1,
+              "explanation": "Tekrar notu: Uzun sıfatlarda comparative: more + adjective.",
+              "translation": "Bu model öncekinden daha verimli."
             },
             {
-              "id": "g26_2",
-              "type": "mcq",
-              "text": "The error rate remained ___.",
+              "id": "d26r2",
+              "text": "She is the ___ person on the team.",
               "options": [
-                "stable",
-                "stably rate",
-                "stabilest",
-                "stability than"
+                "experienced",
+                "more experienced",
+                "most experienced",
+                "as experienced"
               ],
-              "answer": "stable",
-              "explanation": "Remain is followed by an adjective."
+              "correct": 2,
+              "explanation": "Tekrar notu: Grup içindeki en üstün derece: the most + adjective.",
+              "translation": "Takımdaki en deneyimli kişidir."
             },
             {
-              "id": "g26_3",
-              "type": "mcq",
-              "text": "Demand ___ in August and then fell.",
+              "id": "d26r3",
+              "text": "The new method is ___ the old one.",
               "options": [
-                "peaked",
-                "peak was",
-                "has peak yesterday",
-                "is peaked by itself"
+                "as reliable as",
+                "as reliable than",
+                "more reliable as",
+                "reliable than"
               ],
-              "answer": "peaked",
-              "explanation": "Peak can be used as a verb."
+              "correct": 0,
+              "explanation": "Tekrar notu: Eşitlik karşılaştırması: as + adj + as.",
+              "translation": "Yeni yöntem eskisi kadar güvenilir."
             },
             {
-              "id": "g26_4",
-              "type": "mcq",
-              "text": "Prices ___ throughout the quarter.",
+              "id": "d26r4",
+              "text": "The ___ you practice, the ___ you become.",
               "options": [
-                "fluctuated",
-                "fluctuation were",
-                "are fluctuation",
-                "fluctuate yesterday now"
+                "more / better",
+                "most / best",
+                "much / good",
+                "more / best"
               ],
-              "answer": "fluctuated",
-              "explanation": "Fluctuate describes repeated rises and falls."
+              "correct": 0,
+              "explanation": "Tekrar notu: Paralel değişim: the more..., the better....",
+              "translation": "Ne kadar çok pratik yaparsan o kadar iyi olursun."
             },
             {
-              "id": "g26_5",
-              "type": "input",
-              "text": "Write a trend sentence with “approximately”.",
-              "answers": [
-                "Sales increased by approximately 8%."
+              "id": "d26r5",
+              "text": "This route is slightly ___ than the highway.",
+              "options": [
+                "short",
+                "shorter",
+                "shortest",
+                "more short"
               ],
-              "answer": "Sales increased by approximately 8%.",
-              "explanation": "Approximately softens a numerical value."
+              "correct": 1,
+              "explanation": "Tekrar notu: Kısa sıfat comparative -er alır; ‘slightly’ dereceyi yumuşatır.",
+              "translation": "Bu rota otoyoldan biraz daha kısa."
             },
             {
-              "id": "g26_6",
-              "type": "input",
-              "text": "Write a sentence describing stability.",
-              "answers": [
-                "The failure rate remained stable throughout the month."
+              "id": "d26r6",
+              "text": "Of the three options, this is ___ expensive.",
+              "options": [
+                "less",
+                "the least",
+                "least than",
+                "the less"
               ],
-              "answer": "The failure rate remained stable throughout the month.",
-              "explanation": "Remain stable is a common data collocation."
+              "correct": 1,
+              "explanation": "Tekrar notu: Üç+ seçenek içinde en az: the least + adjective.",
+              "translation": "Üç seçenek içinde bu en ucuzu/en az pahalı olanı."
+            },
+            {
+              "id": "d26r7",
+              "text": "My office is twice ___ yours.",
+              "options": [
+                "as large as",
+                "larger as",
+                "more large than",
+                "as larger as"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Kat karşılaştırması: twice as + adj + as.",
+              "translation": "Ofisim seninkinin iki katı büyüklüğünde."
+            },
+            {
+              "id": "d26r8",
+              "text": "No other city in the region is ___ this one.",
+              "options": [
+                "larger than",
+                "as large as",
+                "the largest",
+                "more large"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘No other ... as + adjective + as’ eşdeğer superlative anlamı verir.",
+              "translation": "Bölgede başka hiçbir şehir bunun kadar büyük değil."
+            },
+            {
+              "id": "d26r9",
+              "text": "The situation is becoming ___.",
+              "options": [
+                "bad and bad",
+                "worse and worse",
+                "more worse",
+                "worst and worst"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Kademeli değişim: comparative + and + comparative.",
+              "translation": "Durum giderek kötüleşiyor."
+            },
+            {
+              "id": "d26r10",
+              "text": "The faster we respond, ___ the damage will be.",
+              "options": [
+                "less",
+                "the less",
+                "the least",
+                "lesser"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: The + comparative, the + comparative yapısı.",
+              "translation": "Ne kadar hızlı müdahale edersek zarar o kadar az olur."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Reported Speech",
+          "intro": "YDS odaklı konu: statements, questions, commands ve reporting verbs. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d26g1",
+              "text": "She said that she ___ tired.",
+              "options": [
+                "is",
+                "was",
+                "will be",
+                "has been"
+              ],
+              "correct": 1,
+              "explanation": "Geçmiş reporting verb sonrası tense backshift: am/is → was.",
+              "translation": "Yorgun olduğunu söyledi."
+            },
+            {
+              "id": "d26g2",
+              "text": "He told me that he ___ the report.",
+              "options": [
+                "finished",
+                "had finished",
+                "finishes",
+                "will finish yesterday"
+              ],
+              "correct": 1,
+              "explanation": "Past Simple çoğu zaman reported speech’te Past Perfect’e çekilir.",
+              "translation": "Raporu bitirdiğini söyledi."
+            },
+            {
+              "id": "d26g3",
+              "text": "She asked me where I ___.",
+              "options": [
+                "live",
+                "lived",
+                "do I live",
+                "did I live"
+              ],
+              "correct": 1,
+              "explanation": "Reported question’da soru dizilimi kalkar; normal subject-verb order.",
+              "translation": "Nerede yaşadığımı sordu."
+            },
+            {
+              "id": "d26g4",
+              "text": "He asked ___ I was ready.",
+              "options": [
+                "that",
+                "if",
+                "what",
+                "because"
+              ],
+              "correct": 1,
+              "explanation": "Yes/no reported question için if/whether.",
+              "translation": "Hazır olup olmadığımı sordu."
+            },
+            {
+              "id": "d26g5",
+              "text": "The doctor advised me ___ more water.",
+              "options": [
+                "drink",
+                "to drink",
+                "drinking only",
+                "drank"
+              ],
+              "correct": 1,
+              "explanation": "Advise + object + to infinitive.",
+              "translation": "Doktor daha fazla su içmemi tavsiye etti."
+            },
+            {
+              "id": "d26g6",
+              "text": "The manager told us ___ late.",
+              "options": [
+                "not be",
+                "not to be",
+                "don't be",
+                "to not being"
+              ],
+              "correct": 1,
+              "explanation": "Olumsuz emir aktarımı: told + object + not to + V1.",
+              "translation": "Müdür bize geç kalmamamızı söyledi."
+            },
+            {
+              "id": "d26g7",
+              "text": "She promised ___ me later.",
+              "options": [
+                "call",
+                "calling",
+                "to call",
+                "called"
+              ],
+              "correct": 2,
+              "explanation": "Promise + to-infinitive.",
+              "translation": "Beni daha sonra arayacağına söz verdi."
+            },
+            {
+              "id": "d26g8",
+              "text": "He admitted ___ the mistake.",
+              "options": [
+                "make",
+                "to make",
+                "making",
+                "made"
+              ],
+              "correct": 2,
+              "explanation": "Admit + gerund.",
+              "translation": "Hata yaptığını kabul etti."
+            },
+            {
+              "id": "d26g9",
+              "text": "They suggested that we ___ earlier.",
+              "options": [
+                "leave",
+                "left",
+                "will leave",
+                "to leave"
+              ],
+              "correct": 0,
+              "explanation": "Suggest that + base form, özellikle formal/subjunctive kullanım.",
+              "translation": "Daha erken ayrılmamızı önerdiler."
+            },
+            {
+              "id": "d26g10",
+              "text": "She denied ___ the document.",
+              "options": [
+                "seeing",
+                "to see",
+                "see",
+                "saw"
+              ],
+              "correct": 0,
+              "explanation": "Deny + gerund.",
+              "translation": "Belgeyi gördüğünü inkâr etti."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v26_1",
-              "word": "increase",
-              "meaning": "artmak / artış",
-              "example": "Sales increased by twelve percent."
+              "en": "reliable",
+              "tr": "güvenilir"
             },
             {
-              "id": "v26_2",
-              "word": "decline",
-              "meaning": "azalmak / düşüş",
-              "example": "Energy use showed a gradual decline."
+              "en": "conduct",
+              "tr": "yürütmek"
             },
             {
-              "id": "v26_3",
-              "word": "remain stable",
-              "meaning": "sabit kalmak",
-              "example": "The error rate remained stable."
+              "en": "feature",
+              "tr": "özellik"
             },
             {
-              "id": "v26_4",
-              "word": "peak",
-              "meaning": "zirve yapmak",
-              "example": "Demand peaked in August."
+              "en": "decline",
+              "tr": "azalmak"
             },
             {
-              "id": "v26_5",
-              "word": "fluctuate",
-              "meaning": "dalgalanmak",
-              "example": "Prices fluctuated during the quarter."
+              "en": "obtain",
+              "tr": "elde etmek"
             },
             {
-              "id": "v26_6",
-              "word": "approximately",
-              "meaning": "yaklaşık",
-              "example": "Approximately forty percent chose the new design."
-            },
-            {
-              "id": "v26_7",
-              "word": "significant",
-              "meaning": "önemli / kayda değer",
-              "example": "There was a significant improvement in accuracy."
-            },
-            {
-              "id": "v26_8",
-              "word": "trend",
-              "meaning": "eğilim",
-              "example": "The overall trend is positive."
+              "en": "issue",
+              "tr": "konu/sorun"
             }
-          ],
-          "sentenceWords": [
-            "decline",
-            "approximately"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "A Year of Energy Data",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 26 Reading",
           "passage": [
-            "A manufacturing site monitored its electricity use for twelve months after introducing a new energy-management program. Consumption fell sharply during the first three months, then remained relatively stable through the summer. In September, usage increased slightly as production volumes rose.",
-            "By the end of the year, total electricity consumption was approximately fourteen percent lower than in the previous year. The largest reduction came from improved control of heating and ventilation systems. Lighting contributed a smaller but still significant saving. Although the program did not reduce consumption every month, the overall trend was clearly downward."
+            "Modern English proficiency requires more than memorizing isolated rules. In interviews and statements, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Reported Speech. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r26_1",
-              "text": "What happened during the first three months?"
+              "id": "d26read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r26_2",
-              "text": "Why did usage increase slightly in September?"
+              "id": "d26read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r26_3",
-              "text": "How much lower was total annual consumption?"
-            },
-            {
-              "id": "r26_4",
-              "text": "Which system produced the largest saving?"
-            },
-            {
-              "id": "r26_5",
-              "text": "Describe the trend in two or three English sentences."
+              "id": "d26read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 26 speaking bölümüne geçelim: Describing Data, Trends & Results. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about interviews and statements. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Reported Speech."
         }
       }
     },
     {
       "id": "day27",
       "number": 27,
-      "title": "Professional Email & Polite Requests",
-      "shortTitle": "Professional Email",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Writing • Vocabulary",
-      "objective": "Write concise, polite and action-oriented workplace messages.",
-      "level": "B1+ → B2",
+      "title": "Inversion & Emphasis",
+      "shortTitle": "Inversion & Emphasis",
+      "focus": "negative adverbials, cleft sentences, emphasis",
+      "duration": "20–25 dk",
+      "context": "formal emphasis",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g27_1",
-              "type": "mcq",
-              "text": "I am writing ___ the updated schedule.",
+              "id": "d27r1",
+              "text": "She said that she ___ tired.",
               "options": [
-                "regarding",
-                "because of to",
-                "for regard",
-                "about of"
+                "is",
+                "was",
+                "will be",
+                "has been"
               ],
-              "answer": "regarding",
-              "explanation": "Regarding is a formal preposition meaning about."
+              "correct": 1,
+              "explanation": "Tekrar notu: Geçmiş reporting verb sonrası tense backshift: am/is → was.",
+              "translation": "Yorgun olduğunu söyledi."
             },
             {
-              "id": "g27_2",
-              "type": "mcq",
-              "text": "I would appreciate it if you ___ confirm the date.",
+              "id": "d27r2",
+              "text": "He told me that he ___ the report.",
               "options": [
-                "could",
-                "can to",
-                "will to",
-                "did confirming"
+                "finished",
+                "had finished",
+                "finishes",
+                "will finish yesterday"
               ],
-              "answer": "could",
-              "explanation": "Could softens a professional request."
+              "correct": 1,
+              "explanation": "Tekrar notu: Past Simple çoğu zaman reported speech’te Past Perfect’e çekilir.",
+              "translation": "Raporu bitirdiğini söyledi."
             },
             {
-              "id": "g27_3",
-              "type": "mcq",
-              "text": "Please find the revised document ___.",
+              "id": "d27r3",
+              "text": "She asked me where I ___.",
               "options": [
-                "attached",
-                "attaching",
-                "attachly",
-                "attachment it"
+                "live",
+                "lived",
+                "do I live",
+                "did I live"
               ],
-              "answer": "attached",
-              "explanation": "Attached is standard email language."
+              "correct": 1,
+              "explanation": "Tekrar notu: Reported question’da soru dizilimi kalkar; normal subject-verb order.",
+              "translation": "Nerede yaşadığımı sordu."
             },
             {
-              "id": "g27_4",
-              "type": "mcq",
-              "text": "Could you clarify ___ version should be used?",
+              "id": "d27r4",
+              "text": "He asked ___ I was ready.",
               "options": [
+                "that",
+                "if",
+                "what",
+                "because"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Yes/no reported question için if/whether.",
+              "translation": "Hazır olup olmadığımı sordu."
+            },
+            {
+              "id": "d27r5",
+              "text": "The doctor advised me ___ more water.",
+              "options": [
+                "drink",
+                "to drink",
+                "drinking only",
+                "drank"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Advise + object + to infinitive.",
+              "translation": "Doktor daha fazla su içmemi tavsiye etti."
+            },
+            {
+              "id": "d27r6",
+              "text": "The manager told us ___ late.",
+              "options": [
+                "not be",
+                "not to be",
+                "don't be",
+                "to not being"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Olumsuz emir aktarımı: told + object + not to + V1.",
+              "translation": "Müdür bize geç kalmamamızı söyledi."
+            },
+            {
+              "id": "d27r7",
+              "text": "She promised ___ me later.",
+              "options": [
+                "call",
+                "calling",
+                "to call",
+                "called"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Promise + to-infinitive.",
+              "translation": "Beni daha sonra arayacağına söz verdi."
+            },
+            {
+              "id": "d27r8",
+              "text": "He admitted ___ the mistake.",
+              "options": [
+                "make",
+                "to make",
+                "making",
+                "made"
+              ],
+              "correct": 2,
+              "explanation": "Tekrar notu: Admit + gerund.",
+              "translation": "Hata yaptığını kabul etti."
+            },
+            {
+              "id": "d27r9",
+              "text": "They suggested that we ___ earlier.",
+              "options": [
+                "leave",
+                "left",
+                "will leave",
+                "to leave"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Suggest that + base form, özellikle formal/subjunctive kullanım.",
+              "translation": "Daha erken ayrılmamızı önerdiler."
+            },
+            {
+              "id": "d27r10",
+              "text": "She denied ___ the document.",
+              "options": [
+                "seeing",
+                "to see",
+                "see",
+                "saw"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Deny + gerund.",
+              "translation": "Belgeyi gördüğünü inkâr etti."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Inversion & Emphasis",
+          "intro": "YDS odaklı konu: negative adverbials, cleft sentences, emphasis. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d27g1",
+              "text": "Never ___ such a beautiful place.",
+              "options": [
+                "I have seen",
+                "have I seen",
+                "I saw",
+                "did I have seen"
+              ],
+              "correct": 1,
+              "explanation": "Negative adverbial başta olduğunda auxiliary-subject inversion gerekir.",
+              "translation": "Hiç böyle güzel bir yer görmedim."
+            },
+            {
+              "id": "d27g2",
+              "text": "Rarely ___ so quickly.",
+              "options": [
+                "the team responds",
+                "does the team respond",
+                "responds the team",
+                "the team does respond usually"
+              ],
+              "correct": 1,
+              "explanation": "Rarely başta → do-support inversion.",
+              "translation": "Ekip nadiren bu kadar hızlı yanıt verir."
+            },
+            {
+              "id": "d27g3",
+              "text": "Only after the meeting ___ the problem.",
+              "options": [
+                "we understood",
+                "did we understand",
+                "we did understood",
+                "understood we"
+              ],
+              "correct": 1,
+              "explanation": "Only + adverbial başta olduğunda ana cümlede inversion.",
+              "translation": "Sorunu ancak toplantıdan sonra anladık."
+            },
+            {
+              "id": "d27g4",
+              "text": "Not until midnight ___ home.",
+              "options": [
+                "he returned",
+                "did he return",
+                "he did returned",
+                "returned he"
+              ],
+              "correct": 1,
+              "explanation": "Not until başta → inversion.",
+              "translation": "Gece yarısına kadar eve dönmedi."
+            },
+            {
+              "id": "d27g5",
+              "text": "Hardly ___ when the phone rang.",
+              "options": [
+                "I had sat down",
+                "had I sat down",
+                "I sat down",
+                "did I sat"
+              ],
+              "correct": 1,
+              "explanation": "Hardly + Past Perfect inversion; ardından when.",
+              "translation": "Daha yeni oturmuştum ki telefon çaldı."
+            },
+            {
+              "id": "d27g6",
+              "text": "So difficult ___ that many students failed.",
+              "options": [
+                "the exam was",
+                "was the exam",
+                "did the exam",
+                "the exam"
+              ],
+              "correct": 1,
+              "explanation": "So + adjective başa alındığında inversion: So difficult was the exam...",
+              "translation": "Sınav o kadar zordu ki birçok öğrenci kaldı."
+            },
+            {
+              "id": "d27g7",
+              "text": "It was John ___ solved the problem.",
+              "options": [
+                "who",
                 "which",
-                "what that",
-                "where the person",
-                "whose it is?"
+                "where",
+                "whose"
               ],
-              "answer": "which",
-              "explanation": "Which selects among known options."
+              "correct": 0,
+              "explanation": "Cleft sentence: It was + person + who/that.",
+              "translation": "Sorunu çözen John’du."
             },
             {
-              "id": "g27_5",
-              "type": "input",
-              "text": "Write a polite request asking for feedback by Friday.",
-              "answers": [
-                "I would appreciate it if you could send your feedback by Friday."
+              "id": "d27g8",
+              "text": "What I need ___ a short break.",
+              "options": [
+                "are",
+                "is",
+                "be",
+                "were always"
               ],
-              "answer": "I would appreciate it if you could send your feedback by Friday.",
-              "explanation": "Use softening language plus a clear deadline."
+              "correct": 1,
+              "explanation": "Pseudo-cleft: What I need is...; noun clause tekil kavram olarak alınır.",
+              "translation": "İhtiyacım olan şey kısa bir mola."
             },
             {
-              "id": "g27_6",
-              "type": "input",
-              "text": "Write a concise email closing with a next step.",
-              "answers": [
-                "Please let me know if Tuesday at 10 a.m. is convenient."
+              "id": "d27g9",
+              "text": "Under no circumstances ___ this button.",
+              "options": [
+                "you should press",
+                "should you press",
+                "you press",
+                "press you"
               ],
-              "answer": "Please let me know if Tuesday at 10 a.m. is convenient.",
-              "explanation": "Professional closings should make the next action clear."
+              "correct": 1,
+              "explanation": "Negative phrase başta → modal-subject inversion.",
+              "translation": "Hiçbir koşulda bu düğmeye basmamalısın."
+            },
+            {
+              "id": "d27g10",
+              "text": "Little ___ that the decision would change everything.",
+              "options": [
+                "she knew",
+                "did she know",
+                "she did knew",
+                "knew she"
+              ],
+              "correct": 1,
+              "explanation": "‘Little’ negatif sınırlayıcı anlamda başta → inversion.",
+              "translation": "Kararın her şeyi değiştireceğini hiç bilmiyordu."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v27_1",
-              "word": "regarding",
-              "meaning": "ile ilgili",
-              "example": "I am writing regarding the updated schedule."
+              "en": "approach",
+              "tr": "yaklaşım"
             },
             {
-              "id": "v27_2",
-              "word": "clarify",
-              "meaning": "açıklığa kavuşturmak",
-              "example": "Could you clarify the final requirement?"
+              "en": "increase",
+              "tr": "artmak/artırmak"
             },
             {
-              "id": "v27_3",
-              "word": "appreciate",
-              "meaning": "memnun olmak / takdir etmek",
-              "example": "I would appreciate your feedback by Friday."
+              "en": "available",
+              "tr": "mevcut"
             },
             {
-              "id": "v27_4",
-              "word": "availability",
-              "meaning": "uygunluk / müsaitlik",
-              "example": "Please confirm your availability."
+              "en": "affect",
+              "tr": "etkilemek"
             },
             {
-              "id": "v27_5",
-              "word": "attached",
-              "meaning": "ekte",
-              "example": "Please find the revised document attached."
+              "en": "establish",
+              "tr": "kurmak"
             },
             {
-              "id": "v27_6",
-              "word": "follow up",
-              "meaning": "takip etmek",
-              "example": "I am following up on my previous message."
-            },
-            {
-              "id": "v27_7",
-              "word": "convenient",
-              "meaning": "uygun",
-              "example": "Please suggest a convenient time for a short call."
-            },
-            {
-              "id": "v27_8",
-              "word": "confirm",
-              "meaning": "teyit etmek",
-              "example": "Could you confirm receipt of the files?"
+              "en": "likely",
+              "tr": "muhtemel"
             }
-          ],
-          "sentenceWords": [
-            "clarify",
-            "follow up"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "The Email That Gets an Answer",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 27 Reading",
           "passage": [
-            "Workplace emails are easier to answer when the requested action is clear. A message that contains several unrelated topics may force the reader to search for the main point. Effective emails often state the purpose early, provide only necessary context, and finish with a specific request or next step.",
-            "Tone also matters. Direct language is not necessarily impolite, but requests can be softened with expressions such as 'Could you please...' or 'I would appreciate it if...'. Subject lines should help the reader understand the topic before opening the message. Finally, attachments should be named clearly and mentioned in the email so that the recipient knows what to expect."
+            "Modern English proficiency requires more than memorizing isolated rules. In formal emphasis, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Inversion & Emphasis. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r27_1",
-              "text": "Why can emails with many unrelated topics be difficult?"
+              "id": "d27read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r27_2",
-              "text": "Where should the purpose usually appear?"
+              "id": "d27read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r27_3",
-              "text": "How can a request be softened?"
-            },
-            {
-              "id": "r27_4",
-              "text": "Why should attachments be mentioned?"
-            },
-            {
-              "id": "r27_5",
-              "text": "Write a concise closing request for a professional email."
+              "id": "d27read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 27 speaking bölümüne geçelim: Professional Email & Polite Requests. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about formal emphasis. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Inversion & Emphasis."
         }
       }
     },
     {
       "id": "day28",
       "number": 28,
-      "title": "Week 4 Review",
-      "shortTitle": "Week 4 Review",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Review • Mixed Test",
-      "objective": "Consolidate Days 22–27 and strengthen weak areas.",
-      "level": "B1+ → B2",
+      "title": "Subjunctive & Formal Structures",
+      "shortTitle": "Subjunctive & Formal Structures",
+      "focus": "suggest that..., it is essential that..., lest",
+      "duration": "20–25 dk",
+      "context": "academic recommendations",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g28_1",
-              "type": "mcq",
-              "text": "She said that the test ___ complete.",
+              "id": "d28r1",
+              "text": "Never ___ such a beautiful place.",
               "options": [
-                "was",
-                "is yesterday",
+                "I have seen",
+                "have I seen",
+                "I saw",
+                "did I have seen"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Negative adverbial başta olduğunda auxiliary-subject inversion gerekir.",
+              "translation": "Hiç böyle güzel bir yer görmedim."
+            },
+            {
+              "id": "d28r2",
+              "text": "Rarely ___ so quickly.",
+              "options": [
+                "the team responds",
+                "does the team respond",
+                "responds the team",
+                "the team does respond usually"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Rarely başta → do-support inversion.",
+              "translation": "Ekip nadiren bu kadar hızlı yanıt verir."
+            },
+            {
+              "id": "d28r3",
+              "text": "Only after the meeting ___ the problem.",
+              "options": [
+                "we understood",
+                "did we understand",
+                "we did understood",
+                "understood we"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Only + adverbial başta olduğunda ana cümlede inversion.",
+              "translation": "Sorunu ancak toplantıdan sonra anladık."
+            },
+            {
+              "id": "d28r4",
+              "text": "Not until midnight ___ home.",
+              "options": [
+                "he returned",
+                "did he return",
+                "he did returned",
+                "returned he"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Not until başta → inversion.",
+              "translation": "Gece yarısına kadar eve dönmedi."
+            },
+            {
+              "id": "d28r5",
+              "text": "Hardly ___ when the phone rang.",
+              "options": [
+                "I had sat down",
+                "had I sat down",
+                "I sat down",
+                "did I sat"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Hardly + Past Perfect inversion; ardından when.",
+              "translation": "Daha yeni oturmuştum ki telefon çaldı."
+            },
+            {
+              "id": "d28r6",
+              "text": "So difficult ___ that many students failed.",
+              "options": [
+                "the exam was",
+                "was the exam",
+                "did the exam",
+                "the exam"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: So + adjective başa alındığında inversion: So difficult was the exam...",
+              "translation": "Sınav o kadar zordu ki birçok öğrenci kaldı."
+            },
+            {
+              "id": "d28r7",
+              "text": "It was John ___ solved the problem.",
+              "options": [
+                "who",
+                "which",
+                "where",
+                "whose"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Cleft sentence: It was + person + who/that.",
+              "translation": "Sorunu çözen John’du."
+            },
+            {
+              "id": "d28r8",
+              "text": "What I need ___ a short break.",
+              "options": [
+                "are",
+                "is",
                 "be",
-                "has complete"
+                "were always"
               ],
-              "answer": "was",
-              "explanation": "Reported speech backshift."
+              "correct": 1,
+              "explanation": "Tekrar notu: Pseudo-cleft: What I need is...; noun clause tekil kavram olarak alınır.",
+              "translation": "İhtiyacım olan şey kısa bir mola."
             },
             {
-              "id": "g28_2",
-              "type": "mcq",
-              "text": "Despite ___ late, the team finished the task.",
+              "id": "d28r9",
+              "text": "Under no circumstances ___ this button.",
               "options": [
-                "starting",
-                "they started?",
-                "to start",
-                "started"
+                "you should press",
+                "should you press",
+                "you press",
+                "press you"
               ],
-              "answer": "starting",
-              "explanation": "Despite can be followed by a gerund/noun phrase."
+              "correct": 1,
+              "explanation": "Tekrar notu: Negative phrase başta → modal-subject inversion.",
+              "translation": "Hiçbir koşulda bu düğmeye basmamalısın."
             },
             {
-              "id": "g28_3",
-              "type": "mcq",
-              "text": "We managed ___ the issue before launch.",
+              "id": "d28r10",
+              "text": "Little ___ that the decision would change everything.",
               "options": [
-                "to resolve",
-                "resolving to",
-                "resolved to",
-                "to resolved"
+                "she knew",
+                "did she know",
+                "she did knew",
+                "knew she"
               ],
-              "answer": "to resolve",
-              "explanation": "Manage + to-infinitive."
-            },
+              "correct": 1,
+              "explanation": "Tekrar notu: ‘Little’ negatif sınırlayıcı anlamda başta → inversion.",
+              "translation": "Kararın her şeyi değiştireceğini hiç bilmiyordu."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Subjunctive & Formal Structures",
+          "intro": "YDS odaklı konu: suggest that..., it is essential that..., lest. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
             {
-              "id": "g28_4",
-              "type": "mcq",
-              "text": "There is very ___ information in the report.",
+              "id": "d28g1",
+              "text": "The doctor recommended that he ___ smoking.",
               "options": [
-                "little",
-                "few",
-                "many",
-                "several"
+                "stops",
+                "stop",
+                "stopped",
+                "will stop"
               ],
-              "answer": "little",
-              "explanation": "Information is uncountable."
+              "correct": 1,
+              "explanation": "Mandative subjunctive: recommend that + subject + base verb.",
+              "translation": "Doktor sigarayı bırakmasını tavsiye etti."
             },
             {
-              "id": "g28_5",
-              "type": "input",
-              "text": "Write a sentence using “whereas”.",
-              "answers": [
-                "Option A is cheaper, whereas Option B is more reliable."
+              "id": "d28g2",
+              "text": "It is essential that every applicant ___ the form.",
+              "options": [
+                "completes",
+                "complete",
+                "completed",
+                "will complete"
               ],
-              "answer": "Option A is cheaper, whereas Option B is more reliable.",
-              "explanation": "Whereas contrasts two facts."
+              "correct": 1,
+              "explanation": "Formal subjunctive: essential that + base verb.",
+              "translation": "Her başvuranın formu doldurması zorunludur."
             },
             {
-              "id": "g28_6",
-              "type": "input",
-              "text": "Report this instruction: “Do not disconnect the cable.”",
-              "answers": [
-                "He told us not to disconnect the cable."
+              "id": "d28g3",
+              "text": "They insisted that she ___ present.",
+              "options": [
+                "is",
+                "be",
+                "was",
+                "will be"
               ],
-              "answer": "He told us not to disconnect the cable.",
-              "explanation": "Reported negative instruction = told + object + not to."
+              "correct": 1,
+              "explanation": "Insist that + subjunctive base form ‘be’.",
+              "translation": "Onun hazır bulunmasında ısrar ettiler."
+            },
+            {
+              "id": "d28g4",
+              "text": "The committee suggested that the rule ___ revised.",
+              "options": [
+                "is",
+                "be",
+                "was",
+                "has"
+              ],
+              "correct": 1,
+              "explanation": "Passive subjunctive: be + V3.",
+              "translation": "Komite kuralın gözden geçirilmesini önerdi."
+            },
+            {
+              "id": "d28g5",
+              "text": "It is important that he ___ informed immediately.",
+              "options": [
+                "is",
+                "be",
+                "was",
+                "will"
+              ],
+              "correct": 1,
+              "explanation": "Formal necessity structure: that + subject + base ‘be’.",
+              "translation": "Derhal bilgilendirilmesi önemlidir."
+            },
+            {
+              "id": "d28g6",
+              "text": "The teacher demanded that the student ___ the assignment.",
+              "options": [
+                "resubmits",
+                "resubmit",
+                "resubmitted",
+                "will resubmit"
+              ],
+              "correct": 1,
+              "explanation": "Demand that + base verb.",
+              "translation": "Öğretmen öğrencinin ödevi yeniden teslim etmesini istedi."
+            },
+            {
+              "id": "d28g7",
+              "text": "They requested that the report ___ by noon.",
+              "options": [
+                "is finished",
+                "be finished",
+                "was finished",
+                "will finish"
+              ],
+              "correct": 1,
+              "explanation": "Request + subjunctive passive ‘be finished’.",
+              "translation": "Raporun öğlene kadar bitirilmesini talep ettiler."
+            },
+            {
+              "id": "d28g8",
+              "text": "It is vital that the system ___ operational.",
+              "options": [
+                "remains",
+                "remain",
+                "remained",
+                "will remain"
+              ],
+              "correct": 1,
+              "explanation": "Vital that + base verb.",
+              "translation": "Sistemin çalışır durumda kalması hayati önem taşır."
+            },
+            {
+              "id": "d28g9",
+              "text": "The regulations require that each device ___ tested.",
+              "options": [
+                "is",
+                "be",
+                "was",
+                "has been"
+              ],
+              "correct": 1,
+              "explanation": "Require that + subjunctive passive.",
+              "translation": "Yönetmelikler her cihazın test edilmesini gerektirir."
+            },
+            {
+              "id": "d28g10",
+              "text": "She spoke quietly lest anyone ___ her.",
+              "options": [
+                "hears",
+                "should hear",
+                "heard only",
+                "will hear"
+              ],
+              "correct": 1,
+              "explanation": "Formal ‘lest’ çoğu kullanımda should + V1 veya base form ile ‘olmasın diye’.",
+              "translation": "Kimse onu duymasın diye sessiz konuştu."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v28_1",
-              "word": "prioritize",
-              "meaning": "önceliklendirmek",
-              "example": "Prioritize the errors that affect meaning."
+              "en": "requirement",
+              "tr": "gereklilik"
             },
             {
-              "id": "v28_2",
-              "word": "recurring",
-              "meaning": "tekrarlayan",
-              "example": "Keep a list of recurring grammar mistakes."
+              "en": "indicate",
+              "tr": "göstermek"
             },
             {
-              "id": "v28_3",
-              "word": "consolidation",
-              "meaning": "pekiştirme",
-              "example": "Consolidation is essential before the final review."
+              "en": "prevent",
+              "tr": "önlemek"
             },
             {
-              "id": "v28_4",
-              "word": "benchmark",
-              "meaning": "kıyas noktası",
-              "example": "Use your first test as a benchmark."
+              "en": "benefit",
+              "tr": "fayda"
             },
             {
-              "id": "v28_5",
-              "word": "improvement",
-              "meaning": "gelişme",
-              "example": "The results show steady improvement."
+              "en": "occur",
+              "tr": "meydana gelmek"
             },
             {
-              "id": "v28_6",
-              "word": "confidence",
-              "meaning": "özgüven",
-              "example": "Regular speaking practice builds confidence."
-            },
-            {
-              "id": "v28_7",
-              "word": "accuracy",
-              "meaning": "doğruluk",
-              "example": "Aim for accuracy before increasing speed."
-            },
-            {
-              "id": "v28_8",
-              "word": "strategy",
-              "meaning": "strateji",
-              "example": "Choose a reading strategy before answering."
+              "en": "maintain",
+              "tr": "sürdürmek"
             }
-          ],
-          "sentenceWords": [
-            "recurring",
-            "confidence"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "The Value of a Mistake Log",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 28 Reading",
           "passage": [
-            "A mistake log is a simple record of errors that repeatedly appear in a learner's work. Instead of copying every wrong answer, the learner records only useful information: the original error, the corrected form, and a short explanation or example.",
-            "Over time, the log can reveal patterns. A learner may discover that most tense errors occur when a sentence contains two different time references, or that certain prepositions are repeatedly confused. This information makes review more targeted. The goal is not to create a perfect archive but to identify recurring weaknesses and check whether they are becoming less frequent."
+            "Modern English proficiency requires more than memorizing isolated rules. In academic recommendations, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Subjunctive & Formal Structures. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r28_1",
-              "text": "What information should a mistake log contain?"
+              "id": "d28read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r28_2",
-              "text": "What can the log reveal over time?"
+              "id": "d28read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r28_3",
-              "text": "How can it make review more efficient?"
-            },
-            {
-              "id": "r28_4",
-              "text": "What is not the goal of the log?"
-            },
-            {
-              "id": "r28_5",
-              "text": "Name one type of mistake you would track."
+              "id": "d28read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 28 speaking bölümüne geçelim: Week 4 Review. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about academic recommendations. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Subjunctive & Formal Structures."
         }
       }
     },
     {
       "id": "day29",
       "number": 29,
-      "title": "Mock Interview & Advanced Mixed Grammar",
-      "shortTitle": "Mock Interview",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Speaking • Test",
-      "objective": "Respond to interview questions using clear examples and controlled grammar.",
-      "level": "B1+ → B2",
+      "title": "Cloze Test Strategy",
+      "shortTitle": "Cloze Test Strategy",
+      "focus": "bağlam, bağlaç, tense, preposition ve vocabulary ilişkisi",
+      "duration": "20–25 dk",
+      "context": "research cloze context",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g29_1",
-              "type": "mcq",
-              "text": "If I ___ the same situation again, I would communicate earlier.",
+              "id": "d29r1",
+              "text": "The doctor recommended that he ___ smoking.",
               "options": [
-                "faced",
-                "face tomorrow",
-                "will face yesterday",
-                "have face"
+                "stops",
+                "stop",
+                "stopped",
+                "will stop"
               ],
-              "answer": "faced",
-              "explanation": "Second conditional uses Past Simple in the if-clause."
+              "correct": 1,
+              "explanation": "Tekrar notu: Mandative subjunctive: recommend that + subject + base verb.",
+              "translation": "Doktor sigarayı bırakmasını tavsiye etti."
             },
             {
-              "id": "g29_2",
-              "type": "mcq",
-              "text": "The project, ___ involved three teams, finished ahead of schedule.",
+              "id": "d29r2",
+              "text": "It is essential that every applicant ___ the form.",
               "options": [
-                "which",
-                "who",
-                "where",
-                "whose is"
+                "completes",
+                "complete",
+                "completed",
+                "will complete"
               ],
-              "answer": "which",
-              "explanation": "Which refers to a thing/project."
+              "correct": 1,
+              "explanation": "Tekrar notu: Formal subjunctive: essential that + base verb.",
+              "translation": "Her başvuranın formu doldurması zorunludur."
             },
             {
-              "id": "g29_3",
-              "type": "mcq",
-              "text": "I was responsible ___ coordinating the response.",
+              "id": "d29r3",
+              "text": "They insisted that she ___ present.",
               "options": [
-                "for",
-                "to",
-                "at",
-                "on"
+                "is",
+                "be",
+                "was",
+                "will be"
               ],
-              "answer": "for",
-              "explanation": "Responsible for is the correct collocation."
+              "correct": 1,
+              "explanation": "Tekrar notu: Insist that + subjunctive base form ‘be’.",
+              "translation": "Onun hazır bulunmasında ısrar ettiler."
             },
             {
-              "id": "g29_4",
-              "type": "mcq",
-              "text": "The process ___ after we identified the bottleneck.",
+              "id": "d29r4",
+              "text": "The committee suggested that the rule ___ revised.",
               "options": [
-                "was improved",
-                "improved itself passive?",
-                "is improve yesterday",
-                "has improving"
+                "is",
+                "be",
+                "was",
+                "has"
               ],
-              "answer": "was improved",
-              "explanation": "Past passive describes the change to the process."
+              "correct": 1,
+              "explanation": "Tekrar notu: Passive subjunctive: be + V3.",
+              "translation": "Komite kuralın gözden geçirilmesini önerdi."
             },
             {
-              "id": "g29_5",
-              "type": "input",
-              "text": "Write a concise STAR result sentence.",
-              "answers": [
-                "As a result, we reduced processing time by 15% and met the deadline."
+              "id": "d29r5",
+              "text": "It is important that he ___ informed immediately.",
+              "options": [
+                "is",
+                "be",
+                "was",
+                "will"
               ],
-              "answer": "As a result, we reduced processing time by 15% and met the deadline.",
-              "explanation": "A good result is specific and measurable."
+              "correct": 1,
+              "explanation": "Tekrar notu: Formal necessity structure: that + subject + base ‘be’.",
+              "translation": "Derhal bilgilendirilmesi önemlidir."
             },
             {
-              "id": "g29_6",
-              "type": "input",
-              "text": "Write a sentence showing what you learned from a setback.",
-              "answers": [
-                "The experience taught me to validate assumptions earlier in the project."
+              "id": "d29r6",
+              "text": "The teacher demanded that the student ___ the assignment.",
+              "options": [
+                "resubmits",
+                "resubmit",
+                "resubmitted",
+                "will resubmit"
               ],
-              "answer": "The experience taught me to validate assumptions earlier in the project.",
-              "explanation": "Reflection should connect the setback to a concrete lesson."
+              "correct": 1,
+              "explanation": "Tekrar notu: Demand that + base verb.",
+              "translation": "Öğretmen öğrencinin ödevi yeniden teslim etmesini istedi."
+            },
+            {
+              "id": "d29r7",
+              "text": "They requested that the report ___ by noon.",
+              "options": [
+                "is finished",
+                "be finished",
+                "was finished",
+                "will finish"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Request + subjunctive passive ‘be finished’.",
+              "translation": "Raporun öğlene kadar bitirilmesini talep ettiler."
+            },
+            {
+              "id": "d29r8",
+              "text": "It is vital that the system ___ operational.",
+              "options": [
+                "remains",
+                "remain",
+                "remained",
+                "will remain"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Vital that + base verb.",
+              "translation": "Sistemin çalışır durumda kalması hayati önem taşır."
+            },
+            {
+              "id": "d29r9",
+              "text": "The regulations require that each device ___ tested.",
+              "options": [
+                "is",
+                "be",
+                "was",
+                "has been"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Require that + subjunctive passive.",
+              "translation": "Yönetmelikler her cihazın test edilmesini gerektirir."
+            },
+            {
+              "id": "d29r10",
+              "text": "She spoke quietly lest anyone ___ her.",
+              "options": [
+                "hears",
+                "should hear",
+                "heard only",
+                "will hear"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Formal ‘lest’ çoğu kullanımda should + V1 veya base form ile ‘olmasın diye’.",
+              "translation": "Kimse onu duymasın diye sessiz konuştu."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Cloze Test Strategy",
+          "intro": "YDS odaklı konu: bağlam, bağlaç, tense, preposition ve vocabulary ilişkisi. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d29g1",
+              "text": "The economy grew steadily ___ inflation remained high.",
+              "options": [
+                "although",
+                "because of",
+                "therefore",
+                "in order to"
+              ],
+              "correct": 0,
+              "explanation": "Cloze’da anlam ilişkisi zıtlık; iki clause → although.",
+              "translation": "Enflasyon yüksek kalmasına rağmen ekonomi istikrarlı büyüdü."
+            },
+            {
+              "id": "d29g2",
+              "text": "Researchers have ___ several possible explanations.",
+              "options": [
+                "proposed",
+                "proposing",
+                "proposal",
+                "propose to be"
+              ],
+              "correct": 0,
+              "explanation": "Present Perfect: have + V3; ‘proposed’ gerekir.",
+              "translation": "Araştırmacılar birkaç olası açıklama öne sürdüler."
+            },
+            {
+              "id": "d29g3",
+              "text": "The policy aims ___ energy consumption.",
+              "options": [
+                "reduce",
+                "to reduce",
+                "reducing only",
+                "reduced"
+              ],
+              "correct": 1,
+              "explanation": "Aim + to infinitive.",
+              "translation": "Politika enerji tüketimini azaltmayı amaçlıyor."
+            },
+            {
+              "id": "d29g4",
+              "text": "Many species are threatened ___ habitat loss.",
+              "options": [
+                "because",
+                "because of",
+                "although",
+                "so that"
+              ],
+              "correct": 1,
+              "explanation": "Noun phrase ‘habitat loss’ öncesi because of.",
+              "translation": "Birçok tür habitat kaybı nedeniyle tehdit altında."
+            },
+            {
+              "id": "d29g5",
+              "text": "By the time the study ends, scientists ___ enough data.",
+              "options": [
+                "collect",
+                "will have collected",
+                "collected",
+                "are collect"
+              ],
+              "correct": 1,
+              "explanation": "Gelecek referans noktasından önce tamamlanacak: Future Perfect.",
+              "translation": "Çalışma sona erdiğinde bilim insanları yeterli veri toplamış olacak."
+            },
+            {
+              "id": "d29g6",
+              "text": "The device is small; ___, it is extremely powerful.",
+              "options": [
+                "however",
+                "therefore",
+                "because",
+                "so"
+              ],
+              "correct": 0,
+              "explanation": "Anlam zıtlığı: küçük ama güçlü → however.",
+              "translation": "Cihaz küçük; ancak son derece güçlü."
+            },
+            {
+              "id": "d29g7",
+              "text": "No decision can be made ___ further evidence is available.",
+              "options": [
+                "until",
+                "despite",
+                "because of",
+                "whereas"
+              ],
+              "correct": 0,
+              "explanation": "Zaman/koşul sınırı: until.",
+              "translation": "Daha fazla kanıt bulunana kadar karar verilemez."
+            },
+            {
+              "id": "d29g8",
+              "text": "The samples must ___ at low temperature.",
+              "options": [
+                "store",
+                "be stored",
+                "stored",
+                "be storing"
+              ],
+              "correct": 1,
+              "explanation": "Modal passive: must be + V3.",
+              "translation": "Numuneler düşük sıcaklıkta saklanmalıdır."
+            },
+            {
+              "id": "d29g9",
+              "text": "The more data we collect, the ___ our estimate becomes.",
+              "options": [
+                "accurate",
+                "more accurate",
+                "most accurate",
+                "accuracy"
+              ],
+              "correct": 1,
+              "explanation": "The more..., the more... comparative parallel structure.",
+              "translation": "Ne kadar çok veri toplarsak tahminimiz o kadar doğru olur."
+            },
+            {
+              "id": "d29g10",
+              "text": "It remains unclear ___ the treatment is effective.",
+              "options": [
+                "whether",
+                "because",
+                "despite",
+                "therefore"
+              ],
+              "correct": 0,
+              "explanation": "Belirsiz evet/hayır içerik noun clause: whether.",
+              "translation": "Tedavinin etkili olup olmadığı belirsizliğini koruyor."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v29_1",
-              "word": "demonstrate",
-              "meaning": "göstermek / kanıtlamak",
-              "example": "Use an example to demonstrate your skill."
+              "en": "evidence",
+              "tr": "kanıt"
             },
             {
-              "id": "v29_2",
-              "word": "adapt",
-              "meaning": "uyum sağlamak",
-              "example": "I adapt quickly to unfamiliar situations."
+              "en": "significant",
+              "tr": "önemli"
             },
             {
-              "id": "v29_3",
-              "word": "initiative",
-              "meaning": "inisiyatif",
-              "example": "She showed initiative by proposing a new workflow."
+              "en": "assume",
+              "tr": "varsaymak"
             },
             {
-              "id": "v29_4",
-              "word": "resolve",
-              "meaning": "çözmek",
-              "example": "I resolved the issue by simplifying the process."
+              "en": "outcome",
+              "tr": "sonuç"
             },
             {
-              "id": "v29_5",
-              "word": "stakeholder",
-              "meaning": "paydaş",
-              "example": "We kept the stakeholders informed throughout the project."
+              "en": "relevant",
+              "tr": "ilgili"
             },
             {
-              "id": "v29_6",
-              "word": "priority",
-              "meaning": "öncelik",
-              "example": "Safety was our highest priority."
-            },
-            {
-              "id": "v29_7",
-              "word": "measurable",
-              "meaning": "ölçülebilir",
-              "example": "Try to describe a measurable result."
-            },
-            {
-              "id": "v29_8",
-              "word": "reflect",
-              "meaning": "değerlendirmek / yansıtmak",
-              "example": "After the interview, reflect on your strongest answers."
+              "en": "ensure",
+              "tr": "sağlamak/garanti etmek"
             }
-          ],
-          "sentenceWords": [
-            "adapt",
-            "priority"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "Answering 'Tell Me About a Failure'",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 29 Reading",
           "passage": [
-            "Questions about failure can be uncomfortable, but interviewers often use them to understand how a candidate responds to difficulty. A useful answer does not need to describe a dramatic disaster. It should present a genuine problem, explain the candidate's responsibility, and show what changed afterward.",
-            "Strong answers avoid blaming other people. They focus on decisions, lessons, and corrective action. For example, a candidate might explain that a project missed an early milestone because the initial estimate was unrealistic. The important part is then to describe how planning was improved and what measurable effect the change had on later work."
+            "Modern English proficiency requires more than memorizing isolated rules. In research cloze context, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Cloze Test Strategy. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r29_1",
-              "text": "Why do interviewers ask about failure?"
+              "id": "d29read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r29_2",
-              "text": "Does the example need to be dramatic?"
+              "id": "d29read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r29_3",
-              "text": "What should strong answers avoid?"
-            },
-            {
-              "id": "r29_4",
-              "text": "What should the candidate emphasize after describing the problem?"
-            },
-            {
-              "id": "r29_5",
-              "text": "Create a short STAR outline for a failure or setback."
+              "id": "d29read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 29 speaking bölümüne geçelim: Mock Interview & Advanced Mixed Grammar. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about research cloze context. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Cloze Test Strategy."
         }
       }
     },
     {
       "id": "day30",
       "number": 30,
-      "title": "Final Review & B1+/B2 Progress Check",
-      "shortTitle": "Final Review",
       "status": "available",
-      "duration": "25–35 dk",
-      "focus": "Review • Reading • Test",
-      "objective": "Integrate grammar, vocabulary, reading and professional communication skills.",
-      "level": "B1+ → B2",
+      "title": "Sentence Completion & YDS Mixed Review",
+      "shortTitle": "Sentence Completion & YDS Mixed Review",
+      "focus": "cümle tamamlama, anlam-akış, kapsamlı tekrar",
+      "duration": "20–25 dk",
+      "context": "YDS sentence completion",
       "sections": {
-        "grammar": {
-          "title": "Grammar Focus",
-          "intro": "Soruları dikkatle çöz. Çoktan seçmeli sorularda gerekçeyi, yazılı sorularda ise doğru yapıyı görürsün.",
+        "review": {
+          "title": "Review — 10 Soru",
+          "intro": "Önceki konuyu kısa bir testle hatırla. Her cevaptan sonra nedenini ve Türkçe anlamını gör.",
           "questions": [
             {
-              "id": "g30_1",
-              "type": "mcq",
-              "text": "By the time the review began, the team ___ all major issues.",
+              "id": "d30r1",
+              "text": "The economy grew steadily ___ inflation remained high.",
               "options": [
-                "had resolved",
-                "resolves",
-                "is resolving yesterday",
-                "has resolve"
+                "although",
+                "because of",
+                "therefore",
+                "in order to"
               ],
-              "answer": "had resolved",
-              "explanation": "Past Perfect shows an earlier past action."
+              "correct": 0,
+              "explanation": "Tekrar notu: Cloze’da anlam ilişkisi zıtlık; iki clause → although.",
+              "translation": "Enflasyon yüksek kalmasına rağmen ekonomi istikrarlı büyüdü."
             },
             {
-              "id": "g30_2",
-              "type": "mcq",
-              "text": "The method is accurate; ___, it requires careful calibration.",
+              "id": "d30r2",
+              "text": "Researchers have ___ several possible explanations.",
+              "options": [
+                "proposed",
+                "proposing",
+                "proposal",
+                "propose to be"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Present Perfect: have + V3; ‘proposed’ gerekir.",
+              "translation": "Araştırmacılar birkaç olası açıklama öne sürdüler."
+            },
+            {
+              "id": "d30r3",
+              "text": "The policy aims ___ energy consumption.",
+              "options": [
+                "reduce",
+                "to reduce",
+                "reducing only",
+                "reduced"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Aim + to infinitive.",
+              "translation": "Politika enerji tüketimini azaltmayı amaçlıyor."
+            },
+            {
+              "id": "d30r4",
+              "text": "Many species are threatened ___ habitat loss.",
+              "options": [
+                "because",
+                "because of",
+                "although",
+                "so that"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Noun phrase ‘habitat loss’ öncesi because of.",
+              "translation": "Birçok tür habitat kaybı nedeniyle tehdit altında."
+            },
+            {
+              "id": "d30r5",
+              "text": "By the time the study ends, scientists ___ enough data.",
+              "options": [
+                "collect",
+                "will have collected",
+                "collected",
+                "are collect"
+              ],
+              "correct": 1,
+              "explanation": "Tekrar notu: Gelecek referans noktasından önce tamamlanacak: Future Perfect.",
+              "translation": "Çalışma sona erdiğinde bilim insanları yeterli veri toplamış olacak."
+            },
+            {
+              "id": "d30r6",
+              "text": "The device is small; ___, it is extremely powerful.",
               "options": [
                 "however",
+                "therefore",
+                "because",
+                "so"
+              ],
+              "correct": 0,
+              "explanation": "Tekrar notu: Anlam zıtlığı: küçük ama güçlü → however.",
+              "translation": "Cihaz küçük; ancak son derece güçlü."
+            },
+            {
+              "id": "d30r7",
+              "text": "No decision can be made ___ further evidence is available.",
+              "options": [
+                "until",
+                "despite",
                 "because of",
-                "therefore although",
-                "moreover but"
+                "whereas"
               ],
-              "answer": "however",
-              "explanation": "However introduces contrast."
+              "correct": 0,
+              "explanation": "Tekrar notu: Zaman/koşul sınırı: until.",
+              "translation": "Daha fazla kanıt bulunana kadar karar verilemez."
             },
             {
-              "id": "g30_3",
-              "type": "mcq",
-              "text": "If the signal drops again, we ___ the antenna position.",
+              "id": "d30r8",
+              "text": "The samples must ___ at low temperature.",
               "options": [
-                "will check",
-                "would checked",
-                "checked always",
-                "have check"
+                "store",
+                "be stored",
+                "stored",
+                "be storing"
               ],
-              "answer": "will check",
-              "explanation": "First conditional for a real future possibility."
+              "correct": 1,
+              "explanation": "Tekrar notu: Modal passive: must be + V3.",
+              "translation": "Numuneler düşük sıcaklıkta saklanmalıdır."
             },
             {
-              "id": "g30_4",
-              "type": "mcq",
-              "text": "The measurements ___ automatically and then reviewed by an engineer.",
+              "id": "d30r9",
+              "text": "The more data we collect, the ___ our estimate becomes.",
               "options": [
-                "are recorded",
-                "record",
-                "recorded themselves",
-                "are record"
+                "accurate",
+                "more accurate",
+                "most accurate",
+                "accuracy"
               ],
-              "answer": "are recorded",
-              "explanation": "Present passive."
+              "correct": 1,
+              "explanation": "Tekrar notu: The more..., the more... comparative parallel structure.",
+              "translation": "Ne kadar çok veri toplarsak tahminimiz o kadar doğru olur."
             },
             {
-              "id": "g30_5",
-              "type": "input",
-              "text": "Write a sentence combining Present Perfect and a finished past time reference correctly.",
-              "answers": [
-                "I have completed several projects, and I completed the most recent one last month."
+              "id": "d30r10",
+              "text": "It remains unclear ___ the treatment is effective.",
+              "options": [
+                "whether",
+                "because",
+                "despite",
+                "therefore"
               ],
-              "answer": "I have completed several projects, and I completed the most recent one last month.",
-              "explanation": "Present Perfect for experience; Past Simple for a finished time."
+              "correct": 0,
+              "explanation": "Tekrar notu: Belirsiz evet/hayır içerik noun clause: whether.",
+              "translation": "Tedavinin etkili olup olmadığı belirsizliğini koruyor."
+            }
+          ]
+        },
+        "grammar": {
+          "title": "Grammar — Sentence Completion & YDS Mixed Review",
+          "intro": "YDS odaklı konu: cümle tamamlama, anlam-akış, kapsamlı tekrar. 10 sorunun her birinde cevap, kullanım gerekçesi ve Türkçe anlam gösterilir.",
+          "questions": [
+            {
+              "id": "d30g1",
+              "text": "Because the road was closed, ___.",
+              "options": [
+                "we had to take another route",
+                "although we arrived early",
+                "the weather was sunny",
+                "unless the train leaves"
+              ],
+              "correct": 0,
+              "explanation": "Because-clause bir neden verir; anlamlı sonuç ‘başka rota kullanmak zorunda kaldık’tır.",
+              "translation": "Yol kapalı olduğu için başka bir rota kullanmak zorunda kaldık."
             },
             {
-              "id": "g30_6",
-              "type": "input",
-              "text": "Write a B2-style contrast sentence using “although” or “whereas”.",
-              "answers": [
-                "Although the first method is faster, the second is more reliable under difficult conditions."
+              "id": "d30g2",
+              "text": "Although the device is expensive, ___.",
+              "options": [
+                "it remains popular among professionals",
+                "because the price increased",
+                "so that it was repaired",
+                "unless demand falls"
               ],
-              "answer": "Although the first method is faster, the second is more reliable under difficult conditions.",
-              "explanation": "Use a linking device to express a nuanced contrast."
+              "correct": 0,
+              "explanation": "Although zıtlık gerektirir: pahalı olmasına rağmen popüler.",
+              "translation": "Cihaz pahalı olmasına rağmen profesyoneller arasında popülerliğini koruyor."
+            },
+            {
+              "id": "d30g3",
+              "text": "If the researchers obtain consistent results, ___.",
+              "options": [
+                "they will publish the study",
+                "they published it yesterday",
+                "the laboratory was closed",
+                "despite the cost"
+              ],
+              "correct": 0,
+              "explanation": "First Conditional’a uygun sonuç: will + V1.",
+              "translation": "Araştırmacılar tutarlı sonuçlar elde ederse çalışmayı yayımlayacaklar."
+            },
+            {
+              "id": "d30g4",
+              "text": "The company reduced energy use by 20 percent, ___.",
+              "options": [
+                "which lowered its operating costs",
+                "because of it was efficient",
+                "unless it had expanded",
+                "who reduced the price"
+              ],
+              "correct": 0,
+              "explanation": "Önceki tüm sonucu açıklayan non-defining ‘which’ clause uygundur.",
+              "translation": "Şirket enerji kullanımını %20 azalttı ve bu işletme maliyetlerini düşürdü."
+            },
+            {
+              "id": "d30g5",
+              "text": "Since demand has increased sharply, ___.",
+              "options": [
+                "production is being expanded",
+                "although sales fell",
+                "the factory had closed years ago",
+                "unless prices were unchanged"
+              ],
+              "correct": 0,
+              "explanation": "Since burada neden bildirir; mantıklı sonuç üretimin artırılmasıdır.",
+              "translation": "Talep keskin biçimde arttığı için üretim genişletiliyor."
+            },
+            {
+              "id": "d30g6",
+              "text": "Had the warning been taken seriously, ___.",
+              "options": [
+                "the accident might have been prevented",
+                "the accident will happen",
+                "people ignore warnings",
+                "the road is busy"
+              ],
+              "correct": 0,
+              "explanation": "Inverted third conditional, geçmişte gerçekleşmemiş sonuç.",
+              "translation": "Uyarı ciddiye alınsaydı kaza önlenebilirdi."
+            },
+            {
+              "id": "d30g7",
+              "text": "Not only did the new system reduce errors, ___.",
+              "options": [
+                "but it also saved time",
+                "because it was expensive",
+                "unless staff objected",
+                "whereas it had failed"
+              ],
+              "correct": 0,
+              "explanation": "Not only ... but also paralel yapısı tamamlanır.",
+              "translation": "Yeni sistem sadece hataları azaltmakla kalmadı, aynı zamanda zaman kazandırdı."
+            },
+            {
+              "id": "d30g8",
+              "text": "The report must be revised before ___.",
+              "options": [
+                "it is submitted to the committee",
+                "the committee submitted yesterday",
+                "although it was accurate",
+                "because the deadline"
+              ],
+              "correct": 0,
+              "explanation": "Before sonrası tam ve mantıklı zaman clause’u gerekir.",
+              "translation": "Rapor komiteye sunulmadan önce gözden geçirilmelidir."
+            },
+            {
+              "id": "d30g9",
+              "text": "No matter how difficult the task is, ___.",
+              "options": [
+                "we should remain focused",
+                "because it was delayed",
+                "the equipment had failed",
+                "unless it is simple"
+              ],
+              "correct": 0,
+              "explanation": "‘No matter how...’ taviz/contrast yapısıdır; ana cümle bağımsız sonuç verir.",
+              "translation": "Görev ne kadar zor olursa olsun odaklanmalıyız."
+            },
+            {
+              "id": "d30g10",
+              "text": "By the end of the year, ___.",
+              "options": [
+                "the team will have completed the project",
+                "the team completes yesterday",
+                "the project has begun last year",
+                "although the budget"
+              ],
+              "correct": 0,
+              "explanation": "‘By the end of the year’ Future Perfect için güçlü işarettir.",
+              "translation": "Yıl sonuna kadar ekip projeyi tamamlamış olacak."
             }
           ]
         },
         "vocabulary": {
-          "title": "Vocabulary Lab",
-          "intro": "Önce kelimeleri anlamlarıyla eşleştir, sonra seçilen kelimeleri kendi cümlelerinde kullan.",
-          "items": [
+          "title": "Vocabulary",
+          "intro": "YDS ve akademik metinlerde sık kullanılan kelimeler.",
+          "words": [
             {
-              "id": "v30_1",
-              "word": "integrate",
-              "meaning": "bütünleştirmek",
-              "example": "The final task integrates all four skill areas."
+              "en": "evaluate",
+              "tr": "değerlendirmek"
             },
             {
-              "id": "v30_2",
-              "word": "interpret",
-              "meaning": "yorumlamak",
-              "example": "Read the chart carefully before interpreting the result."
+              "en": "approximately",
+              "tr": "yaklaşık olarak"
             },
             {
-              "id": "v30_3",
-              "word": "justify",
-              "meaning": "gerekçelendirmek",
-              "example": "Justify your answer with evidence from the text."
+              "en": "despite",
+              "tr": "rağmen"
             },
             {
-              "id": "v30_4",
-              "word": "precise",
-              "meaning": "kesin / net",
-              "example": "Use precise vocabulary in technical explanations."
+              "en": "consequently",
+              "tr": "sonuç olarak"
             },
             {
-              "id": "v30_5",
-              "word": "coherent",
-              "meaning": "tutarlı ve bağlantılı",
-              "example": "A coherent answer is easy to follow."
+              "en": "adequate",
+              "tr": "yeterli"
             },
             {
-              "id": "v30_6",
-              "word": "independent",
-              "meaning": "bağımsız",
-              "example": "Independent learning helps maintain long-term progress."
-            },
-            {
-              "id": "v30_7",
-              "word": "evaluate",
-              "meaning": "değerlendirmek",
-              "example": "Evaluate both accuracy and fluency."
-            },
-            {
-              "id": "v30_8",
-              "word": "retain",
-              "meaning": "akılda tutmak",
-              "example": "Regular review helps retain new vocabulary."
+              "en": "require",
+              "tr": "gerektirmek"
             }
-          ],
-          "sentenceWords": [
-            "interpret",
-            "independent"
           ]
         },
         "reading": {
           "title": "Reading",
-          "intro": "Metni oku ve soruları İngilizce cevapla. Main idea, detail, inference ve language-in-context becerilerini birlikte çalıştır.",
-          "passageTitle": "A Sensor Network for a Wetland",
+          "intro": "Kısa akademik/iş İngilizcesi okuması. Metni anlam ilişkileriyle çöz.",
+          "passageTitle": "Day 30 Reading",
           "passage": [
-            "Researchers monitoring a protected wetland installed a network of low-power sensors to measure water level, temperature, and soil moisture. Because the area is difficult to access after heavy rain, the sensors transmit data automatically to a remote server. This allows researchers to observe changes without visiting every measurement point.",
-            "During the first months, several sensors produced irregular readings. The team initially suspected hardware faults, but comparison with nearby stations showed that some of the changes were genuine environmental events. Other errors were traced to poor antenna placement. After the antennas were repositioned and the data-checking rules were improved, the network became more reliable. The project illustrates an important principle: unusual data should be investigated rather than automatically rejected."
+            "Modern English proficiency requires more than memorizing isolated rules. In YDS sentence completion, readers need to identify time relationships, logical connectors, reference words, and the writer's purpose.",
+            "Today's grammar focus is Sentence Completion & YDS Mixed Review. When this structure appears in a YDS-style passage, meaning and grammar should be evaluated together rather than separately."
           ],
           "questions": [
             {
-              "id": "r30_1",
-              "text": "Why do the sensors transmit data remotely?"
+              "id": "d30read1",
+              "text": "According to the passage, what should readers identify?",
+              "model": "They should identify time relationships, logical connectors, reference words, and the writer's purpose.",
+              "translation": "Metne göre okuyucular zaman ilişkilerini, mantıksal bağlaçları, gönderim sözcüklerini ve yazarın amacını belirlemelidir.",
+              "explanation": "Cevap ilk paragrafta doğrudan listelenmiştir."
             },
             {
-              "id": "r30_2",
-              "text": "What did the team first suspect?"
+              "id": "d30read2",
+              "text": "Why should meaning and grammar be evaluated together?",
+              "model": "Because YDS-style passages test how grammatical structures contribute to the meaning and flow of a text.",
+              "translation": "Çünkü YDS tarzı metinler gramer yapılarının metnin anlamına ve akışına nasıl katkıda bulunduğunu ölçer.",
+              "explanation": "İkinci paragrafın ana fikri grameri bağlam içinde değerlendirmektir."
             },
             {
-              "id": "r30_3",
-              "text": "How did they discover that some unusual readings were genuine?"
-            },
-            {
-              "id": "r30_4",
-              "text": "What caused the remaining errors?"
-            },
-            {
-              "id": "r30_5",
-              "text": "What general principle does the final sentence express?"
+              "id": "d30read3",
+              "text": "Write one English sentence using today's grammar topic.",
+              "model": "Answers vary; use the target structure accurately and make the meaning clear.",
+              "translation": "Cevap değişebilir; hedef yapıyı doğru kullan ve anlamı açık kur.",
+              "explanation": "Bu soru üretim odaklıdır; örnek cevap yerine doğru yapı ve anlam kontrol edilir."
             }
           ]
         },
         "speaking": {
           "title": "Speaking",
-          "intro": "Bu bölümü ChatGPT Voice ile yap. Konuşurken kısa değil, gerekçeli ve örnekli cevap vermeye çalış.",
-          "prompt": "Day 30 speaking bölümüne geçelim: Final Review & B1+/B2 Progress Check. Soruları bana tek tek, B1+–B2 seviyesinde sor. Hatalarımı konuşmam bittikten sonra düzelt ve daha doğal alternatifler ver."
+          "intro": "2–3 dakikalık kısa üretim çalışması.",
+          "prompt": "Ask me 5 speaking questions at B1–B1+ level about YDS sentence completion. Correct my grammar and explain my mistakes in Turkish, especially mistakes related to Sentence Completion & YDS Mixed Review."
         }
       }
     }
